@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 def settle_ledger(ledger, results):
     """Return number settled. Never infer losses from missing/incomplete results."""
-    by_id = {str(r.get("race_id")): r for r in results if isinstance(r,dict) and r.get("race_id") and str(r.get("status","")).lower() in ("final","settled")}
+    by_id = {str(r.get("race_id")): r for r in results if isinstance(r,dict) and r.get("race_id") and str(r.get("status","")).lower() in ("final","settled","official")}
     count=0
     for bet in ledger.get("bets",[]):
         if bet.get("status")!="OPEN" or bet.get("market")!="PLACE": continue
@@ -35,7 +35,7 @@ def settle_ledger(ledger, results):
         matching=[p for p in placings if isinstance(p,dict) and p.get("runner_id") is not None and str(p["runner_id"])==runner]
         if not matching:
             name=str(bet.get("runner_name","")).strip().casefold()
-            matching=[p for p in placings if isinstance(p,dict) and name and str(p.get("name","")).strip().casefold()==name and str(p.get("number",p.get("runner_number","")))==runner]
+            matching=[p for p in placings if isinstance(p,dict) and name and str(p.get("name",p.get("runner_name",""))).strip().casefold()==name]\n            if len(matching)!=1: matching=[]
         if not matching: continue
         try: position=int(matching[0]["position"])
         except (KeyError,ValueError,TypeError): continue
