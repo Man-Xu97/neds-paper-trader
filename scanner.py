@@ -2,6 +2,7 @@
 import datetime,json,os,pathlib,sys,urllib.parse,urllib.request
 from decimal import Decimal
 from paper_engine import new_ledger, add_paper_bet
+from settlement import settle_ledger
 ROOT=pathlib.Path(__file__).resolve().parent
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def fetch(category):
@@ -64,6 +65,16 @@ def main():
     try:ledger=json.loads(ledgerfile.read_text())
     except (OSError,ValueError):ledger=new_ledger()
     created=0
+    settled=0
+    settlement_error=None
+    try:
+        query=urllib.parse.urlencode({'hours_back':24,'country':'AU','status':'final','limit':200})
+        req=urllib.request.Request('https://api.puntersedge.online/v1/racing/results?'+query,headers={'X-API-Key':os.environ['PUNTERSEDGE_API_KEY'],'Accept':'application/json'})
+        with urllib.request.urlopen(req,timeout=25) as response: results=json.load(response)
+        if isinstance(results,list): settled=settle_ledger(ledger,results)
+        else: settlement_error='Unexpected results response shape'
+    except Exception as exc:
+        settlement_error=str(exc)[:180]
     try:state=json.loads(statefile.read_text())
     except (OSError,ValueError):state={'seen':{}}
     report={'updated_at':now(),'mode':'OBSERVATION_ONLY','source':'PuntersEdge / Neds','live_betting':False,'paper_betting_enabled':False,'bankroll_aud':1000,'stake_aud':1,'settled_bets':0,'profit_aud':0,'place_bets':0,'favourite_vs_field_bets':0,'races_seen_total':0,'new_races':0,'observations':[],'errors':[],'credits_remaining':None,'notice':'只读观察，不生成投注。'}
@@ -89,12 +100,18 @@ def main():
     report['mode']='PAPER_BETTING_PENDING_SETTLEMENT'
     report['paper_betting_enabled']=True
     report['bankroll_aud']=ledger['cash_aud']
+    report['new_settlements']=settled
+    report['settlement_error']=settlement_error
+    report['settled_bets']=sum(b.get('status') in ('WON','LOST') for b in ledger['bets'])
+    report['profit_aud']=str(sum((Decimal(str(b['settlement']['profit_aud'])) for b in ledger['bets'] if b.get('settlement') and b.get('status') in ('WON','LOST')),Decimal('0')))
+    report['wins']=sum(b.get('status')=='WON' for b in ledger['bets'])
+    report['losses']=sum(b.get('status')=='LOST' for b in ledger['bets'])
     report['place_bets']=len([b for b in ledger['bets'] if b.get('market')=='PLACE'])
     report['favourite_vs_field_bets']=len([b for b in ledger['bets'] if b.get('market')=='FAVOURITE_VS_FIELD'])
     report['paper_bets_open']=len([b for b in ledger['bets'] if b.get('status')=='OPEN'])
     report['new_paper_bets']=created
     report['recent_paper_bets']=ledger['bets'][-15:]
-    report['notice']='只生成可核实 Neds Place 赔率的 A$1 虚拟下注；尚未接入官方赛果结算。Favourite vs Field 暂停，避免虚构市场。'
+    report['notice']='只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。'
     ledgerfile.parent.mkdir(exist_ok=True)
     ledgerfile.write_text(json.dumps(ledger,ensure_ascii=False,indent=2))
     statefile.parent.mkdir(exist_ok=True);out.parent.mkdir(exist_ok=True)
