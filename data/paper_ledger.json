@@ -1,5 +1,5 @@
 {
-  "cash_aud": "986.00",
+  "cash_aud": "983.05",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -32,8 +32,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:32.857380+00:00",
       "start_time": "2026-11-10T05:50:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.35",
+        "profit_aud": "0.35",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T06:56:32.035515+00:00"
+      }
     },
     {
       "key": "PLACE:95f56981-f848-4a9e-a7e3-999db4b6267d:6",
@@ -49,8 +55,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:32.857415+00:00",
       "start_time": "2026-11-10T06:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.50",
+        "profit_aud": "0.50",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T06:56:32.035547+00:00"
+      }
     },
     {
       "key": "PLACE:99521c49-86db-4a76-a7f2-151000beb571:8",
@@ -83,8 +95,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883081+00:00",
       "start_time": "2026-11-10T05:39:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T06:56:32.035559+00:00"
+      }
     },
     {
       "key": "PLACE:8bd9308b-5b88-44b7-983c-7b61cec41789:2",
@@ -117,8 +135,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883156+00:00",
       "start_time": "2026-11-10T05:57:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.50",
+        "profit_aud": "0.50",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T06:56:32.035572+00:00"
+      }
     },
     {
       "key": "PLACE:cee42709-1ac5-457d-acd3-cfd4ff125714:1",
@@ -236,6 +260,165 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:38:05.113270+00:00",
       "start_time": "2026-11-10T05:39:00Z",
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.70",
+        "profit_aud": "0.70",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T06:56:32.035585+00:00"
+      }
+    },
+    {
+      "key": "PLACE:a871df91-c9a7-4fdf-9097-fc1e51e27fd9:3",
+      "race_id": "a871df91-c9a7-4fdf-9097-fc1e51e27fd9",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Smoke And Ash",
+      "market": "PLACE",
+      "win_odds": "2.3",
+      "odds": "1.24",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806382+00:00",
+      "start_time": "2026-11-10T07:46:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:b8625e12-e92c-4f78-8bc1-46b437c5d71b:1",
+      "race_id": "b8625e12-e92c-4f78-8bc1-46b437c5d71b",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Hara's Delta",
+      "market": "PLACE",
+      "win_odds": "2.0",
+      "odds": "1.28",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806458+00:00",
+      "start_time": "2026-11-10T08:13:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a:3",
+      "race_id": "0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Mr. Southside",
+      "market": "PLACE",
+      "win_odds": "2.45",
+      "odds": "1.4",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806491+00:00",
+      "start_time": "2026-11-10T08:27:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:aaf414b2-f082-434a-81f2-4549e36113ea:2",
+      "race_id": "aaf414b2-f082-434a-81f2-4549e36113ea",
+      "category": "greyhound",
+      "runner_id": "2",
+      "runner_name": "I'm Innocent",
+      "market": "PLACE",
+      "win_odds": "2.45",
+      "odds": "1.45",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806511+00:00",
+      "start_time": "2026-11-10T08:30:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:e3c70a5b-543d-439a-94ac-5966f6fbab72:1",
+      "race_id": "e3c70a5b-543d-439a-94ac-5966f6fbab72",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Hara's Lolly",
+      "market": "PLACE",
+      "win_odds": "2.4",
+      "odds": "1.45",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806531+00:00",
+      "start_time": "2026-11-10T08:37:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:3e17ff55-2f42-4dc5-9340-05dcb6bdb322:4",
+      "race_id": "3e17ff55-2f42-4dc5-9340-05dcb6bdb322",
+      "category": "greyhound",
+      "runner_id": "4",
+      "runner_name": "Midnight Arrow",
+      "market": "PLACE",
+      "win_odds": "2.2",
+      "odds": "1.4",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806552+00:00",
+      "start_time": "2026-11-10T08:40:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:4eb1a678-6d7b-48fd-8fe2-8f91c4224581:5",
+      "race_id": "4eb1a678-6d7b-48fd-8fe2-8f91c4224581",
+      "category": "greyhound",
+      "runner_id": "5",
+      "runner_name": "Parumba Jazzman",
+      "market": "PLACE",
+      "win_odds": "2.3",
+      "odds": "1.5",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806574+00:00",
+      "start_time": "2026-11-10T08:47:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:267bf09f-8e05-4e54-8dc1-4c361e91b9ee:8",
+      "race_id": "267bf09f-8e05-4e54-8dc1-4c361e91b9ee",
+      "category": "greyhound",
+      "runner_id": "8",
+      "runner_name": "Zero Point",
+      "market": "PLACE",
+      "win_odds": "2.0",
+      "odds": "1.35",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806598+00:00",
+      "start_time": "2026-11-10T08:51:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:82feebb9-65ae-4a87-be2c-c796c24a7a55:3",
+      "race_id": "82feebb9-65ae-4a87-be2c-c796c24a7a55",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Bronte Lee",
+      "market": "PLACE",
+      "win_odds": "2.35",
+      "odds": "1.22",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806621+00:00",
+      "start_time": "2026-11-10T08:54:00Z",
       "status": "OPEN",
       "settlement": null
     }

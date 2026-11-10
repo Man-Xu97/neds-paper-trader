@@ -1,39 +1,18 @@
 {
-  "updated_at": "2026-11-10T05:38:02.645866+00:00",
+  "updated_at": "2026-11-10T06:56:32.035744+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "986.00",
+  "bankroll_aud": "983.05",
   "stake_aud": 1,
-  "settled_bets": 0,
-  "profit_aud": "0",
-  "place_bets": 14,
+  "settled_bets": 5,
+  "profit_aud": "1.05",
+  "place_bets": 23,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 58,
-  "new_races": 2,
+  "races_seen_total": 74,
+  "new_races": 16,
   "observations": [
-    {
-      "race_id": "942ddd8e-6dbc-4764-bbed-cae1b68c3d17",
-      "category": "horse",
-      "venue": "Queanbeyan",
-      "race_number": 7,
-      "start_time": "2026-11-10T05:50:00Z"
-    },
-    {
-      "race_id": "95f56981-f848-4a9e-a7e3-999db4b6267d",
-      "category": "horse",
-      "venue": "Mornington",
-      "race_number": 8,
-      "start_time": "2026-11-10T06:00:00Z"
-    },
-    {
-      "race_id": "99521c49-86db-4a76-a7f2-151000beb571",
-      "category": "horse",
-      "venue": "Queanbeyan",
-      "race_number": 8,
-      "start_time": "2026-11-10T06:30:00Z"
-    },
     {
       "race_id": "0bb40672-c4a0-4f99-b52f-51f2f96a380c",
       "category": "horse",
@@ -154,95 +133,25 @@
       "start_time": "2026-11-11T05:15:00Z"
     },
     {
-      "race_id": "8260d951-e448-42fc-8f06-770ab8e3fa57",
-      "category": "greyhound",
-      "venue": "Geelong",
+      "race_id": "0a396850-854e-42bd-acb0-4c37c616c77e",
+      "category": "horse",
+      "venue": "Scone",
       "race_number": 5,
-      "start_time": "2026-11-10T05:39:00Z"
+      "start_time": "2026-11-11T05:19:00Z"
     },
     {
-      "race_id": "8bd9308b-5b88-44b7-983c-7b61cec41789",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 7,
-      "start_time": "2026-11-10T05:47:00Z"
+      "race_id": "bc922d45-2b34-40cf-80c9-4648b09103d4",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 3,
+      "start_time": "2026-11-11T05:23:00Z"
     },
     {
-      "race_id": "191eecdd-6d08-423d-b58b-f940fd6a83da",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 6,
-      "start_time": "2026-11-10T05:54:00Z"
-    },
-    {
-      "race_id": "b588294d-180d-411f-9b7b-bc051d724e29",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 6,
-      "start_time": "2026-11-10T05:57:00Z"
-    },
-    {
-      "race_id": "cee42709-1ac5-457d-acd3-cfd4ff125714",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 8,
-      "start_time": "2026-11-10T06:04:00Z"
-    },
-    {
-      "race_id": "4869a8b7-4261-4ee2-98b5-b5791a354e01",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 7,
-      "start_time": "2026-11-10T06:12:00Z"
-    },
-    {
-      "race_id": "9b94272a-9f56-4575-a0d0-e9d0a8590af0",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 7,
-      "start_time": "2026-11-10T06:16:00Z"
-    },
-    {
-      "race_id": "b813b5bb-b2f1-4aae-8925-24dc2c1c4e7c",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 9,
-      "start_time": "2026-11-10T06:24:00Z"
-    },
-    {
-      "race_id": "560c2a09-992a-4721-836a-0c607e984f8a",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 8,
-      "start_time": "2026-11-10T06:27:00Z"
-    },
-    {
-      "race_id": "9f7a15c7-ba22-4966-84bf-49038135ce69",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 8,
-      "start_time": "2026-11-10T06:35:00Z"
-    },
-    {
-      "race_id": "44e9174f-8985-4318-b619-a58a08aaf763",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 10,
-      "start_time": "2026-11-10T06:43:00Z"
-    },
-    {
-      "race_id": "873951b7-ebe4-417c-b782-e8d7197164f2",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 9,
-      "start_time": "2026-11-10T06:46:00Z"
-    },
-    {
-      "race_id": "18733ad4-f134-468e-9a7a-cf42773411ca",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 9,
-      "start_time": "2026-11-10T06:54:00Z"
+      "race_id": "00851b29-3c64-4f2a-8311-14f03a860f1b",
+      "category": "horse",
+      "venue": "Balaklava",
+      "race_number": 3,
+      "start_time": "2026-11-11T05:30:00Z"
     },
     {
       "race_id": "6c83196a-f54b-45d6-965d-def332a37972",
@@ -292,154 +201,203 @@
       "venue": "Q2 Parklands",
       "race_number": 13,
       "start_time": "2026-11-10T07:37:00Z"
+    },
+    {
+      "race_id": "a871df91-c9a7-4fdf-9097-fc1e51e27fd9",
+      "category": "greyhound",
+      "venue": "Warragul",
+      "race_number": 1,
+      "start_time": "2026-11-10T07:46:00Z"
+    },
+    {
+      "race_id": "1d589812-d102-4880-b61d-682eea096340",
+      "category": "greyhound",
+      "venue": "Bulli",
+      "race_number": 1,
+      "start_time": "2026-11-10T07:55:00Z"
+    },
+    {
+      "race_id": "c1ff985a-39fa-45b2-9c87-e2a1a9807112",
+      "category": "greyhound",
+      "venue": "Warragul",
+      "race_number": 2,
+      "start_time": "2026-11-10T08:03:00Z"
+    },
+    {
+      "race_id": "5cdd9633-6040-4c61-9ccf-f389dde386c7",
+      "category": "greyhound",
+      "venue": "Wagga",
+      "race_number": 1,
+      "start_time": "2026-11-10T08:06:00Z"
+    },
+    {
+      "race_id": "b8625e12-e92c-4f78-8bc1-46b437c5d71b",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 1,
+      "start_time": "2026-11-10T08:13:00Z"
+    },
+    {
+      "race_id": "43803670-2f67-480f-8e11-86677cc767c1",
+      "category": "greyhound",
+      "venue": "Bulli",
+      "race_number": 2,
+      "start_time": "2026-11-10T08:20:00Z"
+    },
+    {
+      "race_id": "0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a",
+      "category": "greyhound",
+      "venue": "Warragul",
+      "race_number": 3,
+      "start_time": "2026-11-10T08:27:00Z"
+    },
+    {
+      "race_id": "aaf414b2-f082-434a-81f2-4549e36113ea",
+      "category": "greyhound",
+      "venue": "Wagga",
+      "race_number": 2,
+      "start_time": "2026-11-10T08:30:00Z"
+    },
+    {
+      "race_id": "e3c70a5b-543d-439a-94ac-5966f6fbab72",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 2,
+      "start_time": "2026-11-10T08:37:00Z"
+    },
+    {
+      "race_id": "3e17ff55-2f42-4dc5-9340-05dcb6bdb322",
+      "category": "greyhound",
+      "venue": "Bulli",
+      "race_number": 3,
+      "start_time": "2026-11-10T08:40:00Z"
+    },
+    {
+      "race_id": "4eb1a678-6d7b-48fd-8fe2-8f91c4224581",
+      "category": "greyhound",
+      "venue": "Warragul",
+      "race_number": 4,
+      "start_time": "2026-11-10T08:47:00Z"
+    },
+    {
+      "race_id": "267bf09f-8e05-4e54-8dc1-4c361e91b9ee",
+      "category": "greyhound",
+      "venue": "Darwin",
+      "race_number": 1,
+      "start_time": "2026-11-10T08:51:00Z"
+    },
+    {
+      "race_id": "82feebb9-65ae-4a87-be2c-c796c24a7a55",
+      "category": "greyhound",
+      "venue": "Wagga",
+      "race_number": 3,
+      "start_time": "2026-11-10T08:54:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1480",
+  "credits_remaining": "1474",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 0,
-  "settlement_error": null,
-  "wins": 0,
-  "losses": 0,
-  "paper_bets_open": 14,
-  "new_paper_bets": 1,
-  "recent_paper_bets": [
+  "new_settlements": 5,
+  "results_returned": 200,
+  "settlement_diagnostics": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
-      "race_id": "b9c1b129-88ab-4dac-901b-0f1a93f4bb18",
-      "category": "horse",
-      "runner_id": "5",
       "runner_name": "Fearless Writer",
-      "market": "PLACE",
-      "win_odds": "2.25",
-      "odds": "1.18",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:32.857329+00:00",
-      "start_time": "2026-11-10T05:30:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:942ddd8e-6dbc-4764-bbed-cae1b68c3d17:1",
-      "race_id": "942ddd8e-6dbc-4764-bbed-cae1b68c3d17",
-      "category": "horse",
-      "runner_id": "1",
-      "runner_name": "In Circles",
-      "market": "PLACE",
-      "win_odds": "2.9",
-      "odds": "1.35",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:32.857380+00:00",
-      "start_time": "2026-11-10T05:50:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:95f56981-f848-4a9e-a7e3-999db4b6267d:6",
-      "race_id": "95f56981-f848-4a9e-a7e3-999db4b6267d",
-      "category": "horse",
-      "runner_id": "6",
-      "runner_name": "Jenni Poppins",
-      "market": "PLACE",
-      "win_odds": "3.0",
-      "odds": "1.5",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:32.857415+00:00",
-      "start_time": "2026-11-10T06:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:99521c49-86db-4a76-a7f2-151000beb571:8",
-      "race_id": "99521c49-86db-4a76-a7f2-151000beb571",
-      "category": "horse",
-      "runner_id": "8",
       "runner_name": "Seaton Moon",
-      "market": "PLACE",
-      "win_odds": "2.25",
-      "odds": "1.24",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:32.857441+00:00",
-      "start_time": "2026-11-10T06:30:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:8260d951-e448-42fc-8f06-770ab8e3fa57:1",
-      "race_id": "8260d951-e448-42fc-8f06-770ab8e3fa57",
-      "category": "greyhound",
-      "runner_id": "1",
-      "runner_name": "Mini Milky",
-      "market": "PLACE",
-      "win_odds": "2.5",
-      "odds": "1.5",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883081+00:00",
-      "start_time": "2026-11-10T05:39:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "reason": "赛果接口未返回该赛事"
     },
     {
       "key": "PLACE:8bd9308b-5b88-44b7-983c-7b61cec41789:2",
-      "race_id": "8bd9308b-5b88-44b7-983c-7b61cec41789",
-      "category": "greyhound",
-      "runner_id": "2",
       "runner_name": "Another Idea",
-      "market": "PLACE",
-      "win_odds": "2.6",
-      "odds": "1.6",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883119+00:00",
-      "start_time": "2026-11-10T05:47:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:b588294d-180d-411f-9b7b-bc051d724e29:8",
-      "race_id": "b588294d-180d-411f-9b7b-bc051d724e29",
-      "category": "greyhound",
-      "runner_id": "8",
-      "runner_name": "Paw Brody",
-      "market": "PLACE",
-      "win_odds": "2.4",
-      "odds": "1.5",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883156+00:00",
-      "start_time": "2026-11-10T05:57:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:cee42709-1ac5-457d-acd3-cfd4ff125714:1",
-      "race_id": "cee42709-1ac5-457d-acd3-cfd4ff125714",
-      "category": "greyhound",
-      "runner_id": "1",
       "runner_name": "Bionic Bella",
-      "market": "PLACE",
-      "win_odds": "2.0",
-      "odds": "1.3",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883176+00:00",
-      "start_time": "2026-11-10T06:04:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
+    {
+      "key": "PLACE:9f7a15c7-ba22-4966-84bf-49038135ce69:7",
+      "runner_name": "Paw Ensley",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:873951b7-ebe4-417c-b782-e8d7197164f2:1",
+      "runner_name": "Wildfire Panda",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:039848f4-407a-4fad-bbb3-13bc148c90a4:2",
+      "runner_name": "Larnie's Magic",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:c5c53b13-067b-431c-9016-095493b839a7:4",
+      "runner_name": "Mepunga Brockie",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:879ab0f1-f25e-4c06-bb78-2f2b33d02897:3",
+      "runner_name": "Aston Kristen",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:a871df91-c9a7-4fdf-9097-fc1e51e27fd9:3",
+      "runner_name": "Smoke And Ash",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:b8625e12-e92c-4f78-8bc1-46b437c5d71b:1",
+      "runner_name": "Hara's Delta",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a:3",
+      "runner_name": "Mr. Southside",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:aaf414b2-f082-434a-81f2-4549e36113ea:2",
+      "runner_name": "I'm Innocent",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:e3c70a5b-543d-439a-94ac-5966f6fbab72:1",
+      "runner_name": "Hara's Lolly",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:3e17ff55-2f42-4dc5-9340-05dcb6bdb322:4",
+      "runner_name": "Midnight Arrow",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:4eb1a678-6d7b-48fd-8fe2-8f91c4224581:5",
+      "runner_name": "Parumba Jazzman",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:267bf09f-8e05-4e54-8dc1-4c361e91b9ee:8",
+      "runner_name": "Zero Point",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:82feebb9-65ae-4a87-be2c-c796c24a7a55:3",
+      "runner_name": "Bronte Lee",
+      "reason": "赛果接口未返回该赛事"
+    }
+  ],
+  "settlement_checked_at": "2026-11-10T06:56:33.806742+00:00",
+  "settlement_error": null,
+  "wins": 4,
+  "losses": 1,
+  "paper_bets_open": 18,
+  "new_paper_bets": 9,
+  "recent_paper_bets": [
     {
       "key": "PLACE:9f7a15c7-ba22-4966-84bf-49038135ce69:7",
       "race_id": "9f7a15c7-ba22-4966-84bf-49038135ce69",
@@ -539,6 +497,165 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:38:05.113270+00:00",
       "start_time": "2026-11-10T05:39:00Z",
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.70",
+        "profit_aud": "0.70",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T06:56:32.035585+00:00"
+      }
+    },
+    {
+      "key": "PLACE:a871df91-c9a7-4fdf-9097-fc1e51e27fd9:3",
+      "race_id": "a871df91-c9a7-4fdf-9097-fc1e51e27fd9",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Smoke And Ash",
+      "market": "PLACE",
+      "win_odds": "2.3",
+      "odds": "1.24",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806382+00:00",
+      "start_time": "2026-11-10T07:46:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:b8625e12-e92c-4f78-8bc1-46b437c5d71b:1",
+      "race_id": "b8625e12-e92c-4f78-8bc1-46b437c5d71b",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Hara's Delta",
+      "market": "PLACE",
+      "win_odds": "2.0",
+      "odds": "1.28",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806458+00:00",
+      "start_time": "2026-11-10T08:13:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a:3",
+      "race_id": "0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Mr. Southside",
+      "market": "PLACE",
+      "win_odds": "2.45",
+      "odds": "1.4",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806491+00:00",
+      "start_time": "2026-11-10T08:27:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:aaf414b2-f082-434a-81f2-4549e36113ea:2",
+      "race_id": "aaf414b2-f082-434a-81f2-4549e36113ea",
+      "category": "greyhound",
+      "runner_id": "2",
+      "runner_name": "I'm Innocent",
+      "market": "PLACE",
+      "win_odds": "2.45",
+      "odds": "1.45",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806511+00:00",
+      "start_time": "2026-11-10T08:30:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:e3c70a5b-543d-439a-94ac-5966f6fbab72:1",
+      "race_id": "e3c70a5b-543d-439a-94ac-5966f6fbab72",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Hara's Lolly",
+      "market": "PLACE",
+      "win_odds": "2.4",
+      "odds": "1.45",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806531+00:00",
+      "start_time": "2026-11-10T08:37:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:3e17ff55-2f42-4dc5-9340-05dcb6bdb322:4",
+      "race_id": "3e17ff55-2f42-4dc5-9340-05dcb6bdb322",
+      "category": "greyhound",
+      "runner_id": "4",
+      "runner_name": "Midnight Arrow",
+      "market": "PLACE",
+      "win_odds": "2.2",
+      "odds": "1.4",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806552+00:00",
+      "start_time": "2026-11-10T08:40:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:4eb1a678-6d7b-48fd-8fe2-8f91c4224581:5",
+      "race_id": "4eb1a678-6d7b-48fd-8fe2-8f91c4224581",
+      "category": "greyhound",
+      "runner_id": "5",
+      "runner_name": "Parumba Jazzman",
+      "market": "PLACE",
+      "win_odds": "2.3",
+      "odds": "1.5",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806574+00:00",
+      "start_time": "2026-11-10T08:47:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:267bf09f-8e05-4e54-8dc1-4c361e91b9ee:8",
+      "race_id": "267bf09f-8e05-4e54-8dc1-4c361e91b9ee",
+      "category": "greyhound",
+      "runner_id": "8",
+      "runner_name": "Zero Point",
+      "market": "PLACE",
+      "win_odds": "2.0",
+      "odds": "1.35",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806598+00:00",
+      "start_time": "2026-11-10T08:51:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:82feebb9-65ae-4a87-be2c-c796c24a7a55:3",
+      "race_id": "82feebb9-65ae-4a87-be2c-c796c24a7a55",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Bronte Lee",
+      "market": "PLACE",
+      "win_odds": "2.35",
+      "odds": "1.22",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T06:56:33.806621+00:00",
+      "start_time": "2026-11-10T08:54:00Z",
       "status": "OPEN",
       "settlement": null
     }
