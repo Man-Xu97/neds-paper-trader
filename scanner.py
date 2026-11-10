@@ -59,6 +59,31 @@ def make_bet(race,category):
             'market':'PLACE','win_odds':str(win),'odds':str(place),'places_paid':terms,
             'stake_aud':'1.00','source':'PuntersEdge / Neds','observed_at':now(),
             'start_time':start,'status':'OPEN','settlement':None}
+def result_rows(payload):
+    """Normalize common API response envelopes without treating unknown shapes as empty."""
+    if isinstance(payload,list): return payload
+    if isinstance(payload,dict):
+        for key in ('results','races','data','items'):
+            value=payload.get(key)
+            if isinstance(value,list): return value
+            if isinstance(value,dict):
+                for nested in ('results','races','items','data'):
+                    if isinstance(value.get(nested),list): return value[nested]
+    raise ValueError('Unrecognized results API response schema')
+
+def settlement_diagnostics(ledger, results):
+    by_id={str(r.get('race_id') or r.get('id')):r for r in results if isinstance(r,dict)}
+    diagnostics=[]
+    for bet in ledger.get('bets',[]):
+        if bet.get('status')!='OPEN':continue
+        race=by_id.get(str(bet.get('race_id')))
+        if not race: reason='赛果接口未返回该赛事'
+        elif str(race.get('status','')).lower() not in ('final','settled','official'): reason='赛事结果尚未标记为最终'
+        elif not isinstance(race.get('placings'),list): reason='最终赛果缺少 placings 明细'
+        else: reason='赛果字段或参赛者身份无法安全匹配'
+        diagnostics.append({'key':bet.get('key'),'runner_name':bet.get('runner_name'),'reason':reason})
+    return diagnostics
+
 def main():
     if not os.getenv('PUNTERSEDGE_API_KEY'):raise RuntimeError('Missing GitHub secret PUNTERSEDGE_API_KEY')
     statefile=ROOT/'data/state.json';out=ROOT/'docs/status.json';ledgerfile=ROOT/'data/paper_ledger.json'
@@ -67,12 +92,13 @@ def main():
     created=0
     settled=0
     settlement_error=None
+    results=[]
     try:
-        query=urllib.parse.urlencode({'hours_back':24,'country':'AU','status':'final','limit':200})
+        query=urllib.parse.urlencode({'hours_back':72,'country':'AU','status':'final','limit':500})
         req=urllib.request.Request('https://api.puntersedge.online/v1/racing/results?'+query,headers={'X-API-Key':os.environ['PUNTERSEDGE_API_KEY'],'Accept':'application/json'})
         with urllib.request.urlopen(req,timeout=25) as response: results=json.load(response)
-        if isinstance(results,list): settled=settle_ledger(ledger,results)
-        else: settlement_error='Unexpected results response shape'
+        results=result_rows(results)
+        settled=settle_ledger(ledger,results)
     except Exception as exc:
         settlement_error=str(exc)[:180]
     try:state=json.loads(statefile.read_text())
@@ -101,6 +127,9 @@ def main():
     report['paper_betting_enabled']=True
     report['bankroll_aud']=ledger['cash_aud']
     report['new_settlements']=settled
+    report['results_returned']=len(results)
+    report['settlement_diagnostics']=settlement_diagnostics(ledger,results) if not settlement_error else [{'reason':'赛果接口错误：'+settlement_error}]
+    report['settlement_checked_at']=now()
     report['settlement_error']=settlement_error
     report['settled_bets']=sum(b.get('status') in ('WON','LOST') for b in ledger['bets'])
     report['profit_aud']=str(sum((Decimal(str(b['settlement']['profit_aud'])) for b in ledger['bets'] if b.get('settlement') and b.get('status') in ('WON','LOST')),Decimal('0')))
