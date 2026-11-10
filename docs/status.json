@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T13:48:31.212976+00:00",
+  "updated_at": "2026-11-10T20:39:24.274119+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
@@ -10,8 +10,8 @@
   "profit_aud": "-3.78",
   "place_bets": 23,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 80,
-  "new_races": 6,
+  "races_seen_total": 94,
+  "new_races": 14,
   "observations": [
     {
       "race_id": "0bb40672-c4a0-4f99-b52f-51f2f96a380c",
@@ -154,6 +154,13 @@
       "start_time": "2026-11-11T05:30:00Z"
     },
     {
+      "race_id": "a0e40210-f8f2-4aac-876f-5f0018f19920",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 1,
+      "start_time": "2026-11-10T23:20:00Z"
+    },
+    {
       "race_id": "a2c07aca-1d45-4295-a276-9b5cb3014eda",
       "category": "greyhound",
       "venue": "Traralgon",
@@ -182,6 +189,13 @@
       "start_time": "2026-11-11T00:27:00Z"
     },
     {
+      "race_id": "0a67d6d5-f943-4a16-a815-4c6177c1778c",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 6,
+      "start_time": "2026-11-11T00:47:00Z"
+    },
+    {
       "race_id": "206953d6-616f-41df-ba2e-1af94c7a3a98",
       "category": "greyhound",
       "venue": "Murray Bridge Straight",
@@ -194,12 +208,96 @@
       "venue": "Traralgon",
       "race_number": 7,
       "start_time": "2026-11-11T01:10:00Z"
+    },
+    {
+      "race_id": "89898aec-59a6-48df-8db9-c881039fc4e0",
+      "category": "greyhound",
+      "venue": "Capalaba",
+      "race_number": 1,
+      "start_time": "2026-11-11T01:15:00Z"
+    },
+    {
+      "race_id": "42e021e4-3e05-4ef7-ace5-3e80b164c2e3",
+      "category": "greyhound",
+      "venue": "Murray Bridge Straight",
+      "race_number": 2,
+      "start_time": "2026-11-11T01:20:00Z"
+    },
+    {
+      "race_id": "bf3d6ccd-6ebb-4370-9b14-ecfe252fb862",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 8,
+      "start_time": "2026-11-11T01:25:00Z"
+    },
+    {
+      "race_id": "35dace45-d625-4f53-85b7-7a89abf3c93a",
+      "category": "greyhound",
+      "venue": "Capalaba",
+      "race_number": 2,
+      "start_time": "2026-11-11T01:36:00Z"
+    },
+    {
+      "race_id": "941467bf-3d92-4f2b-bfbb-c51fdc49b6c3",
+      "category": "greyhound",
+      "venue": "Murray Bridge Straight",
+      "race_number": 3,
+      "start_time": "2026-11-11T01:42:00Z"
+    },
+    {
+      "race_id": "5dde81ea-ac97-42eb-baca-e5fe545a654d",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 9,
+      "start_time": "2026-11-11T01:47:00Z"
+    },
+    {
+      "race_id": "93c2c890-7f18-49cf-9c24-13c9d47adf59",
+      "category": "greyhound",
+      "venue": "Capalaba",
+      "race_number": 3,
+      "start_time": "2026-11-11T01:52:00Z"
+    },
+    {
+      "race_id": "ec178125-1e9b-446c-9cf4-f18e2f0afc90",
+      "category": "greyhound",
+      "venue": "Murray Bridge Straight",
+      "race_number": 4,
+      "start_time": "2026-11-11T01:57:00Z"
+    },
+    {
+      "race_id": "c05fbc0b-93d6-4cf7-aadd-d3a184c126c9",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 10,
+      "start_time": "2026-11-11T02:02:00Z"
+    },
+    {
+      "race_id": "3bb76ced-394b-43f0-9eea-1f4866dd0b77",
+      "category": "greyhound",
+      "venue": "Capalaba",
+      "race_number": 4,
+      "start_time": "2026-11-11T02:11:00Z"
+    },
+    {
+      "race_id": "4083ff3e-4550-4540-8ed2-3fbbb354b560",
+      "category": "greyhound",
+      "venue": "Murray Bridge Straight",
+      "race_number": 5,
+      "start_time": "2026-11-11T02:16:00Z"
+    },
+    {
+      "race_id": "4d5e36d2-2114-4af5-8e38-cc2545c78489",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 11,
+      "start_time": "2026-11-11T02:21:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1468",
+  "credits_remaining": "1462",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 13,
+  "new_settlements": 0,
   "results_returned": 200,
   "settlement_diagnostics": [
     {
@@ -228,7 +326,7 @@
       "reason": "赛果字段或参赛者身份无法安全匹配"
     }
   ],
-  "settlement_checked_at": "2026-11-10T13:48:32.490657+00:00",
+  "settlement_checked_at": "2026-11-10T20:39:25.961760+00:00",
   "settlement_error": null,
   "wins": 10,
   "losses": 8,
