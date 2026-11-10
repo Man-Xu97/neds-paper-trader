@@ -35,7 +35,8 @@ def settle_ledger(ledger, results):
         matching=[p for p in placings if isinstance(p,dict) and p.get("runner_id") is not None and str(p["runner_id"])==runner]
         if not matching:
             name=str(bet.get("runner_name","")).strip().casefold()
-            matching=[p for p in placings if isinstance(p,dict) and name and str(p.get("name",p.get("runner_name",""))).strip().casefold()==name]\n            if len(matching)!=1: matching=[]
+            matching=[p for p in placings if isinstance(p,dict) and name and str(p.get("name",p.get("runner_name",""))).strip().casefold()==name]
+            if len(matching)!=1: matching=[]
         if not matching: continue
         try: position=int(matching[0]["position"])
         except (KeyError,ValueError,TypeError): continue
