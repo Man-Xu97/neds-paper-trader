@@ -1,7 +1,7 @@
 name: Neds paper research scan
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
