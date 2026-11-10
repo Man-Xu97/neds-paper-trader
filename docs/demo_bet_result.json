@@ -1,0 +1,21 @@
+{
+  "test": "DEMO ONLY - NOT A REAL NEDS MARKET",
+  "test_passed": true,
+  "bets_count": 1,
+  "cash_aud": "999.00",
+  "bet": {
+    "key": "PLACE:DEMO-PLACE-001:DEMO-RUNNER-01",
+    "race_id": "DEMO-RACE-001",
+    "runner_id": "DEMO-RUNNER-01",
+    "runner_name": "Demo Runner (FAKE)",
+    "market": "PLACE",
+    "odds": "2.50",
+    "stake_aud": "1.00",
+    "source_quote_id": "FAKE-QUOTE-001",
+    "odds_timestamp": "2026-11-10T04:59:30+00:00",
+    "place_terms": "DEMO ONLY - top 3",
+    "status": "OPEN",
+    "settlement": null
+  },
+  "duplicate_rejected": true
+}
