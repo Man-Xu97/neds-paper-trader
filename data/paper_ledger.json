@@ -1,5 +1,5 @@
 {
-  "cash_aud": "987.00",
+  "cash_aud": "986.00",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -219,6 +219,23 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883406+00:00",
       "start_time": "2026-11-10T07:33:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:8260d951-e448-42fc-8f06-770ab8e3fa57:7",
+      "race_id": "8260d951-e448-42fc-8f06-770ab8e3fa57",
+      "category": "greyhound",
+      "runner_id": "7",
+      "runner_name": "Lara Moon",
+      "market": "PLACE",
+      "win_odds": "3.1",
+      "odds": "1.7",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T05:38:05.113270+00:00",
+      "start_time": "2026-11-10T05:39:00Z",
       "status": "OPEN",
       "settlement": null
     }

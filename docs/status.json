@@ -1,25 +1,18 @@
 {
-  "updated_at": "2026-11-10T05:27:31.902385+00:00",
+  "updated_at": "2026-11-10T05:38:02.645866+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "987.00",
+  "bankroll_aud": "986.00",
   "stake_aud": 1,
   "settled_bets": 0,
   "profit_aud": "0",
-  "place_bets": 13,
+  "place_bets": 14,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 56,
-  "new_races": 16,
+  "races_seen_total": 58,
+  "new_races": 2,
   "observations": [
-    {
-      "race_id": "b9c1b129-88ab-4dac-901b-0f1a93f4bb18",
-      "category": "horse",
-      "venue": "Mornington",
-      "race_number": 7,
-      "start_time": "2026-11-10T05:30:00Z"
-    },
     {
       "race_id": "942ddd8e-6dbc-4764-bbed-cae1b68c3d17",
       "category": "horse",
@@ -154,11 +147,11 @@
       "start_time": "2026-11-11T05:05:00Z"
     },
     {
-      "race_id": "732b9803-3560-41e8-a4e8-e52062e7b66b",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 5,
-      "start_time": "2026-11-10T05:32:00Z"
+      "race_id": "b60dbede-06e9-407e-961b-fee9288a7412",
+      "category": "horse",
+      "venue": "Ballarat",
+      "race_number": 2,
+      "start_time": "2026-11-11T05:15:00Z"
     },
     {
       "race_id": "8260d951-e448-42fc-8f06-770ab8e3fa57",
@@ -292,17 +285,24 @@
       "venue": "Geelong",
       "race_number": 11,
       "start_time": "2026-11-10T07:33:00Z"
+    },
+    {
+      "race_id": "45d9be8e-40bf-4e19-abf4-6cb24ed36074",
+      "category": "greyhound",
+      "venue": "Q2 Parklands",
+      "race_number": 13,
+      "start_time": "2026-11-10T07:37:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1486",
+  "credits_remaining": "1480",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
   "new_settlements": 0,
   "settlement_error": null,
   "wins": 0,
   "losses": 0,
-  "paper_bets_open": 13,
-  "new_paper_bets": 13,
+  "paper_bets_open": 14,
+  "new_paper_bets": 1,
   "recent_paper_bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -522,6 +522,23 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883406+00:00",
       "start_time": "2026-11-10T07:33:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:8260d951-e448-42fc-8f06-770ab8e3fa57:7",
+      "race_id": "8260d951-e448-42fc-8f06-770ab8e3fa57",
+      "category": "greyhound",
+      "runner_id": "7",
+      "runner_name": "Lara Moon",
+      "market": "PLACE",
+      "win_odds": "3.1",
+      "odds": "1.7",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-10T05:38:05.113270+00:00",
+      "start_time": "2026-11-10T05:39:00Z",
       "status": "OPEN",
       "settlement": null
     }
