@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-10T06:56:32.035744+00:00",
+  "updated_at": "2026-11-10T13:48:31.212976+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "983.05",
+  "bankroll_aud": "991.22",
   "stake_aud": 1,
-  "settled_bets": 5,
-  "profit_aud": "1.05",
+  "settled_bets": 18,
+  "profit_aud": "-3.78",
   "place_bets": 23,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 74,
-  "new_races": 16,
+  "races_seen_total": 80,
+  "new_races": 6,
   "observations": [
     {
       "race_id": "0bb40672-c4a0-4f99-b52f-51f2f96a380c",
@@ -154,150 +154,52 @@
       "start_time": "2026-11-11T05:30:00Z"
     },
     {
-      "race_id": "6c83196a-f54b-45d6-965d-def332a37972",
+      "race_id": "a2c07aca-1d45-4295-a276-9b5cb3014eda",
       "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 11,
-      "start_time": "2026-11-10T07:02:00Z"
-    },
-    {
-      "race_id": "039848f4-407a-4fad-bbb3-13bc148c90a4",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 10,
-      "start_time": "2026-11-10T07:05:00Z"
-    },
-    {
-      "race_id": "c5c53b13-067b-431c-9016-095493b839a7",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 10,
-      "start_time": "2026-11-10T07:12:00Z"
-    },
-    {
-      "race_id": "71753e73-a7a0-4192-8574-b03043a5c481",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 12,
-      "start_time": "2026-11-10T07:19:00Z"
-    },
-    {
-      "race_id": "5bee396d-c972-441c-a9a2-d2e014d6f8aa",
-      "category": "greyhound",
-      "venue": "Gosford",
-      "race_number": 11,
-      "start_time": "2026-11-10T07:26:00Z"
-    },
-    {
-      "race_id": "879ab0f1-f25e-4c06-bb78-2f2b33d02897",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 11,
-      "start_time": "2026-11-10T07:33:00Z"
-    },
-    {
-      "race_id": "45d9be8e-40bf-4e19-abf4-6cb24ed36074",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 13,
-      "start_time": "2026-11-10T07:37:00Z"
-    },
-    {
-      "race_id": "a871df91-c9a7-4fdf-9097-fc1e51e27fd9",
-      "category": "greyhound",
-      "venue": "Warragul",
-      "race_number": 1,
-      "start_time": "2026-11-10T07:46:00Z"
-    },
-    {
-      "race_id": "1d589812-d102-4880-b61d-682eea096340",
-      "category": "greyhound",
-      "venue": "Bulli",
-      "race_number": 1,
-      "start_time": "2026-11-10T07:55:00Z"
-    },
-    {
-      "race_id": "c1ff985a-39fa-45b2-9c87-e2a1a9807112",
-      "category": "greyhound",
-      "venue": "Warragul",
+      "venue": "Traralgon",
       "race_number": 2,
-      "start_time": "2026-11-10T08:03:00Z"
+      "start_time": "2026-11-10T23:37:00Z"
     },
     {
-      "race_id": "5cdd9633-6040-4c61-9ccf-f389dde386c7",
+      "race_id": "f30905b6-289e-43c0-ada5-87cb5ff0b3b2",
       "category": "greyhound",
-      "venue": "Wagga",
-      "race_number": 1,
-      "start_time": "2026-11-10T08:06:00Z"
-    },
-    {
-      "race_id": "b8625e12-e92c-4f78-8bc1-46b437c5d71b",
-      "category": "greyhound",
-      "venue": "Townsville",
-      "race_number": 1,
-      "start_time": "2026-11-10T08:13:00Z"
-    },
-    {
-      "race_id": "43803670-2f67-480f-8e11-86677cc767c1",
-      "category": "greyhound",
-      "venue": "Bulli",
-      "race_number": 2,
-      "start_time": "2026-11-10T08:20:00Z"
-    },
-    {
-      "race_id": "0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a",
-      "category": "greyhound",
-      "venue": "Warragul",
+      "venue": "Traralgon",
       "race_number": 3,
-      "start_time": "2026-11-10T08:27:00Z"
+      "start_time": "2026-11-10T23:54:00Z"
     },
     {
-      "race_id": "aaf414b2-f082-434a-81f2-4549e36113ea",
+      "race_id": "41597c1c-b171-476e-b71f-d357b4def338",
       "category": "greyhound",
-      "venue": "Wagga",
-      "race_number": 2,
-      "start_time": "2026-11-10T08:30:00Z"
-    },
-    {
-      "race_id": "e3c70a5b-543d-439a-94ac-5966f6fbab72",
-      "category": "greyhound",
-      "venue": "Townsville",
-      "race_number": 2,
-      "start_time": "2026-11-10T08:37:00Z"
-    },
-    {
-      "race_id": "3e17ff55-2f42-4dc5-9340-05dcb6bdb322",
-      "category": "greyhound",
-      "venue": "Bulli",
-      "race_number": 3,
-      "start_time": "2026-11-10T08:40:00Z"
-    },
-    {
-      "race_id": "4eb1a678-6d7b-48fd-8fe2-8f91c4224581",
-      "category": "greyhound",
-      "venue": "Warragul",
+      "venue": "Traralgon",
       "race_number": 4,
-      "start_time": "2026-11-10T08:47:00Z"
+      "start_time": "2026-11-11T00:09:00Z"
     },
     {
-      "race_id": "267bf09f-8e05-4e54-8dc1-4c361e91b9ee",
+      "race_id": "5d92da8e-2366-48e7-9b5d-1b8229852279",
       "category": "greyhound",
-      "venue": "Darwin",
+      "venue": "Traralgon",
+      "race_number": 5,
+      "start_time": "2026-11-11T00:27:00Z"
+    },
+    {
+      "race_id": "206953d6-616f-41df-ba2e-1af94c7a3a98",
+      "category": "greyhound",
+      "venue": "Murray Bridge Straight",
       "race_number": 1,
-      "start_time": "2026-11-10T08:51:00Z"
+      "start_time": "2026-11-11T01:05:00Z"
     },
     {
-      "race_id": "82feebb9-65ae-4a87-be2c-c796c24a7a55",
+      "race_id": "3f1d6f6a-b06a-4098-8efb-efb3e7544487",
       "category": "greyhound",
-      "venue": "Wagga",
-      "race_number": 3,
-      "start_time": "2026-11-10T08:54:00Z"
+      "venue": "Traralgon",
+      "race_number": 7,
+      "start_time": "2026-11-11T01:10:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1474",
+  "credits_remaining": "1468",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 5,
+  "new_settlements": 13,
   "results_returned": 200,
   "settlement_diagnostics": [
     {
@@ -308,7 +210,7 @@
     {
       "key": "PLACE:99521c49-86db-4a76-a7f2-151000beb571:8",
       "runner_name": "Seaton Moon",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:8bd9308b-5b88-44b7-983c-7b61cec41789:2",
@@ -321,82 +223,17 @@
       "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
-      "key": "PLACE:9f7a15c7-ba22-4966-84bf-49038135ce69:7",
-      "runner_name": "Paw Ensley",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:873951b7-ebe4-417c-b782-e8d7197164f2:1",
-      "runner_name": "Wildfire Panda",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
       "key": "PLACE:039848f4-407a-4fad-bbb3-13bc148c90a4:2",
       "runner_name": "Larnie's Magic",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:c5c53b13-067b-431c-9016-095493b839a7:4",
-      "runner_name": "Mepunga Brockie",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:879ab0f1-f25e-4c06-bb78-2f2b33d02897:3",
-      "runner_name": "Aston Kristen",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:a871df91-c9a7-4fdf-9097-fc1e51e27fd9:3",
-      "runner_name": "Smoke And Ash",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:b8625e12-e92c-4f78-8bc1-46b437c5d71b:1",
-      "runner_name": "Hara's Delta",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a:3",
-      "runner_name": "Mr. Southside",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:aaf414b2-f082-434a-81f2-4549e36113ea:2",
-      "runner_name": "I'm Innocent",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:e3c70a5b-543d-439a-94ac-5966f6fbab72:1",
-      "runner_name": "Hara's Lolly",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:3e17ff55-2f42-4dc5-9340-05dcb6bdb322:4",
-      "runner_name": "Midnight Arrow",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:4eb1a678-6d7b-48fd-8fe2-8f91c4224581:5",
-      "runner_name": "Parumba Jazzman",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:267bf09f-8e05-4e54-8dc1-4c361e91b9ee:8",
-      "runner_name": "Zero Point",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:82feebb9-65ae-4a87-be2c-c796c24a7a55:3",
-      "runner_name": "Bronte Lee",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     }
   ],
-  "settlement_checked_at": "2026-11-10T06:56:33.806742+00:00",
+  "settlement_checked_at": "2026-11-10T13:48:32.490657+00:00",
   "settlement_error": null,
-  "wins": 4,
-  "losses": 1,
-  "paper_bets_open": 18,
-  "new_paper_bets": 9,
+  "wins": 10,
+  "losses": 8,
+  "paper_bets_open": 5,
+  "new_paper_bets": 0,
   "recent_paper_bets": [
     {
       "key": "PLACE:9f7a15c7-ba22-4966-84bf-49038135ce69:7",
@@ -412,8 +249,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883241+00:00",
       "start_time": "2026-11-10T06:35:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212667+00:00"
+      }
     },
     {
       "key": "PLACE:873951b7-ebe4-417c-b782-e8d7197164f2:1",
@@ -429,8 +272,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883279+00:00",
       "start_time": "2026-11-10T06:46:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.35",
+        "profit_aud": "0.35",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212701+00:00"
+      }
     },
     {
       "key": "PLACE:039848f4-407a-4fad-bbb3-13bc148c90a4:2",
@@ -463,8 +312,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883352+00:00",
       "start_time": "2026-11-10T07:12:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.55",
+        "profit_aud": "0.55",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212715+00:00"
+      }
     },
     {
       "key": "PLACE:879ab0f1-f25e-4c06-bb78-2f2b33d02897:3",
@@ -480,8 +335,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T05:27:33.883406+00:00",
       "start_time": "2026-11-10T07:33:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212724+00:00"
+      }
     },
     {
       "key": "PLACE:8260d951-e448-42fc-8f06-770ab8e3fa57:7",
@@ -520,8 +381,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806382+00:00",
       "start_time": "2026-11-10T07:46:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.24",
+        "profit_aud": "0.24",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212732+00:00"
+      }
     },
     {
       "key": "PLACE:b8625e12-e92c-4f78-8bc1-46b437c5d71b:1",
@@ -537,8 +404,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806458+00:00",
       "start_time": "2026-11-10T08:13:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.28",
+        "profit_aud": "0.28",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212739+00:00"
+      }
     },
     {
       "key": "PLACE:0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a:3",
@@ -554,8 +427,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806491+00:00",
       "start_time": "2026-11-10T08:27:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212747+00:00"
+      }
     },
     {
       "key": "PLACE:aaf414b2-f082-434a-81f2-4549e36113ea:2",
@@ -571,8 +450,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806511+00:00",
       "start_time": "2026-11-10T08:30:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212753+00:00"
+      }
     },
     {
       "key": "PLACE:e3c70a5b-543d-439a-94ac-5966f6fbab72:1",
@@ -588,8 +473,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806531+00:00",
       "start_time": "2026-11-10T08:37:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212761+00:00"
+      }
     },
     {
       "key": "PLACE:3e17ff55-2f42-4dc5-9340-05dcb6bdb322:4",
@@ -605,8 +496,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806552+00:00",
       "start_time": "2026-11-10T08:40:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.40",
+        "profit_aud": "0.40",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212769+00:00"
+      }
     },
     {
       "key": "PLACE:4eb1a678-6d7b-48fd-8fe2-8f91c4224581:5",
@@ -622,8 +519,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806574+00:00",
       "start_time": "2026-11-10T08:47:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212778+00:00"
+      }
     },
     {
       "key": "PLACE:267bf09f-8e05-4e54-8dc1-4c361e91b9ee:8",
@@ -639,8 +542,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806598+00:00",
       "start_time": "2026-11-10T08:51:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.35",
+        "profit_aud": "0.35",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212789+00:00"
+      }
     },
     {
       "key": "PLACE:82feebb9-65ae-4a87-be2c-c796c24a7a55:3",
@@ -656,8 +565,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-10T06:56:33.806621+00:00",
       "start_time": "2026-11-10T08:54:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-10T13:48:31.212796+00:00"
+      }
     }
   ]
 }
