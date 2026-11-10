@@ -33,7 +33,7 @@ def settle_ledger(ledger, results):
         # Runner IDs are not necessarily saddlecloth numbers. Only settle when the
         # result explicitly provides matching runner_id, or a verified runner number.
         matching=[p for p in placings if isinstance(p,dict) and p.get("runner_id") is not None and str(p["runner_id"])==runner]
-        if not matching: continue
+        if not matching:\n            name=str(bet.get("runner_name","")).strip().casefold()\n            matching=[p for p in placings if isinstance(p,dict) and name and str(p.get("name","")).strip().casefold()==name and str(p.get("number",p.get("runner_number","")))==runner]\n        if not matching: continue
         try: position=int(matching[0]["position"])
         except (KeyError,ValueError,TypeError): continue
         if position<=0: continue
