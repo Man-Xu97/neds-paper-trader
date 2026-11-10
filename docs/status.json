@@ -1,0 +1,18 @@
+{
+  "updated_at": null,
+  "mode": "NOT_STARTED",
+  "source": "PuntersEdge / Neds",
+  "live_betting": false,
+  "paper_betting_enabled": false,
+  "bankroll_aud": 1000,
+  "stake_aud": 1,
+  "settled_bets": 0,
+  "profit_aud": 0,
+  "place_bets": 0,
+  "favourite_vs_field_bets": 0,
+  "races_seen_total": 0,
+  "new_races": 0,
+  "observations": [],
+  "errors": [],
+  "notice": "尚未运行扫描；无真实投注或有效虚拟下注。"
+}
