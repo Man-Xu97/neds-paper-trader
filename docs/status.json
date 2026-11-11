@@ -1,18 +1,81 @@
 {
-  "updated_at": "2026-11-11T15:39:13.085066+00:00",
+  "updated_at": "2026-11-11T22:20:00.441155+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "982.76",
+  "bankroll_aud": "981.76",
   "stake_aud": 1,
   "settled_bets": 38,
   "profit_aud": "-3.24",
-  "place_bets": 52,
+  "place_bets": 53,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 171,
-  "new_races": 24,
+  "races_seen_total": 197,
+  "new_races": 26,
   "observations": [
+    {
+      "race_id": "078c463b-092b-4e54-8d3e-db0d5a33b23f",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 1,
+      "start_time": "2026-11-12T00:00:00Z"
+    },
+    {
+      "race_id": "486cf97d-6e73-4f1e-b43b-c7ee30d5fd28",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 2,
+      "start_time": "2026-11-12T00:30:00Z"
+    },
+    {
+      "race_id": "cf62eba8-8572-4444-8217-8c09d0ebaf94",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 1,
+      "start_time": "2026-11-12T01:00:00Z"
+    },
+    {
+      "race_id": "510af70a-a601-43aa-af33-f93be9b91667",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 3,
+      "start_time": "2026-11-12T01:00:00Z"
+    },
+    {
+      "race_id": "2b76eaca-5faf-4797-9d35-88be201b3c91",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 4,
+      "start_time": "2026-11-12T01:33:00Z"
+    },
+    {
+      "race_id": "7a989516-ffb3-4bd3-8bc7-a1e46a987446",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 2,
+      "start_time": "2026-11-12T01:33:00Z"
+    },
+    {
+      "race_id": "7ab3badb-da57-4faf-bbac-02d8f9f825c3",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 5,
+      "start_time": "2026-11-12T02:07:00Z"
+    },
+    {
+      "race_id": "f41e80d9-a9b8-44fe-af4c-28b0b3ec771c",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 3,
+      "start_time": "2026-11-12T02:08:00Z"
+    },
+    {
+      "race_id": "3186f439-6fc0-41f1-90a4-32a8c1eff6df",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 4,
+      "start_time": "2026-11-12T02:42:00Z"
+    },
     {
       "race_id": "fd7662c6-3ab6-4155-ab83-37dc5ed160e2",
       "category": "horse",
@@ -35,11 +98,25 @@
       "start_time": "2026-11-12T03:10:00Z"
     },
     {
+      "race_id": "f08b966e-a6c9-4da6-8a47-76526481b86f",
+      "category": "horse",
+      "venue": "Eagle Farm",
+      "race_number": 5,
+      "start_time": "2026-11-12T03:17:00Z"
+    },
+    {
       "race_id": "32c67b1f-ba51-4bab-92ee-4e19fdbfac4c",
       "category": "horse",
       "venue": "Port Macquarie",
       "race_number": 2,
       "start_time": "2026-11-12T03:25:00Z"
+    },
+    {
+      "race_id": "ac9c61d4-b9e7-4a41-80b8-f01c58f691c2",
+      "category": "horse",
+      "venue": "Cairns",
+      "race_number": 2,
+      "start_time": "2026-11-12T03:33:00Z"
     },
     {
       "race_id": "f63d91bf-64a0-44e4-a35d-e1fb98236e3b",
@@ -63,95 +140,18 @@
       "start_time": "2026-11-12T04:05:00Z"
     },
     {
+      "race_id": "db1f430f-7ce9-4f35-b7ab-0941ce7304de",
+      "category": "horse",
+      "venue": "Cairns",
+      "race_number": 3,
+      "start_time": "2026-11-12T04:12:00Z"
+    },
+    {
       "race_id": "531af65d-9dd7-4256-b9d9-087e515ea004",
       "category": "horse",
       "venue": "Quirindi",
       "race_number": 3,
       "start_time": "2026-11-12T04:25:00Z"
-    },
-    {
-      "race_id": "b4113496-c79c-48fe-8dc2-3cbdeb4e0c2d",
-      "category": "horse",
-      "venue": "Seymour",
-      "race_number": 2,
-      "start_time": "2026-11-12T04:30:00Z"
-    },
-    {
-      "race_id": "828ff7e4-b662-4091-829c-aee9e6cf6dec",
-      "category": "horse",
-      "venue": "Port Macquarie",
-      "race_number": 4,
-      "start_time": "2026-11-12T04:40:00Z"
-    },
-    {
-      "race_id": "dbe95616-77b3-49b1-a3ac-e0c9107a9efd",
-      "category": "horse",
-      "venue": "Seymour",
-      "race_number": 3,
-      "start_time": "2026-11-12T05:00:00Z"
-    },
-    {
-      "race_id": "5ad4f91a-2451-4eef-8f9c-5aed836ec034",
-      "category": "horse",
-      "venue": "Quirindi",
-      "race_number": 4,
-      "start_time": "2026-11-12T05:05:00Z"
-    },
-    {
-      "race_id": "caffd8f6-d4e1-46f0-a566-30c873f0dfa4",
-      "category": "horse",
-      "venue": "Port Macquarie",
-      "race_number": 5,
-      "start_time": "2026-11-12T05:20:00Z"
-    },
-    {
-      "race_id": "e14fa433-861d-4ccd-b368-811671c62706",
-      "category": "horse",
-      "venue": "Seymour",
-      "race_number": 4,
-      "start_time": "2026-11-12T05:30:00Z"
-    },
-    {
-      "race_id": "d82461dd-b9ee-4ab7-92e6-4bba904390df",
-      "category": "horse",
-      "venue": "Quirindi",
-      "race_number": 5,
-      "start_time": "2026-11-12T05:40:00Z"
-    },
-    {
-      "race_id": "369a5255-3a8a-46ea-9e31-e1f25bf39317",
-      "category": "horse",
-      "venue": "Bunbury",
-      "race_number": 1,
-      "start_time": "2026-11-12T05:47:00Z"
-    },
-    {
-      "race_id": "70c302a1-3033-4494-ac5e-22dc2f4e9f08",
-      "category": "horse",
-      "venue": "Port Macquarie",
-      "race_number": 6,
-      "start_time": "2026-11-12T05:55:00Z"
-    },
-    {
-      "race_id": "e9309924-0620-4bd4-b078-50f8cbe309ee",
-      "category": "horse",
-      "venue": "Seymour",
-      "race_number": 5,
-      "start_time": "2026-11-12T06:00:00Z"
-    },
-    {
-      "race_id": "c0508c19-fda9-4fb5-abc0-084f1e4c6e5a",
-      "category": "horse",
-      "venue": "Quirindi",
-      "race_number": 6,
-      "start_time": "2026-11-12T06:15:00Z"
-    },
-    {
-      "race_id": "5990cce5-3a4f-4d96-ba5f-e843adf0a491",
-      "category": "horse",
-      "venue": "Bunbury",
-      "race_number": 2,
-      "start_time": "2026-11-12T06:22:00Z"
     },
     {
       "race_id": "19ca92f2-2ae3-4bdb-9be6-ec2cebbe01de",
@@ -168,11 +168,25 @@
       "start_time": "2026-11-12T00:03:00Z"
     },
     {
+      "race_id": "3fcbdcae-f8f6-46f8-902b-97fb8a269605",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 3,
+      "start_time": "2026-11-12T00:20:00Z"
+    },
+    {
       "race_id": "683b672b-0c50-431c-9422-36c3343e22b4",
       "category": "greyhound",
       "venue": "Shepparton",
       "race_number": 4,
       "start_time": "2026-11-12T00:37:00Z"
+    },
+    {
+      "race_id": "dfee7413-d7e3-4575-8765-5a9aab46ad64",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 5,
+      "start_time": "2026-11-12T00:55:00Z"
     },
     {
       "race_id": "3b446814-7bfc-467d-91ae-3e029d384566",
@@ -182,11 +196,53 @@
       "start_time": "2026-11-12T01:20:00Z"
     },
     {
+      "race_id": "d892b440-6115-4eab-9dad-97d8ec99da10",
+      "category": "greyhound",
+      "venue": "Mount Gambier",
+      "race_number": 1,
+      "start_time": "2026-11-12T01:30:00Z"
+    },
+    {
       "race_id": "4bc57709-9078-4fed-8252-a8d1ca5995a4",
       "category": "greyhound",
       "venue": "Shepparton",
       "race_number": 7,
       "start_time": "2026-11-12T01:37:00Z"
+    },
+    {
+      "race_id": "9488b30b-cc04-4d7a-bdb4-ae2a7f6d3427",
+      "category": "greyhound",
+      "venue": "Richmond Straight",
+      "race_number": 1,
+      "start_time": "2026-11-12T01:45:00Z"
+    },
+    {
+      "race_id": "70a64651-9004-4a6d-9be6-dbb64958b01b",
+      "category": "greyhound",
+      "venue": "Mount Gambier",
+      "race_number": 2,
+      "start_time": "2026-11-12T01:52:00Z"
+    },
+    {
+      "race_id": "c6a15853-6faa-4f86-a8d2-982134cb726a",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 8,
+      "start_time": "2026-11-12T01:55:00Z"
+    },
+    {
+      "race_id": "d27dd61a-ad2f-4abc-ba32-598cfa8281f0",
+      "category": "greyhound",
+      "venue": "Richmond Straight",
+      "race_number": 2,
+      "start_time": "2026-11-12T02:04:00Z"
+    },
+    {
+      "race_id": "15cf6275-2011-4b7e-aa0a-875f4f36e23a",
+      "category": "greyhound",
+      "venue": "Mount Gambier",
+      "race_number": 3,
+      "start_time": "2026-11-12T02:13:00Z"
     },
     {
       "race_id": "e19999ae-f82e-42e0-b430-efe984615064",
@@ -196,38 +252,52 @@
       "start_time": "2026-11-12T02:18:00Z"
     },
     {
-      "race_id": "16df028b-04a0-4c36-853b-75485f897585",
+      "race_id": "8db7d5ce-111e-474f-abe2-ed07d3d9f3cc",
+      "category": "greyhound",
+      "venue": "Richmond Straight",
+      "race_number": 3,
+      "start_time": "2026-11-12T02:27:00Z"
+    },
+    {
+      "race_id": "7ce47017-12f3-4135-ba78-3b98c44c4f35",
+      "category": "greyhound",
+      "venue": "Mount Gambier",
+      "race_number": 4,
+      "start_time": "2026-11-12T02:35:00Z"
+    },
+    {
+      "race_id": "d98977e0-2edb-45c6-82b5-eaee4555ebe7",
       "category": "greyhound",
       "venue": "Shepparton",
-      "race_number": 12,
-      "start_time": "2026-11-12T03:14:00Z"
+      "race_number": 10,
+      "start_time": "2026-11-12T02:38:00Z"
     },
     {
-      "race_id": "ac258e8d-a64f-4232-af37-46afb47f3664",
+      "race_id": "08d459dc-eb28-453b-bfc2-c4caab5c5df2",
       "category": "greyhound",
-      "venue": "Angle Park",
-      "race_number": 2,
-      "start_time": "2026-11-12T08:31:00Z"
-    },
-    {
-      "race_id": "48ef4755-138c-43c8-a120-2dccd95b67d0",
-      "category": "greyhound",
-      "venue": "Angle Park",
-      "race_number": 3,
-      "start_time": "2026-11-12T08:49:00Z"
-    },
-    {
-      "race_id": "c58993bf-b8d8-4d75-afac-8c8496a5841c",
-      "category": "greyhound",
-      "venue": "Angle Park",
+      "venue": "Richmond Straight",
       "race_number": 4,
-      "start_time": "2026-11-12T09:14:00Z"
+      "start_time": "2026-11-12T02:47:00Z"
+    },
+    {
+      "race_id": "09268ad1-218a-4f9c-be75-8451ce5ebc6a",
+      "category": "greyhound",
+      "venue": "Mount Gambier",
+      "race_number": 5,
+      "start_time": "2026-11-12T02:51:00Z"
+    },
+    {
+      "race_id": "141e48d4-5fe7-41fd-b286-0591c5552a56",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 11,
+      "start_time": "2026-11-12T02:55:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1444",
+  "credits_remaining": "1438",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 12,
+  "new_settlements": 0,
   "results_returned": 200,
   "settlement_diagnostics": [
     {
@@ -299,9 +369,14 @@
       "key": "PLACE:64928b98-e913-46c8-ab19-27bed679724b:8",
       "runner_name": "Blazing Turbo",
       "reason": "赛果字段或参赛者身份无法安全匹配"
+    },
+    {
+      "key": "PLACE:3fcbdcae-f8f6-46f8-902b-97fb8a269605:8",
+      "runner_name": "Paw Pearl",
+      "reason": "赛果接口未返回该赛事"
     }
   ],
-  "settlement_checked_at": "2026-11-11T15:39:14.546339+00:00",
+  "settlement_checked_at": "2026-11-11T22:20:02.886969+00:00",
   "settlement_error": null,
   "place_odds_analysis": [
     {
@@ -340,9 +415,9 @@
     {
       "category": "greyhound",
       "band": "1.50–1.79",
-      "bets": 11,
+      "bets": 12,
       "settled": 8,
-      "open": 3,
+      "open": 4,
       "wins": 5,
       "hit_rate_pct": 62.5,
       "profit_aud": "0.00",
@@ -373,26 +448,9 @@
   ],
   "wins": 25,
   "losses": 13,
-  "paper_bets_open": 14,
-  "new_paper_bets": 0,
+  "paper_bets_open": 15,
+  "new_paper_bets": 1,
   "recent_paper_bets": [
-    {
-      "key": "PLACE:818fa1d0-6df4-4f61-9a22-63365d652207:2",
-      "race_id": "818fa1d0-6df4-4f61-9a22-63365d652207",
-      "category": "horse",
-      "runner_id": "2",
-      "runner_name": "Deadly Force",
-      "market": "PLACE",
-      "win_odds": "3.1",
-      "odds": "1.45",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:40.860330+00:00",
-      "start_time": "2026-11-11T08:30:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
     {
       "key": "PLACE:6cb89c72-a2a7-4e07-a5fe-1188ff6e4261:2",
       "race_id": "6cb89c72-a2a7-4e07-a5fe-1188ff6e4261",
@@ -676,6 +734,23 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785883+00:00",
       "start_time": "2026-11-11T09:10:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:3fcbdcae-f8f6-46f8-902b-97fb8a269605:8",
+      "race_id": "3fcbdcae-f8f6-46f8-902b-97fb8a269605",
+      "category": "greyhound",
+      "runner_id": "8",
+      "runner_name": "Paw Pearl",
+      "market": "PLACE",
+      "win_odds": "2.8",
+      "odds": "1.6",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T22:20:02.886723+00:00",
+      "start_time": "2026-11-12T00:20:00Z",
       "status": "OPEN",
       "settlement": null
     }

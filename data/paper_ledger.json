@@ -1,5 +1,5 @@
 {
-  "cash_aud": "982.76",
+  "cash_aud": "981.76",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -1110,6 +1110,23 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785883+00:00",
       "start_time": "2026-11-11T09:10:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:3fcbdcae-f8f6-46f8-902b-97fb8a269605:8",
+      "race_id": "3fcbdcae-f8f6-46f8-902b-97fb8a269605",
+      "category": "greyhound",
+      "runner_id": "8",
+      "runner_name": "Paw Pearl",
+      "market": "PLACE",
+      "win_odds": "2.8",
+      "odds": "1.6",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T22:20:02.886723+00:00",
+      "start_time": "2026-11-12T00:20:00Z",
       "status": "OPEN",
       "settlement": null
     }
