@@ -50,7 +50,7 @@ def make_bet(race,category):
     if not choices:return None
     choices.sort(key=lambda x:x[2])
     runner,book,win,place=choices[0]
-    if not Decimal('2')<=win<=Decimal('4'):return None
+    if not Decimal('2')<=win<=Decimal('4') or place<Decimal('1.50'):return None
     rid=str(race.get('race_id') or race.get('id') or '')
     runnerid=str(runner.get('runner_id') or runner.get('id') or runner.get('number') or '')
     if not rid or not runnerid:return None
