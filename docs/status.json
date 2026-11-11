@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-10T20:39:24.274119+00:00",
+  "updated_at": "2026-11-11T00:56:03.682645+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "991.22",
+  "bankroll_aud": "981.22",
   "stake_aud": 1,
   "settled_bets": 18,
   "profit_aud": "-3.78",
-  "place_bets": 23,
+  "place_bets": 33,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 94,
-  "new_races": 14,
+  "races_seen_total": 107,
+  "new_races": 13,
   "observations": [
     {
       "race_id": "0bb40672-c4a0-4f99-b52f-51f2f96a380c",
@@ -21,11 +21,11 @@
       "start_time": "2026-11-11T02:25:00Z"
     },
     {
-      "race_id": "c1feb602-15cc-41e4-8539-2bbd89552e54",
+      "race_id": "9447e711-9d34-4da2-a868-4ff58f28ba10",
       "category": "horse",
-      "venue": "Scone",
+      "venue": "Bendigo",
       "race_number": 1,
-      "start_time": "2026-11-11T02:50:00Z"
+      "start_time": "2026-11-11T02:30:00Z"
     },
     {
       "race_id": "8a76cee6-2031-4149-8d67-6342f3295f72",
@@ -35,6 +35,13 @@
       "start_time": "2026-11-11T03:00:00Z"
     },
     {
+      "race_id": "71bc96e1-f376-4a0b-9fdc-cbf2a600be82",
+      "category": "horse",
+      "venue": "Bendigo",
+      "race_number": 3,
+      "start_time": "2026-11-11T03:07:00Z"
+    },
+    {
       "race_id": "87978e9e-3c21-4575-9e0e-6ba7e1c20108",
       "category": "horse",
       "venue": "Warwick Farm",
@@ -42,10 +49,10 @@
       "start_time": "2026-11-11T03:20:00Z"
     },
     {
-      "race_id": "cb2f41d0-70c1-45f5-9218-e26bc5bcc693",
+      "race_id": "7a85c675-d4db-42ae-85b7-18a1bfb7d219",
       "category": "horse",
-      "venue": "Scone",
-      "race_number": 2,
+      "venue": "Bendigo",
+      "race_number": 4,
       "start_time": "2026-11-11T03:25:00Z"
     },
     {
@@ -56,18 +63,18 @@
       "start_time": "2026-11-11T03:35:00Z"
     },
     {
+      "race_id": "0f7ee95f-6432-4c0f-82fb-b289fcc15b10",
+      "category": "horse",
+      "venue": "Bendigo",
+      "race_number": 5,
+      "start_time": "2026-11-11T03:45:00Z"
+    },
+    {
       "race_id": "41194dca-4203-4c6a-b51b-b13a115d95d7",
       "category": "horse",
       "venue": "Warwick Farm",
       "race_number": 2,
       "start_time": "2026-11-11T03:55:00Z"
-    },
-    {
-      "race_id": "800d1f1d-b97e-4f74-bc62-f690ddd9a04d",
-      "category": "horse",
-      "venue": "Scone",
-      "race_number": 3,
-      "start_time": "2026-11-11T04:05:00Z"
     },
     {
       "race_id": "7c39de5c-34dd-4c46-ad12-eea57682aa83",
@@ -84,6 +91,13 @@
       "start_time": "2026-11-11T04:20:00Z"
     },
     {
+      "race_id": "0fb8d276-89b5-4224-b144-2732f8a0dd64",
+      "category": "horse",
+      "venue": "Q Straight",
+      "race_number": 4,
+      "start_time": "2026-11-11T04:27:00Z"
+    },
+    {
       "race_id": "71c39476-bce4-40d1-980b-8fe1b7646955",
       "category": "horse",
       "venue": "Warwick Farm",
@@ -96,6 +110,13 @@
       "venue": "Ballarat",
       "race_number": 1,
       "start_time": "2026-11-11T04:40:00Z"
+    },
+    {
+      "race_id": "6c1f8101-1eba-46cb-9586-f3b5a96ecdea",
+      "category": "horse",
+      "venue": "Q Straight",
+      "race_number": 5,
+      "start_time": "2026-11-11T04:42:00Z"
     },
     {
       "race_id": "9ee79ecb-b611-4f93-bc3c-a93163ae304a",
@@ -119,81 +140,18 @@
       "start_time": "2026-11-11T04:55:00Z"
     },
     {
+      "race_id": "414bf8d6-4d97-47b9-a29b-36bf73966582",
+      "category": "horse",
+      "venue": "Q Straight",
+      "race_number": 6,
+      "start_time": "2026-11-11T05:02:00Z"
+    },
+    {
       "race_id": "e766a3f4-0bfa-4b3e-baad-8491c3f9fe7d",
       "category": "horse",
       "venue": "Warwick Farm",
       "race_number": 4,
       "start_time": "2026-11-11T05:05:00Z"
-    },
-    {
-      "race_id": "b60dbede-06e9-407e-961b-fee9288a7412",
-      "category": "horse",
-      "venue": "Ballarat",
-      "race_number": 2,
-      "start_time": "2026-11-11T05:15:00Z"
-    },
-    {
-      "race_id": "0a396850-854e-42bd-acb0-4c37c616c77e",
-      "category": "horse",
-      "venue": "Scone",
-      "race_number": 5,
-      "start_time": "2026-11-11T05:19:00Z"
-    },
-    {
-      "race_id": "bc922d45-2b34-40cf-80c9-4648b09103d4",
-      "category": "horse",
-      "venue": "Eagle Farm",
-      "race_number": 3,
-      "start_time": "2026-11-11T05:23:00Z"
-    },
-    {
-      "race_id": "00851b29-3c64-4f2a-8311-14f03a860f1b",
-      "category": "horse",
-      "venue": "Balaklava",
-      "race_number": 3,
-      "start_time": "2026-11-11T05:30:00Z"
-    },
-    {
-      "race_id": "a0e40210-f8f2-4aac-876f-5f0018f19920",
-      "category": "greyhound",
-      "venue": "Traralgon",
-      "race_number": 1,
-      "start_time": "2026-11-10T23:20:00Z"
-    },
-    {
-      "race_id": "a2c07aca-1d45-4295-a276-9b5cb3014eda",
-      "category": "greyhound",
-      "venue": "Traralgon",
-      "race_number": 2,
-      "start_time": "2026-11-10T23:37:00Z"
-    },
-    {
-      "race_id": "f30905b6-289e-43c0-ada5-87cb5ff0b3b2",
-      "category": "greyhound",
-      "venue": "Traralgon",
-      "race_number": 3,
-      "start_time": "2026-11-10T23:54:00Z"
-    },
-    {
-      "race_id": "41597c1c-b171-476e-b71f-d357b4def338",
-      "category": "greyhound",
-      "venue": "Traralgon",
-      "race_number": 4,
-      "start_time": "2026-11-11T00:09:00Z"
-    },
-    {
-      "race_id": "5d92da8e-2366-48e7-9b5d-1b8229852279",
-      "category": "greyhound",
-      "venue": "Traralgon",
-      "race_number": 5,
-      "start_time": "2026-11-11T00:27:00Z"
-    },
-    {
-      "race_id": "0a67d6d5-f943-4a16-a815-4c6177c1778c",
-      "category": "greyhound",
-      "venue": "Traralgon",
-      "race_number": 6,
-      "start_time": "2026-11-11T00:47:00Z"
     },
     {
       "race_id": "206953d6-616f-41df-ba2e-1af94c7a3a98",
@@ -292,10 +250,52 @@
       "venue": "Traralgon",
       "race_number": 11,
       "start_time": "2026-11-11T02:21:00Z"
+    },
+    {
+      "race_id": "ccc6d7bd-7eb0-44a3-8083-a7e116d19543",
+      "category": "greyhound",
+      "venue": "Bendigo",
+      "race_number": 1,
+      "start_time": "2026-11-11T02:30:00Z"
+    },
+    {
+      "race_id": "37cd4666-5694-47b9-9285-350d302cf9c5",
+      "category": "greyhound",
+      "venue": "Capalaba",
+      "race_number": 5,
+      "start_time": "2026-11-11T02:33:00Z"
+    },
+    {
+      "race_id": "c29432c6-7e92-4734-8d17-01eb10d1b461",
+      "category": "greyhound",
+      "venue": "Murray Bridge Straight",
+      "race_number": 6,
+      "start_time": "2026-11-11T02:36:00Z"
+    },
+    {
+      "race_id": "0f57cdab-4322-4d80-8305-62e134a5b1fd",
+      "category": "greyhound",
+      "venue": "Traralgon",
+      "race_number": 12,
+      "start_time": "2026-11-11T02:44:00Z"
+    },
+    {
+      "race_id": "fbe7c3c5-5540-413f-a5d5-81e705bc52cb",
+      "category": "greyhound",
+      "venue": "Bendigo",
+      "race_number": 2,
+      "start_time": "2026-11-11T02:48:00Z"
+    },
+    {
+      "race_id": "c6bd82d3-f2ba-4617-808d-6b043ac442c6",
+      "category": "greyhound",
+      "venue": "Capalaba",
+      "race_number": 6,
+      "start_time": "2026-11-11T02:52:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1462",
+  "credits_remaining": "1456",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
   "new_settlements": 0,
   "results_returned": 200,
@@ -324,239 +324,65 @@
       "key": "PLACE:039848f4-407a-4fad-bbb3-13bc148c90a4:2",
       "runner_name": "Larnie's Magic",
       "reason": "赛果字段或参赛者身份无法安全匹配"
+    },
+    {
+      "key": "PLACE:8a76cee6-2031-4149-8d67-6342f3295f72:2",
+      "runner_name": "Reelflare",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:87978e9e-3c21-4575-9e0e-6ba7e1c20108:1",
+      "runner_name": "Quarterback",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:41194dca-4203-4c6a-b51b-b13a115d95d7:4",
+      "runner_name": "Rishaka",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:3f1d6f6a-b06a-4098-8efb-efb3e7544487:1",
+      "runner_name": "Holly Hook",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:bf3d6ccd-6ebb-4370-9b14-ecfe252fb862:6",
+      "runner_name": "Billy Ray Mikado",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:c05fbc0b-93d6-4cf7-aadd-d3a184c126c9:1",
+      "runner_name": "Jumbuk Mabior",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:4d5e36d2-2114-4af5-8e38-cc2545c78489:3",
+      "runner_name": "Sharni's Secret",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:ccc6d7bd-7eb0-44a3-8083-a7e116d19543:2",
+      "runner_name": "Thermal Sapphire",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:0f57cdab-4322-4d80-8305-62e134a5b1fd:3",
+      "runner_name": "Best Dressed",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:fbe7c3c5-5540-413f-a5d5-81e705bc52cb:3",
+      "runner_name": "Moraine Merlin",
+      "reason": "赛果接口未返回该赛事"
     }
   ],
-  "settlement_checked_at": "2026-11-10T20:39:25.961760+00:00",
+  "settlement_checked_at": "2026-11-11T00:56:05.724508+00:00",
   "settlement_error": null,
   "wins": 10,
   "losses": 8,
-  "paper_bets_open": 5,
-  "new_paper_bets": 0,
+  "paper_bets_open": 15,
+  "new_paper_bets": 10,
   "recent_paper_bets": [
-    {
-      "key": "PLACE:9f7a15c7-ba22-4966-84bf-49038135ce69:7",
-      "race_id": "9f7a15c7-ba22-4966-84bf-49038135ce69",
-      "category": "greyhound",
-      "runner_id": "7",
-      "runner_name": "Paw Ensley",
-      "market": "PLACE",
-      "win_odds": "2.0",
-      "odds": "1.4",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883241+00:00",
-      "start_time": "2026-11-10T06:35:00Z",
-      "status": "LOST",
-      "settlement": {
-        "position": 3,
-        "payout_aud": "0.00",
-        "profit_aud": "-1.00",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212667+00:00"
-      }
-    },
-    {
-      "key": "PLACE:873951b7-ebe4-417c-b782-e8d7197164f2:1",
-      "race_id": "873951b7-ebe4-417c-b782-e8d7197164f2",
-      "category": "greyhound",
-      "runner_id": "1",
-      "runner_name": "Wildfire Panda",
-      "market": "PLACE",
-      "win_odds": "2.1",
-      "odds": "1.35",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883279+00:00",
-      "start_time": "2026-11-10T06:46:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 1,
-        "payout_aud": "1.35",
-        "profit_aud": "0.35",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212701+00:00"
-      }
-    },
-    {
-      "key": "PLACE:039848f4-407a-4fad-bbb3-13bc148c90a4:2",
-      "race_id": "039848f4-407a-4fad-bbb3-13bc148c90a4",
-      "category": "greyhound",
-      "runner_id": "2",
-      "runner_name": "Larnie's Magic",
-      "market": "PLACE",
-      "win_odds": "2.3",
-      "odds": "1.5",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883332+00:00",
-      "start_time": "2026-11-10T07:05:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:c5c53b13-067b-431c-9016-095493b839a7:4",
-      "race_id": "c5c53b13-067b-431c-9016-095493b839a7",
-      "category": "greyhound",
-      "runner_id": "4",
-      "runner_name": "Mepunga Brockie",
-      "market": "PLACE",
-      "win_odds": "2.7",
-      "odds": "1.55",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883352+00:00",
-      "start_time": "2026-11-10T07:12:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 1,
-        "payout_aud": "1.55",
-        "profit_aud": "0.55",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212715+00:00"
-      }
-    },
-    {
-      "key": "PLACE:879ab0f1-f25e-4c06-bb78-2f2b33d02897:3",
-      "race_id": "879ab0f1-f25e-4c06-bb78-2f2b33d02897",
-      "category": "greyhound",
-      "runner_id": "3",
-      "runner_name": "Aston Kristen",
-      "market": "PLACE",
-      "win_odds": "2.35",
-      "odds": "1.45",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:27:33.883406+00:00",
-      "start_time": "2026-11-10T07:33:00Z",
-      "status": "LOST",
-      "settlement": {
-        "position": 3,
-        "payout_aud": "0.00",
-        "profit_aud": "-1.00",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212724+00:00"
-      }
-    },
-    {
-      "key": "PLACE:8260d951-e448-42fc-8f06-770ab8e3fa57:7",
-      "race_id": "8260d951-e448-42fc-8f06-770ab8e3fa57",
-      "category": "greyhound",
-      "runner_id": "7",
-      "runner_name": "Lara Moon",
-      "market": "PLACE",
-      "win_odds": "3.1",
-      "odds": "1.7",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T05:38:05.113270+00:00",
-      "start_time": "2026-11-10T05:39:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 2,
-        "payout_aud": "1.70",
-        "profit_aud": "0.70",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T06:56:32.035585+00:00"
-      }
-    },
-    {
-      "key": "PLACE:a871df91-c9a7-4fdf-9097-fc1e51e27fd9:3",
-      "race_id": "a871df91-c9a7-4fdf-9097-fc1e51e27fd9",
-      "category": "greyhound",
-      "runner_id": "3",
-      "runner_name": "Smoke And Ash",
-      "market": "PLACE",
-      "win_odds": "2.3",
-      "odds": "1.24",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T06:56:33.806382+00:00",
-      "start_time": "2026-11-10T07:46:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 1,
-        "payout_aud": "1.24",
-        "profit_aud": "0.24",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212732+00:00"
-      }
-    },
-    {
-      "key": "PLACE:b8625e12-e92c-4f78-8bc1-46b437c5d71b:1",
-      "race_id": "b8625e12-e92c-4f78-8bc1-46b437c5d71b",
-      "category": "greyhound",
-      "runner_id": "1",
-      "runner_name": "Hara's Delta",
-      "market": "PLACE",
-      "win_odds": "2.0",
-      "odds": "1.28",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T06:56:33.806458+00:00",
-      "start_time": "2026-11-10T08:13:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 2,
-        "payout_aud": "1.28",
-        "profit_aud": "0.28",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212739+00:00"
-      }
-    },
-    {
-      "key": "PLACE:0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a:3",
-      "race_id": "0ef3d3d4-5c3c-4c8d-9f0d-10899230fb4a",
-      "category": "greyhound",
-      "runner_id": "3",
-      "runner_name": "Mr. Southside",
-      "market": "PLACE",
-      "win_odds": "2.45",
-      "odds": "1.4",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T06:56:33.806491+00:00",
-      "start_time": "2026-11-10T08:27:00Z",
-      "status": "LOST",
-      "settlement": {
-        "position": 3,
-        "payout_aud": "0.00",
-        "profit_aud": "-1.00",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212747+00:00"
-      }
-    },
-    {
-      "key": "PLACE:aaf414b2-f082-434a-81f2-4549e36113ea:2",
-      "race_id": "aaf414b2-f082-434a-81f2-4549e36113ea",
-      "category": "greyhound",
-      "runner_id": "2",
-      "runner_name": "I'm Innocent",
-      "market": "PLACE",
-      "win_odds": "2.45",
-      "odds": "1.45",
-      "places_paid": 2,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-10T06:56:33.806511+00:00",
-      "start_time": "2026-11-10T08:30:00Z",
-      "status": "LOST",
-      "settlement": {
-        "position": 3,
-        "payout_aud": "0.00",
-        "profit_aud": "-1.00",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-10T13:48:31.212753+00:00"
-      }
-    },
     {
       "key": "PLACE:e3c70a5b-543d-439a-94ac-5966f6fbab72:1",
       "race_id": "e3c70a5b-543d-439a-94ac-5966f6fbab72",
@@ -671,6 +497,176 @@
         "source": "PuntersEdge final results",
         "settled_at": "2026-11-10T13:48:31.212796+00:00"
       }
+    },
+    {
+      "key": "PLACE:8a76cee6-2031-4149-8d67-6342f3295f72:2",
+      "race_id": "8a76cee6-2031-4149-8d67-6342f3295f72",
+      "category": "horse",
+      "runner_id": "2",
+      "runner_name": "Reelflare",
+      "market": "PLACE",
+      "win_odds": "2.35",
+      "odds": "1.35",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:04.907576+00:00",
+      "start_time": "2026-11-11T03:00:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:87978e9e-3c21-4575-9e0e-6ba7e1c20108:1",
+      "race_id": "87978e9e-3c21-4575-9e0e-6ba7e1c20108",
+      "category": "horse",
+      "runner_id": "1",
+      "runner_name": "Quarterback",
+      "market": "PLACE",
+      "win_odds": "2.1",
+      "odds": "1.4",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:04.907612+00:00",
+      "start_time": "2026-11-11T03:20:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:41194dca-4203-4c6a-b51b-b13a115d95d7:4",
+      "race_id": "41194dca-4203-4c6a-b51b-b13a115d95d7",
+      "category": "horse",
+      "runner_id": "4",
+      "runner_name": "Rishaka",
+      "market": "PLACE",
+      "win_odds": "3.4",
+      "odds": "1.4",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:04.907645+00:00",
+      "start_time": "2026-11-11T03:55:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:3f1d6f6a-b06a-4098-8efb-efb3e7544487:1",
+      "race_id": "3f1d6f6a-b06a-4098-8efb-efb3e7544487",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Holly Hook",
+      "market": "PLACE",
+      "win_odds": "3.5",
+      "odds": "1.5",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724177+00:00",
+      "start_time": "2026-11-11T01:10:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:bf3d6ccd-6ebb-4370-9b14-ecfe252fb862:6",
+      "race_id": "bf3d6ccd-6ebb-4370-9b14-ecfe252fb862",
+      "category": "greyhound",
+      "runner_id": "6",
+      "runner_name": "Billy Ray Mikado",
+      "market": "PLACE",
+      "win_odds": "3.7",
+      "odds": "1.55",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724233+00:00",
+      "start_time": "2026-11-11T01:25:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:c05fbc0b-93d6-4cf7-aadd-d3a184c126c9:1",
+      "race_id": "c05fbc0b-93d6-4cf7-aadd-d3a184c126c9",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Jumbuk Mabior",
+      "market": "PLACE",
+      "win_odds": "3.3",
+      "odds": "1.85",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724283+00:00",
+      "start_time": "2026-11-11T02:02:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:4d5e36d2-2114-4af5-8e38-cc2545c78489:3",
+      "race_id": "4d5e36d2-2114-4af5-8e38-cc2545c78489",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Sharni's Secret",
+      "market": "PLACE",
+      "win_odds": "2.7",
+      "odds": "1.3",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724313+00:00",
+      "start_time": "2026-11-11T02:21:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:ccc6d7bd-7eb0-44a3-8083-a7e116d19543:2",
+      "race_id": "ccc6d7bd-7eb0-44a3-8083-a7e116d19543",
+      "category": "greyhound",
+      "runner_id": "2",
+      "runner_name": "Thermal Sapphire",
+      "market": "PLACE",
+      "win_odds": "2.4",
+      "odds": "1.2",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724329+00:00",
+      "start_time": "2026-11-11T02:30:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:0f57cdab-4322-4d80-8305-62e134a5b1fd:3",
+      "race_id": "0f57cdab-4322-4d80-8305-62e134a5b1fd",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Best Dressed",
+      "market": "PLACE",
+      "win_odds": "2.0",
+      "odds": "1.35",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724360+00:00",
+      "start_time": "2026-11-11T02:44:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:fbe7c3c5-5540-413f-a5d5-81e705bc52cb:3",
+      "race_id": "fbe7c3c5-5540-413f-a5d5-81e705bc52cb",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Moraine Merlin",
+      "market": "PLACE",
+      "win_odds": "3.0",
+      "odds": "1.75",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-11T00:56:05.724376+00:00",
+      "start_time": "2026-11-11T02:48:00Z",
+      "status": "OPEN",
+      "settlement": null
     }
   ]
 }
