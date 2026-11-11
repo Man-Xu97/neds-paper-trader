@@ -23,7 +23,7 @@ def place_quote(quote, now=None):
         if quote.get("market_status")!="OPEN" or quote.get("runner_status")!="ACTIVE":
             return None
         price=Decimal(str(quote["place_odds"]))
-        if not (Decimal("1.01")<=price<=Decimal("1000")):return None
+        if not (Decimal("1.50")<=price<=Decimal("1000")):return None
         return {"key":"PLACE:"+str(quote["market_id"])+":"+str(quote["runner_id"]),
                 "race_id":str(quote["race_id"]),"runner_id":str(quote["runner_id"]),
                 "runner_name":str(quote["runner_name"]),"market":"PLACE",
@@ -42,7 +42,7 @@ def favourite_field_quote(quote,now=None):
         observed=utc(quote["odds_timestamp"]);start=utc(quote["start_time"])
         if not (observed<=now<start and (now-observed).total_seconds()<=120):return None
         price=Decimal(str(quote["odds"]))
-        if not Decimal("1.01")<=price<=Decimal("1000"):return None
+        if not Decimal("1.50")<=price<=Decimal("1000"):return None
         return {"key":"FAVOURITE_VS_FIELD:"+str(quote["market_id"])+":"+quote["side"],
                 "race_id":str(quote["race_id"]),"market":"FAVOURITE_VS_FIELD",
                 "side":quote["side"],"favourite_runner_id":str(quote["favourite_runner_id"]),
