@@ -4,6 +4,7 @@
 <body><main><h1>赛马赛狗 · 虚拟投注</h1><p class="warn">每注 A$1 · 仅模拟，不涉及真实资金</p>
 <section><small>虚拟账户可用余额</small><p><strong id="cash">加载中…</strong></p><div id="stamp" class="muted"></div></section>
 <section><h2>统计</h2><div id="stats">加载中…</div><p id="settlement"></p></section>
+<section><h2>Place 赔率区间分析</h2><div id="bands">等待下一次扫描</div><small>命中率与 ROI 只统计已结算投注；历史低于1.50倍的投注不计入此表。</small></section>
 <section><h2>最近虚拟投注</h2><ul id="bets"><li>加载中…</li></ul></section>
 <section><h2>最新赛事</h2><ul id="races"><li>加载中…</li></ul></section>
 <section><h2>未结算原因</h2><ul id="diagnostics"><li>等待下一次扫描</li></ul></section><section><h2>运行信息</h2><div id="errors" class="muted">加载中…</div><p><button onclick="refresh()">立即刷新</button></p></section>
@@ -18,6 +19,10 @@ async function refresh(){try{const r=await fetch('./status.json?t='+Date.now(),{
 el('cash').textContent=money(d.bankroll_aud??1000);
 el('stamp').textContent='最近扫描（墨尔本时间）：'+when(d.updated_at);
 el('stats').textContent='累计扫描赛事：'+(d.races_seen_total??0)+' · 本轮新增赛事：'+(d.new_races??0)+' · Place 虚拟投注：'+(d.place_bets??0)+' · Favourite vs Field：'+(d.favourite_vs_field_bets??0);
+const rows=d.place_odds_analysis||[];
+el('bands').replaceChildren();
+for(const kind of ['horse','greyhound']){const h=document.createElement('h3');h.textContent=category(kind);el('bands').append(h);for(const x of rows.filter(z=>z.category===kind)){const p=document.createElement('p');p.textContent=x.band+'倍 · 共'+x.bets+'注 · 已结算'+x.settled+'注 · 胜'+x.wins+'注 · 命中率 '+(x.hit_rate_pct==null?'—':x.hit_rate_pct+'%')+' · 净盈亏 '+money(x.profit_aud)+' · ROI '+(x.roi_pct==null?'—':x.roi_pct+'%');el('bands').append(p);}}
+if(!rows.length)el('bands').textContent='等待下一次扫描生成分组数据';
 el('settlement').textContent='已结算：'+(d.settled_bets??0)+' · 待结算：'+(d.paper_bets_open??0)+' · 胜：'+(d.wins??0)+' · 负：'+(d.losses??0)+' · 已实现盈亏：'+money(d.profit_aud);
 fillList('bets',(d.recent_paper_bets||[]).slice().reverse().slice(0,30),b=>[category(b.category),b.runner_name||'未知选手',b.market||'PLACE','赔率 '+(b.odds??'?'),'投注 '+money(b.stake_aud),b.status==='OPEN'?'待结算':(b.status||'未知')].join(' · '),'暂无虚拟投注');
 fillList('races',(d.observations||[]).slice(0,30),x=>[category(x.category),x.venue||'未知场地','R'+(x.race_number??'?'),when(x.start_time)].join(' · '),'暂无赛事记录');
