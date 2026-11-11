@@ -133,6 +133,22 @@ def main():
     report['settlement_error']=settlement_error
     report['settled_bets']=sum(b.get('status') in ('WON','LOST') for b in ledger['bets'])
     report['profit_aud']=str(sum((Decimal(str(b['settlement']['profit_aud'])) for b in ledger['bets'] if b.get('settlement') and b.get('status') in ('WON','LOST')),Decimal('0')))
+    # Place-odds cohort analysis, by racing category; only settled bets enter ROI.
+    bands=[('1.50–1.79',Decimal('1.50'),Decimal('1.80')),('1.80–1.99',Decimal('1.80'),Decimal('2.00')),('2.00+',Decimal('2.00'),None)]
+    report['place_odds_analysis']=[]
+    for category in ('horse','greyhound'):
+        for label,lower,upper in bands:
+            bets=[]
+            for b in ledger['bets']:
+                if b.get('category')!=category or b.get('market')!='PLACE':continue
+                try: odds=Decimal(str(b.get('odds')))
+                except Exception:continue
+                if odds>=lower and (upper is None or odds<upper):bets.append(b)
+            finished=[b for b in bets if b.get('status') in ('WON','LOST') and b.get('settlement')]
+            wins=sum(b['status']=='WON' for b in finished)
+            staked=sum((Decimal(str(b.get('stake_aud',1))) for b in finished),Decimal('0'))
+            profit=sum((Decimal(str(b['settlement']['profit_aud'])) for b in finished),Decimal('0'))
+            report['place_odds_analysis'].append({'category':category,'band':label,'bets':len(bets),'settled':len(finished),'open':len(bets)-len(finished),'wins':wins,'hit_rate_pct':round(100*wins/len(finished),2) if finished else None,'profit_aud':str(profit),'roi_pct':round(float(100*profit/staked),2) if staked else None})
     report['wins']=sum(b.get('status')=='WON' for b in ledger['bets'])
     report['losses']=sum(b.get('status')=='LOST' for b in ledger['bets'])
     report['place_bets']=len([b for b in ledger['bets'] if b.get('market')=='PLACE'])
