@@ -1,5 +1,5 @@
 {
-  "cash_aud": "970.77",
+  "cash_aud": "982.76",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -732,8 +732,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860132+00:00",
       "start_time": "2026-11-11T07:50:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.40",
+        "profit_aud": "0.40",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084699+00:00"
+      }
     },
     {
       "key": "PLACE:7244a6c1-f89f-4d42-8cc5-33fe2afbd102:5",
@@ -749,8 +755,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860192+00:00",
       "start_time": "2026-11-11T08:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.30",
+        "profit_aud": "0.30",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084738+00:00"
+      }
     },
     {
       "key": "PLACE:ba705550-8125-4552-b7f2-11a81a7eb58f:4",
@@ -766,8 +778,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860226+00:00",
       "start_time": "2026-11-11T08:10:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084751+00:00"
+      }
     },
     {
       "key": "PLACE:39804c90-436f-475e-be9e-1f2d2c95bfbf:2",
@@ -783,8 +801,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860285+00:00",
       "start_time": "2026-11-11T08:20:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.28",
+        "profit_aud": "0.28",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084761+00:00"
+      }
     },
     {
       "key": "PLACE:818fa1d0-6df4-4f61-9a22-63365d652207:2",
@@ -817,8 +841,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860365+00:00",
       "start_time": "2026-11-11T08:50:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.65",
+        "profit_aud": "0.65",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084776+00:00"
+      }
     },
     {
       "key": "PLACE:b46bf841-916f-431f-aa74-7efbed1db816:5",
@@ -834,8 +864,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860401+00:00",
       "start_time": "2026-11-11T09:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.20",
+        "profit_aud": "0.20",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084785+00:00"
+      }
     },
     {
       "key": "PLACE:9b113267-dce3-4731-aa69-d50eee7e6dad:4",
@@ -851,8 +887,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860438+00:00",
       "start_time": "2026-11-11T09:20:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.30",
+        "profit_aud": "0.30",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084793+00:00"
+      }
     },
     {
       "key": "PLACE:dd612e39-a9df-46bd-8298-cc0a7ddac5eb:3",
@@ -885,8 +927,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860525+00:00",
       "start_time": "2026-11-11T09:57:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "1.40",
+        "profit_aud": "0.40",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084806+00:00"
+      }
     },
     {
       "key": "PLACE:61b0b26c-dbb9-410d-9c87-3ff0656040bc:2",
@@ -902,8 +950,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860557+00:00",
       "start_time": "2026-11-11T10:30:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.16",
+        "profit_aud": "0.16",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084814+00:00"
+      }
     },
     {
       "key": "PLACE:b1242d22-8bc2-4749-8a05-65251a320ef3:6",
@@ -953,8 +1007,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785632+00:00",
       "start_time": "2026-11-11T08:23:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.30",
+        "profit_aud": "0.30",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084830+00:00"
+      }
     },
     {
       "key": "PLACE:80be5ec2-383f-4c0e-8893-a072323b5d73:7",
@@ -970,8 +1030,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785735+00:00",
       "start_time": "2026-11-11T08:47:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084837+00:00"
+      }
     },
     {
       "key": "PLACE:a575e638-c219-4ef7-9a0b-2a4f6df04969:4",
@@ -987,8 +1053,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785765+00:00",
       "start_time": "2026-11-11T08:50:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084846+00:00"
+      }
     },
     {
       "key": "PLACE:ab325994-d6e9-4169-aae7-758fd61f99e2:4",

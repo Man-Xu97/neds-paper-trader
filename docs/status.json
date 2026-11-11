@@ -1,122 +1,31 @@
 {
-  "updated_at": "2026-11-11T07:43:39.845019+00:00",
+  "updated_at": "2026-11-11T15:39:13.085066+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "970.77",
+  "bankroll_aud": "982.76",
   "stake_aud": 1,
-  "settled_bets": 26,
-  "profit_aud": "-3.23",
+  "settled_bets": 38,
+  "profit_aud": "-3.24",
   "place_bets": 52,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 147,
-  "new_races": 40,
+  "races_seen_total": 171,
+  "new_races": 24,
   "observations": [
-    {
-      "race_id": "54fec1f7-a5fc-45a5-b1f8-aaca50bb7e2d",
-      "category": "horse",
-      "venue": "Eagle Farm",
-      "race_number": 7,
-      "start_time": "2026-11-11T07:45:00Z"
-    },
-    {
-      "race_id": "e086bcc6-c175-4e85-a159-ad4050a63ae6",
-      "category": "horse",
-      "venue": "Belmont",
-      "race_number": 4,
-      "start_time": "2026-11-11T07:50:00Z"
-    },
-    {
-      "race_id": "7244a6c1-f89f-4d42-8cc5-33fe2afbd102",
-      "category": "horse",
-      "venue": "Ballarat",
-      "race_number": 7,
-      "start_time": "2026-11-11T08:00:00Z"
-    },
-    {
-      "race_id": "ba705550-8125-4552-b7f2-11a81a7eb58f",
-      "category": "horse",
-      "venue": "Launceston",
-      "race_number": 3,
-      "start_time": "2026-11-11T08:10:00Z"
-    },
-    {
-      "race_id": "fb7aec4c-0d4c-44ff-bb81-8dd8a9f3a257",
-      "category": "horse",
-      "venue": "Eagle Farm",
-      "race_number": 7,
-      "start_time": "2026-11-11T08:17:00Z"
-    },
-    {
-      "race_id": "39804c90-436f-475e-be9e-1f2d2c95bfbf",
-      "category": "horse",
-      "venue": "Belmont",
-      "race_number": 5,
-      "start_time": "2026-11-11T08:20:00Z"
-    },
-    {
-      "race_id": "818fa1d0-6df4-4f61-9a22-63365d652207",
-      "category": "horse",
-      "venue": "Ballarat",
-      "race_number": 8,
-      "start_time": "2026-11-11T08:30:00Z"
-    },
-    {
-      "race_id": "6cb89c72-a2a7-4e07-a5fe-1188ff6e4261",
-      "category": "horse",
-      "venue": "Launceston",
-      "race_number": 4,
-      "start_time": "2026-11-11T08:50:00Z"
-    },
-    {
-      "race_id": "b46bf841-916f-431f-aa74-7efbed1db816",
-      "category": "horse",
-      "venue": "Belmont",
-      "race_number": 6,
-      "start_time": "2026-11-11T09:00:00Z"
-    },
-    {
-      "race_id": "9b113267-dce3-4731-aa69-d50eee7e6dad",
-      "category": "horse",
-      "venue": "Launceston",
-      "race_number": 5,
-      "start_time": "2026-11-11T09:20:00Z"
-    },
-    {
-      "race_id": "dd612e39-a9df-46bd-8298-cc0a7ddac5eb",
-      "category": "horse",
-      "venue": "Belmont",
-      "race_number": 7,
-      "start_time": "2026-11-11T09:37:00Z"
-    },
-    {
-      "race_id": "8e46ed88-98bd-487f-bcfa-7be6f43cb66c",
-      "category": "horse",
-      "venue": "Launceston",
-      "race_number": 6,
-      "start_time": "2026-11-11T09:57:00Z"
-    },
-    {
-      "race_id": "61b0b26c-dbb9-410d-9c87-3ff0656040bc",
-      "category": "horse",
-      "venue": "Launceston",
-      "race_number": 7,
-      "start_time": "2026-11-11T10:30:00Z"
-    },
-    {
-      "race_id": "b0d99fbc-5b61-4d65-bda6-f8296521b483",
-      "category": "horse",
-      "venue": "Launceston",
-      "race_number": 8,
-      "start_time": "2026-11-11T11:00:00Z"
-    },
     {
       "race_id": "fd7662c6-3ab6-4155-ab83-37dc5ed160e2",
       "category": "horse",
       "venue": "Port Macquarie",
       "race_number": 1,
       "start_time": "2026-11-12T02:50:00Z"
+    },
+    {
+      "race_id": "a238bc86-1949-4fbe-baab-694f2481e011",
+      "category": "horse",
+      "venue": "Cairns",
+      "race_number": 1,
+      "start_time": "2026-11-12T02:58:00Z"
     },
     {
       "race_id": "7d95de1a-c693-4b87-a154-9cb0fe8bb9b1",
@@ -154,150 +63,171 @@
       "start_time": "2026-11-12T04:05:00Z"
     },
     {
-      "race_id": "8b4f0136-7c5a-4493-a995-d9026f7c0ff5",
-      "category": "greyhound",
-      "venue": "Q Straight",
-      "race_number": 11,
-      "start_time": "2026-11-11T07:48:00Z"
-    },
-    {
-      "race_id": "276677f6-af31-462e-9fd9-c52e6a85b9eb",
-      "category": "greyhound",
-      "venue": "The Meadows",
-      "race_number": 1,
-      "start_time": "2026-11-11T07:57:00Z"
-    },
-    {
-      "race_id": "b1242d22-8bc2-4749-8a05-65251a320ef3",
-      "category": "greyhound",
-      "venue": "Nowra",
-      "race_number": 1,
-      "start_time": "2026-11-11T08:01:00Z"
-    },
-    {
-      "race_id": "0f725985-99b2-43a4-a1f8-36a0efb2d9ca",
-      "category": "greyhound",
-      "venue": "Q Straight",
-      "race_number": 12,
-      "start_time": "2026-11-11T08:03:00Z"
-    },
-    {
-      "race_id": "29e028d0-db03-4d2f-8a48-0f1db5aaeda3",
-      "category": "greyhound",
-      "venue": "Ballarat",
+      "race_id": "531af65d-9dd7-4256-b9d9-087e515ea004",
+      "category": "horse",
+      "venue": "Quirindi",
       "race_number": 3,
-      "start_time": "2026-11-11T08:04:00Z"
+      "start_time": "2026-11-12T04:25:00Z"
     },
     {
-      "race_id": "b7a62c3e-e38c-4dd0-bc55-2d306e7e1a7e",
-      "category": "greyhound",
-      "venue": "Q Straight Extra",
-      "race_number": 1,
-      "start_time": "2026-11-11T08:05:00Z"
-    },
-    {
-      "race_id": "0216e35d-59ae-45e7-95cb-dadf4e17b073",
-      "category": "greyhound",
-      "venue": "Richmond",
-      "race_number": 1,
-      "start_time": "2026-11-11T08:07:00Z"
-    },
-    {
-      "race_id": "0e0f15c0-a9fc-4f0d-af40-23ea212ebdce",
-      "category": "greyhound",
-      "venue": "The Meadows",
+      "race_id": "b4113496-c79c-48fe-8dc2-3cbdeb4e0c2d",
+      "category": "horse",
+      "venue": "Seymour",
       "race_number": 2,
-      "start_time": "2026-11-11T08:17:00Z"
+      "start_time": "2026-11-12T04:30:00Z"
     },
     {
-      "race_id": "b4a78563-d49e-4cb1-bc32-24a29d40156e",
-      "category": "greyhound",
-      "venue": "Nowra",
-      "race_number": 2,
-      "start_time": "2026-11-11T08:20:00Z"
-    },
-    {
-      "race_id": "efed06ab-d25e-4884-be5c-add9a338d434",
-      "category": "greyhound",
-      "venue": "Ballarat",
+      "race_id": "828ff7e4-b662-4091-829c-aee9e6cf6dec",
+      "category": "horse",
+      "venue": "Port Macquarie",
       "race_number": 4,
-      "start_time": "2026-11-11T08:23:00Z"
+      "start_time": "2026-11-12T04:40:00Z"
     },
     {
-      "race_id": "48d5ea5f-df42-43ee-b47a-11b8db5ac0f4",
-      "category": "greyhound",
-      "venue": "Richmond",
-      "race_number": 2,
-      "start_time": "2026-11-11T08:27:00Z"
-    },
-    {
-      "race_id": "e5189892-6908-4226-87aa-3edeae0146fc",
-      "category": "greyhound",
-      "venue": "Q Straight",
-      "race_number": 14,
-      "start_time": "2026-11-11T08:35:00Z"
-    },
-    {
-      "race_id": "6c9079b2-206b-46aa-a1ec-ddbf9be1f4fd",
-      "category": "greyhound",
-      "venue": "The Meadows",
+      "race_id": "dbe95616-77b3-49b1-a3ac-e0c9107a9efd",
+      "category": "horse",
+      "venue": "Seymour",
       "race_number": 3,
-      "start_time": "2026-11-11T08:39:00Z"
+      "start_time": "2026-11-12T05:00:00Z"
     },
     {
-      "race_id": "393e76c0-6133-4fbb-83ca-f128f3373050",
-      "category": "greyhound",
-      "venue": "Nowra",
-      "race_number": 3,
-      "start_time": "2026-11-11T08:43:00Z"
+      "race_id": "5ad4f91a-2451-4eef-8f9c-5aed836ec034",
+      "category": "horse",
+      "venue": "Quirindi",
+      "race_number": 4,
+      "start_time": "2026-11-12T05:05:00Z"
     },
     {
-      "race_id": "80be5ec2-383f-4c0e-8893-a072323b5d73",
-      "category": "greyhound",
-      "venue": "Richmond",
-      "race_number": 3,
-      "start_time": "2026-11-11T08:47:00Z"
-    },
-    {
-      "race_id": "a575e638-c219-4ef7-9a0b-2a4f6df04969",
-      "category": "greyhound",
-      "venue": "Ballarat",
+      "race_id": "caffd8f6-d4e1-46f0-a566-30c873f0dfa4",
+      "category": "horse",
+      "venue": "Port Macquarie",
       "race_number": 5,
-      "start_time": "2026-11-11T08:50:00Z"
+      "start_time": "2026-11-12T05:20:00Z"
     },
     {
-      "race_id": "78fb400a-56c8-4069-bd63-d2914b9665d1",
-      "category": "greyhound",
-      "venue": "The Meadows",
+      "race_id": "e14fa433-861d-4ccd-b368-811671c62706",
+      "category": "horse",
+      "venue": "Seymour",
       "race_number": 4,
-      "start_time": "2026-11-11T08:57:00Z"
+      "start_time": "2026-11-12T05:30:00Z"
     },
     {
-      "race_id": "ab325994-d6e9-4169-aae7-758fd61f99e2",
-      "category": "greyhound",
-      "venue": "Nowra",
-      "race_number": 4,
-      "start_time": "2026-11-11T09:02:00Z"
+      "race_id": "d82461dd-b9ee-4ab7-92e6-4bba904390df",
+      "category": "horse",
+      "venue": "Quirindi",
+      "race_number": 5,
+      "start_time": "2026-11-12T05:40:00Z"
     },
     {
-      "race_id": "5271c07c-8973-4f9c-84fa-3bbf11ccfcfc",
-      "category": "greyhound",
-      "venue": "Richmond",
-      "race_number": 4,
-      "start_time": "2026-11-11T09:07:00Z"
+      "race_id": "369a5255-3a8a-46ea-9e31-e1f25bf39317",
+      "category": "horse",
+      "venue": "Bunbury",
+      "race_number": 1,
+      "start_time": "2026-11-12T05:47:00Z"
     },
     {
-      "race_id": "64928b98-e913-46c8-ab19-27bed679724b",
-      "category": "greyhound",
-      "venue": "Ballarat",
+      "race_id": "70c302a1-3033-4494-ac5e-22dc2f4e9f08",
+      "category": "horse",
+      "venue": "Port Macquarie",
       "race_number": 6,
-      "start_time": "2026-11-11T09:10:00Z"
+      "start_time": "2026-11-12T05:55:00Z"
+    },
+    {
+      "race_id": "e9309924-0620-4bd4-b078-50f8cbe309ee",
+      "category": "horse",
+      "venue": "Seymour",
+      "race_number": 5,
+      "start_time": "2026-11-12T06:00:00Z"
+    },
+    {
+      "race_id": "c0508c19-fda9-4fb5-abc0-084f1e4c6e5a",
+      "category": "horse",
+      "venue": "Quirindi",
+      "race_number": 6,
+      "start_time": "2026-11-12T06:15:00Z"
+    },
+    {
+      "race_id": "5990cce5-3a4f-4d96-ba5f-e843adf0a491",
+      "category": "horse",
+      "venue": "Bunbury",
+      "race_number": 2,
+      "start_time": "2026-11-12T06:22:00Z"
+    },
+    {
+      "race_id": "19ca92f2-2ae3-4bdb-9be6-ec2cebbe01de",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 1,
+      "start_time": "2026-11-11T23:48:00Z"
+    },
+    {
+      "race_id": "b804fc09-4c86-47d4-95c7-b792d35d4a45",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 2,
+      "start_time": "2026-11-12T00:03:00Z"
+    },
+    {
+      "race_id": "683b672b-0c50-431c-9422-36c3343e22b4",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 4,
+      "start_time": "2026-11-12T00:37:00Z"
+    },
+    {
+      "race_id": "3b446814-7bfc-467d-91ae-3e029d384566",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 6,
+      "start_time": "2026-11-12T01:20:00Z"
+    },
+    {
+      "race_id": "4bc57709-9078-4fed-8252-a8d1ca5995a4",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 7,
+      "start_time": "2026-11-12T01:37:00Z"
+    },
+    {
+      "race_id": "e19999ae-f82e-42e0-b430-efe984615064",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 9,
+      "start_time": "2026-11-12T02:18:00Z"
+    },
+    {
+      "race_id": "16df028b-04a0-4c36-853b-75485f897585",
+      "category": "greyhound",
+      "venue": "Shepparton",
+      "race_number": 12,
+      "start_time": "2026-11-12T03:14:00Z"
+    },
+    {
+      "race_id": "ac258e8d-a64f-4232-af37-46afb47f3664",
+      "category": "greyhound",
+      "venue": "Angle Park",
+      "race_number": 2,
+      "start_time": "2026-11-12T08:31:00Z"
+    },
+    {
+      "race_id": "48ef4755-138c-43c8-a120-2dccd95b67d0",
+      "category": "greyhound",
+      "venue": "Angle Park",
+      "race_number": 3,
+      "start_time": "2026-11-12T08:49:00Z"
+    },
+    {
+      "race_id": "c58993bf-b8d8-4d75-afac-8c8496a5841c",
+      "category": "greyhound",
+      "venue": "Angle Park",
+      "race_number": 4,
+      "start_time": "2026-11-12T09:14:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1450",
+  "credits_remaining": "1444",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 8,
+  "new_settlements": 12,
   "results_returned": 200,
   "settlement_diagnostics": [
     {
@@ -328,7 +258,7 @@
     {
       "key": "PLACE:bf3d6ccd-6ebb-4370-9b14-ecfe252fb862:6",
       "runner_name": "Billy Ray Mikado",
-      "reason": "赛果字段或参赛者身份无法安全匹配"
+      "reason": "赛果接口未返回该赛事"
     },
     {
       "key": "PLACE:c05fbc0b-93d6-4cf7-aadd-d3a184c126c9:1",
@@ -336,107 +266,115 @@
       "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
-      "key": "PLACE:e086bcc6-c175-4e85-a159-ad4050a63ae6:10",
-      "runner_name": "Broda",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:7244a6c1-f89f-4d42-8cc5-33fe2afbd102:5",
-      "runner_name": "The Flying Popov",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:ba705550-8125-4552-b7f2-11a81a7eb58f:4",
-      "runner_name": "Southern Auroras",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:39804c90-436f-475e-be9e-1f2d2c95bfbf:2",
-      "runner_name": "Unimando",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
       "key": "PLACE:818fa1d0-6df4-4f61-9a22-63365d652207:2",
       "runner_name": "Deadly Force",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:6cb89c72-a2a7-4e07-a5fe-1188ff6e4261:2",
-      "runner_name": "Geegees Missile",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:b46bf841-916f-431f-aa74-7efbed1db816:5",
-      "runner_name": "De Lago's Rock",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:9b113267-dce3-4731-aa69-d50eee7e6dad:4",
-      "runner_name": "Wolf Junior",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:dd612e39-a9df-46bd-8298-cc0a7ddac5eb:3",
       "runner_name": "Barron Bill",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:8e46ed88-98bd-487f-bcfa-7be6f43cb66c:9",
-      "runner_name": "Garcon D'Espoir",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:61b0b26c-dbb9-410d-9c87-3ff0656040bc:2",
-      "runner_name": "Summit",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:b1242d22-8bc2-4749-8a05-65251a320ef3:6",
       "runner_name": "Lamar",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:29e028d0-db03-4d2f-8a48-0f1db5aaeda3:8",
       "runner_name": "Silver Sequins",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:efed06ab-d25e-4884-be5c-add9a338d434:8",
-      "runner_name": "Vicky's Fury",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:80be5ec2-383f-4c0e-8893-a072323b5d73:7",
-      "runner_name": "Our Boy Noah",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:a575e638-c219-4ef7-9a0b-2a4f6df04969:4",
-      "runner_name": "Imitated",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:ab325994-d6e9-4169-aae7-758fd61f99e2:4",
       "runner_name": "Zipping Violet",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:5271c07c-8973-4f9c-84fa-3bbf11ccfcfc:2",
       "runner_name": "Almost Stunning",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     },
     {
       "key": "PLACE:64928b98-e913-46c8-ab19-27bed679724b:8",
       "runner_name": "Blazing Turbo",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     }
   ],
-  "settlement_checked_at": "2026-11-11T07:43:41.786017+00:00",
+  "settlement_checked_at": "2026-11-11T15:39:14.546339+00:00",
   "settlement_error": null,
-  "wins": 16,
-  "losses": 10,
-  "paper_bets_open": 26,
-  "new_paper_bets": 19,
+  "place_odds_analysis": [
+    {
+      "category": "horse",
+      "band": "1.50–1.79",
+      "bets": 3,
+      "settled": 2,
+      "open": 1,
+      "wins": 2,
+      "hit_rate_pct": 100.0,
+      "profit_aud": "1.15",
+      "roi_pct": 57.5
+    },
+    {
+      "category": "horse",
+      "band": "1.80–1.99",
+      "bets": 0,
+      "settled": 0,
+      "open": 0,
+      "wins": 0,
+      "hit_rate_pct": null,
+      "profit_aud": "0",
+      "roi_pct": null
+    },
+    {
+      "category": "horse",
+      "band": "2.00+",
+      "bets": 0,
+      "settled": 0,
+      "open": 0,
+      "wins": 0,
+      "hit_rate_pct": null,
+      "profit_aud": "0",
+      "roi_pct": null
+    },
+    {
+      "category": "greyhound",
+      "band": "1.50–1.79",
+      "bets": 11,
+      "settled": 8,
+      "open": 3,
+      "wins": 5,
+      "hit_rate_pct": 62.5,
+      "profit_aud": "0.00",
+      "roi_pct": 0.0
+    },
+    {
+      "category": "greyhound",
+      "band": "1.80–1.99",
+      "bets": 1,
+      "settled": 0,
+      "open": 1,
+      "wins": 0,
+      "hit_rate_pct": null,
+      "profit_aud": "0",
+      "roi_pct": null
+    },
+    {
+      "category": "greyhound",
+      "band": "2.00+",
+      "bets": 0,
+      "settled": 0,
+      "open": 0,
+      "wins": 0,
+      "hit_rate_pct": null,
+      "profit_aud": "0",
+      "roi_pct": null
+    }
+  ],
+  "wins": 25,
+  "losses": 13,
+  "paper_bets_open": 14,
+  "new_paper_bets": 0,
   "recent_paper_bets": [
     {
       "key": "PLACE:818fa1d0-6df4-4f61-9a22-63365d652207:2",
@@ -469,8 +407,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860365+00:00",
       "start_time": "2026-11-11T08:50:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.65",
+        "profit_aud": "0.65",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084776+00:00"
+      }
     },
     {
       "key": "PLACE:b46bf841-916f-431f-aa74-7efbed1db816:5",
@@ -486,8 +430,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860401+00:00",
       "start_time": "2026-11-11T09:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.20",
+        "profit_aud": "0.20",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084785+00:00"
+      }
     },
     {
       "key": "PLACE:9b113267-dce3-4731-aa69-d50eee7e6dad:4",
@@ -503,8 +453,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860438+00:00",
       "start_time": "2026-11-11T09:20:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.30",
+        "profit_aud": "0.30",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084793+00:00"
+      }
     },
     {
       "key": "PLACE:dd612e39-a9df-46bd-8298-cc0a7ddac5eb:3",
@@ -537,8 +493,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860525+00:00",
       "start_time": "2026-11-11T09:57:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "1.40",
+        "profit_aud": "0.40",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084806+00:00"
+      }
     },
     {
       "key": "PLACE:61b0b26c-dbb9-410d-9c87-3ff0656040bc:2",
@@ -554,8 +516,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:40.860557+00:00",
       "start_time": "2026-11-11T10:30:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.16",
+        "profit_aud": "0.16",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084814+00:00"
+      }
     },
     {
       "key": "PLACE:b1242d22-8bc2-4749-8a05-65251a320ef3:6",
@@ -605,8 +573,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785632+00:00",
       "start_time": "2026-11-11T08:23:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.30",
+        "profit_aud": "0.30",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084830+00:00"
+      }
     },
     {
       "key": "PLACE:80be5ec2-383f-4c0e-8893-a072323b5d73:7",
@@ -622,8 +596,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785735+00:00",
       "start_time": "2026-11-11T08:47:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084837+00:00"
+      }
     },
     {
       "key": "PLACE:a575e638-c219-4ef7-9a0b-2a4f6df04969:4",
@@ -639,8 +619,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-11T07:43:41.785765+00:00",
       "start_time": "2026-11-11T08:50:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-11T15:39:13.084846+00:00"
+      }
     },
     {
       "key": "PLACE:ab325994-d6e9-4169-aae7-758fd61f99e2:4",
