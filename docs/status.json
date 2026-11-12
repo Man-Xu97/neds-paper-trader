@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T11:32:05.675766+00:00",
+  "updated_at": "2026-11-12T19:06:30.912161+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
@@ -10,8 +10,8 @@
   "profit_aud": "-1.69",
   "place_bets": 56,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 258,
-  "new_races": 40,
+  "races_seen_total": 286,
+  "new_races": 28,
   "observations": [
     {
       "race_id": "8f1de1d1-7d61-45a3-ac46-7a88a863cb3b",
@@ -21,11 +21,25 @@
       "start_time": "2026-11-13T01:30:00Z"
     },
     {
+      "race_id": "dc075b0f-54ab-4248-8198-78ce0bc58a7e",
+      "category": "horse",
+      "venue": "Geelong",
+      "race_number": 1,
+      "start_time": "2026-11-13T01:40:00Z"
+    },
+    {
       "race_id": "1902ba63-52fb-44f8-b13e-7b4972f05102",
       "category": "horse",
       "venue": "Gundagai",
       "race_number": 2,
       "start_time": "2026-11-13T02:00:00Z"
+    },
+    {
+      "race_id": "fec76c8e-d359-4da7-8475-104042e2d2c0",
+      "category": "horse",
+      "venue": "Geelong",
+      "race_number": 2,
+      "start_time": "2026-11-13T02:10:00Z"
     },
     {
       "race_id": "c7e3a56b-cd5e-4981-ab00-212a2b73e388",
@@ -42,11 +56,25 @@
       "start_time": "2026-11-13T02:35:00Z"
     },
     {
+      "race_id": "67a6001f-846f-499c-aae8-18132bf3602a",
+      "category": "horse",
+      "venue": "Geelong",
+      "race_number": 3,
+      "start_time": "2026-11-13T02:45:00Z"
+    },
+    {
       "race_id": "0c9e9891-aba7-4f5a-8721-20add676d9e4",
       "category": "horse",
       "venue": "Ballina",
       "race_number": 2,
       "start_time": "2026-11-13T02:49:00Z"
+    },
+    {
+      "race_id": "662d8ea7-1753-4b52-8546-332cdde672ac",
+      "category": "horse",
+      "venue": "Bordertown",
+      "race_number": 1,
+      "start_time": "2026-11-13T03:00:00Z"
     },
     {
       "race_id": "490a817f-1abc-4f08-a263-fd5f13d9eb4b",
@@ -56,6 +84,13 @@
       "start_time": "2026-11-13T03:10:00Z"
     },
     {
+      "race_id": "c8f322f4-ff84-49f7-b7b0-fb5582b34992",
+      "category": "horse",
+      "venue": "Geelong",
+      "race_number": 4,
+      "start_time": "2026-11-13T03:20:00Z"
+    },
+    {
       "race_id": "3e42b5cb-078c-4d87-b5bf-72164fe14d2a",
       "category": "horse",
       "venue": "Ballina",
@@ -63,11 +98,25 @@
       "start_time": "2026-11-13T03:24:00Z"
     },
     {
+      "race_id": "b334f920-6d6a-435a-8b31-721d4c3065d3",
+      "category": "horse",
+      "venue": "Bordertown",
+      "race_number": 2,
+      "start_time": "2026-11-13T03:35:00Z"
+    },
+    {
       "race_id": "b6de05e7-d9b8-4ff9-bb9b-fb83ca355c51",
       "category": "horse",
       "venue": "Gundagai",
       "race_number": 5,
       "start_time": "2026-11-13T03:45:00Z"
+    },
+    {
+      "race_id": "0d7435a6-34fd-4b36-b532-3e720ed1017d",
+      "category": "horse",
+      "venue": "Geelong",
+      "race_number": 5,
+      "start_time": "2026-11-13T03:55:00Z"
     },
     {
       "race_id": "6b0da7a2-5136-42cf-9fd3-e1b624d1f623",
@@ -84,6 +133,13 @@
       "start_time": "2026-11-13T04:07:00Z"
     },
     {
+      "race_id": "b1db1150-b177-402f-b075-9e8c802f8b53",
+      "category": "horse",
+      "venue": "Bordertown",
+      "race_number": 3,
+      "start_time": "2026-11-13T04:10:00Z"
+    },
+    {
       "race_id": "0c494193-77bc-4eca-a6bb-f9274b4fed90",
       "category": "horse",
       "venue": "Gundagai",
@@ -91,144 +147,11 @@
       "start_time": "2026-11-13T04:20:00Z"
     },
     {
-      "race_id": "76e7bf62-c578-4d9f-b030-6343d05fb18a",
+      "race_id": "cd6fa378-9cae-47a1-8f7e-47ee6fe36abd",
       "category": "horse",
-      "venue": "Ballina",
-      "race_number": 5,
-      "start_time": "2026-11-13T04:34:00Z"
-    },
-    {
-      "race_id": "f97b75cf-da25-4f9e-8f2f-993c37d31923",
-      "category": "horse",
-      "venue": "Rockhampton",
-      "race_number": 2,
-      "start_time": "2026-11-13T04:43:00Z"
-    },
-    {
-      "race_id": "11032183-f6cf-41eb-a13f-a320ae13236f",
-      "category": "horse",
-      "venue": "Gundagai",
-      "race_number": 7,
-      "start_time": "2026-11-13T05:00:00Z"
-    },
-    {
-      "race_id": "c4088fd5-06a5-4fbb-8159-241fa8a1eaff",
-      "category": "horse",
-      "venue": "Ballina",
+      "venue": "Geelong",
       "race_number": 6,
-      "start_time": "2026-11-13T05:14:00Z"
-    },
-    {
-      "race_id": "158d7799-9867-4dcb-a027-765cf5ef31d0",
-      "category": "horse",
-      "venue": "Rockhampton",
-      "race_number": 3,
-      "start_time": "2026-11-13T05:23:00Z"
-    },
-    {
-      "race_id": "fd6c08b3-f8a6-4212-969e-079c4b72ef21",
-      "category": "horse",
-      "venue": "Gundagai",
-      "race_number": 8,
-      "start_time": "2026-11-13T05:40:00Z"
-    },
-    {
-      "race_id": "9aae12de-a050-434a-8406-3196767b973f",
-      "category": "horse",
-      "venue": "Albany",
-      "race_number": 1,
-      "start_time": "2026-11-13T05:45:00Z"
-    },
-    {
-      "race_id": "a045c7a3-5e7c-4b5e-84ca-228164b360d4",
-      "category": "horse",
-      "venue": "Ballina",
-      "race_number": 7,
-      "start_time": "2026-11-13T05:54:00Z"
-    },
-    {
-      "race_id": "d0ffcfdd-835d-4dff-96c3-8033a6edef10",
-      "category": "horse",
-      "venue": "Rockhampton",
-      "race_number": 4,
-      "start_time": "2026-11-13T06:03:00Z"
-    },
-    {
-      "race_id": "92a6b135-22a7-4658-9864-47770a4d0c5e",
-      "category": "greyhound",
-      "venue": "Mandurah",
-      "race_number": 7,
-      "start_time": "2026-11-12T11:35:00Z"
-    },
-    {
-      "race_id": "fd6dde59-fa6a-4085-a087-7c652e3b28ba",
-      "category": "greyhound",
-      "venue": "Bendigo",
-      "race_number": 12,
-      "start_time": "2026-11-12T11:42:00Z"
-    },
-    {
-      "race_id": "056e7ae6-3cf2-432e-94bb-4c607d3d201c",
-      "category": "greyhound",
-      "venue": "Angle Park",
-      "race_number": 11,
-      "start_time": "2026-11-12T11:45:00Z"
-    },
-    {
-      "race_id": "4eb4f2a2-2937-4674-988b-4023540fb7d5",
-      "category": "greyhound",
-      "venue": "Hobart",
-      "race_number": 11,
-      "start_time": "2026-11-12T11:48:00Z"
-    },
-    {
-      "race_id": "268aaf9c-481b-450a-95ff-705c8d1e9cae",
-      "category": "greyhound",
-      "venue": "Warrnambool Extra",
-      "race_number": 1,
-      "start_time": "2026-11-12T11:51:00Z"
-    },
-    {
-      "race_id": "060c69b4-8587-4903-8968-cc17946481ef",
-      "category": "greyhound",
-      "venue": "Q2 Parklands",
-      "race_number": 10,
-      "start_time": "2026-11-12T11:54:00Z"
-    },
-    {
-      "race_id": "a2c81d70-acc0-444b-ae2c-60cd5646250b",
-      "category": "greyhound",
-      "venue": "Mandurah",
-      "race_number": 8,
-      "start_time": "2026-11-12T11:57:00Z"
-    },
-    {
-      "race_id": "bb890bf1-6f83-4684-9e03-68dc3c41b1fc",
-      "category": "greyhound",
-      "venue": "Bendigo Extra",
-      "race_number": 1,
-      "start_time": "2026-11-12T12:00:00Z"
-    },
-    {
-      "race_id": "692a3b56-fc81-4382-a48e-178293285558",
-      "category": "greyhound",
-      "venue": "Angle Park",
-      "race_number": 12,
-      "start_time": "2026-11-12T12:06:00Z"
-    },
-    {
-      "race_id": "e461f6f8-e580-468a-aa9f-ce2220ddba7e",
-      "category": "greyhound",
-      "venue": "Mandurah",
-      "race_number": 9,
-      "start_time": "2026-11-12T12:24:00Z"
-    },
-    {
-      "race_id": "56301108-8a23-4a8a-a428-a524e9a12843",
-      "category": "greyhound",
-      "venue": "Mandurah",
-      "race_number": 10,
-      "start_time": "2026-11-12T12:39:00Z"
+      "start_time": "2026-11-13T04:30:00Z"
     },
     {
       "race_id": "a73b67ba-9d79-4c19-8947-f4970272acf4",
@@ -238,66 +161,143 @@
       "start_time": "2026-11-12T23:20:00Z"
     },
     {
-      "race_id": "b25ad96b-9803-4430-b8cf-6afb6e1230f5",
+      "race_id": "10da4031-2efb-4daa-a2e0-18f1c4fcf950",
       "category": "greyhound",
-      "venue": "Sandown Park",
-      "race_number": 1,
-      "start_time": "2026-11-13T07:57:00Z"
-    },
-    {
-      "race_id": "d65eee00-cd30-41ff-a139-94b8c03e14c5",
-      "category": "greyhound",
-      "venue": "Sandown Park",
+      "venue": "Healesville",
       "race_number": 2,
-      "start_time": "2026-11-13T08:20:00Z"
+      "start_time": "2026-11-12T23:36:00Z"
     },
     {
-      "race_id": "a3f24cb5-d121-49f9-baa4-f3182792590b",
+      "race_id": "24530b05-ae83-4c21-a62a-b95fb2128d1e",
       "category": "greyhound",
-      "venue": "Sandown Park",
+      "venue": "Healesville",
       "race_number": 3,
-      "start_time": "2026-11-13T08:42:00Z"
+      "start_time": "2026-11-12T23:52:00Z"
     },
     {
-      "race_id": "271f7fcf-9c20-46bc-98c4-bc53421afcda",
+      "race_id": "c76013f5-3821-4359-a00c-cc3ac949ff2d",
       "category": "greyhound",
-      "venue": "Sandown Park",
+      "venue": "Healesville",
       "race_number": 4,
-      "start_time": "2026-11-13T08:57:00Z"
+      "start_time": "2026-11-13T00:08:00Z"
     },
     {
-      "race_id": "ffb5546d-6bc1-4d42-972c-603c35086002",
+      "race_id": "2ceffbdf-69ed-4f34-a04e-a820973eba46",
       "category": "greyhound",
-      "venue": "Sandown Park",
+      "venue": "Healesville",
       "race_number": 5,
-      "start_time": "2026-11-13T09:20:00Z"
+      "start_time": "2026-11-13T00:25:00Z"
     },
     {
-      "race_id": "b86e09e5-5777-4bb7-9101-4e02b04f49a6",
+      "race_id": "909dd553-b621-4939-8cf8-3e27283b211a",
       "category": "greyhound",
-      "venue": "Sandown Park",
+      "venue": "Healesville",
       "race_number": 6,
-      "start_time": "2026-11-13T09:42:00Z"
+      "start_time": "2026-11-13T00:42:00Z"
     },
     {
-      "race_id": "b0358097-b08f-44a6-8493-e2048e6d4c11",
+      "race_id": "535fdde7-1ba9-4d32-8bd6-8bbc120e1e8f",
       "category": "greyhound",
-      "venue": "Casino",
-      "race_number": 6,
-      "start_time": "2026-11-13T09:50:00Z"
-    },
-    {
-      "race_id": "fc192c75-04ef-441e-a53d-077da1fc8e70",
-      "category": "greyhound",
-      "venue": "Sandown Park",
+      "venue": "Healesville",
       "race_number": 7,
-      "start_time": "2026-11-13T09:57:00Z"
+      "start_time": "2026-11-13T01:03:00Z"
+    },
+    {
+      "race_id": "afc7ac29-ea22-49c3-be14-d3df4fbf6f8a",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 1,
+      "start_time": "2026-11-13T01:06:00Z"
+    },
+    {
+      "race_id": "a50ab663-b704-4ae9-a382-a0bdb1e2f3b3",
+      "category": "greyhound",
+      "venue": "Healesville",
+      "race_number": 8,
+      "start_time": "2026-11-13T01:19:00Z"
+    },
+    {
+      "race_id": "e574b396-4630-4934-ac10-e6e31e866ee3",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 2,
+      "start_time": "2026-11-13T01:27:00Z"
+    },
+    {
+      "race_id": "3af99335-7e4d-47ac-bdb7-37d9e4b31a84",
+      "category": "greyhound",
+      "venue": "Healesville",
+      "race_number": 9,
+      "start_time": "2026-11-13T01:34:00Z"
+    },
+    {
+      "race_id": "7669dee7-0b0f-4f8f-b4b4-8d0ba7d83648",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 3,
+      "start_time": "2026-11-13T01:49:00Z"
+    },
+    {
+      "race_id": "bc0711ac-e7fa-4376-924c-a3a65798400e",
+      "category": "greyhound",
+      "venue": "Healesville",
+      "race_number": 10,
+      "start_time": "2026-11-13T01:57:00Z"
+    },
+    {
+      "race_id": "5117750f-c762-4529-bdb0-05616c2c09fd",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 4,
+      "start_time": "2026-11-13T02:07:00Z"
+    },
+    {
+      "race_id": "2f782aef-4d4a-4dae-9fc9-8b426a7a8fd2",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 5,
+      "start_time": "2026-11-13T02:25:00Z"
+    },
+    {
+      "race_id": "1b9c474a-5b20-4bf1-b963-3c76fad1875a",
+      "category": "greyhound",
+      "venue": "Healesville",
+      "race_number": 12,
+      "start_time": "2026-11-13T02:42:00Z"
+    },
+    {
+      "race_id": "453d44c5-0dfa-4e91-a90e-e82276f65284",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 6,
+      "start_time": "2026-11-13T02:47:00Z"
+    },
+    {
+      "race_id": "e5872cfb-f1fb-4b2d-9429-767b7774cf1d",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 7,
+      "start_time": "2026-11-13T02:54:00Z"
+    },
+    {
+      "race_id": "bb27b212-4c08-4e5d-ad0f-9bb54e204d1b",
+      "category": "greyhound",
+      "venue": "Townsville",
+      "race_number": 7,
+      "start_time": "2026-11-13T03:02:00Z"
+    },
+    {
+      "race_id": "36bc06ae-8944-4154-9e7d-a36f066d6c26",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 8,
+      "start_time": "2026-11-13T03:11:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1426",
+  "credits_remaining": "1420",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 2,
+  "new_settlements": 0,
   "results_returned": 200,
   "settlement_diagnostics": [
     {
@@ -373,15 +373,15 @@
     {
       "key": "PLACE:3fcbdcae-f8f6-46f8-902b-97fb8a269605:8",
       "runner_name": "Paw Pearl",
-      "reason": "赛果字段或参赛者身份无法安全匹配"
+      "reason": "赛果接口未返回该赛事"
     },
     {
       "key": "PLACE:056e7ae6-3cf2-432e-94bb-4c607d3d201c:4",
       "runner_name": "Tipsy Tess",
-      "reason": "赛果接口未返回该赛事"
+      "reason": "赛果字段或参赛者身份无法安全匹配"
     }
   ],
-  "settlement_checked_at": "2026-11-12T11:32:07.149959+00:00",
+  "settlement_checked_at": "2026-11-12T19:06:32.794648+00:00",
   "settlement_error": null,
   "place_odds_analysis": [
     {
@@ -454,7 +454,7 @@
   "wins": 27,
   "losses": 13,
   "paper_bets_open": 16,
-  "new_paper_bets": 1,
+  "new_paper_bets": 0,
   "recent_paper_bets": [
     {
       "key": "PLACE:dd612e39-a9df-46bd-8298-cc0a7ddac5eb:3",
