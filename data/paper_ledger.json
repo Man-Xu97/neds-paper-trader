@@ -1,5 +1,5 @@
 {
-  "cash_aud": "979.76",
+  "cash_aud": "982.31",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -1144,8 +1144,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-12T03:12:22.147444+00:00",
       "start_time": "2026-11-12T04:30:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "1.60",
+        "profit_aud": "0.60",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-12T11:32:05.675414+00:00"
+      }
     },
     {
       "key": "PLACE:e9309924-0620-4bd4-b078-50f8cbe309ee:2",
@@ -1161,6 +1167,29 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-12T03:12:22.147674+00:00",
       "start_time": "2026-11-12T06:00:00Z",
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.95",
+        "profit_aud": "0.95",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-12T11:32:05.675457+00:00"
+      }
+    },
+    {
+      "key": "PLACE:056e7ae6-3cf2-432e-94bb-4c607d3d201c:4",
+      "race_id": "056e7ae6-3cf2-432e-94bb-4c607d3d201c",
+      "category": "greyhound",
+      "runner_id": "4",
+      "runner_name": "Tipsy Tess",
+      "market": "PLACE",
+      "win_odds": "2.9",
+      "odds": "1.6",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-12T11:32:07.149532+00:00",
+      "start_time": "2026-11-12T11:45:00Z",
       "status": "OPEN",
       "settlement": null
     }
