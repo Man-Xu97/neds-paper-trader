@@ -1,303 +1,303 @@
 {
-  "updated_at": "2026-11-13T07:02:02.128263+00:00",
+  "updated_at": "2026-11-13T15:19:05.579482+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "975.61",
+  "bankroll_aud": "982.46",
   "stake_aud": 1,
-  "settled_bets": 45,
-  "profit_aud": "-0.39",
+  "settled_bets": 52,
+  "profit_aud": "-0.54",
   "place_bets": 69,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 331,
-  "new_races": 36,
+  "races_seen_total": 371,
+  "new_races": 40,
   "observations": [
     {
-      "race_id": "dc4c232b-fd85-4352-a377-d22f8ea8f724",
+      "race_id": "7ea8dfad-a780-4c13-af99-c97c32a3ca4b",
       "category": "horse",
-      "venue": "Albany",
-      "race_number": 3,
-      "start_time": "2026-11-13T07:05:00Z"
-    },
-    {
-      "race_id": "c86c2e44-8142-42bb-bc01-89d5968e671a",
-      "category": "horse",
-      "venue": "Pakenham",
+      "venue": "Doomben",
       "race_number": 1,
-      "start_time": "2026-11-13T07:15:00Z"
+      "start_time": "2026-11-14T01:05:00Z"
     },
     {
-      "race_id": "b60e6233-ea71-4bbb-b40e-a69d959bb061",
+      "race_id": "2d24092b-0289-4904-a386-b8757d497320",
       "category": "horse",
-      "venue": "Rockhampton",
-      "race_number": 6,
-      "start_time": "2026-11-13T07:19:00Z"
-    },
-    {
-      "race_id": "e4bc4e2e-baeb-4ab9-9af9-123326efc6f2",
-      "category": "horse",
-      "venue": "Canterbury",
-      "race_number": 2,
-      "start_time": "2026-11-13T07:30:00Z"
-    },
-    {
-      "race_id": "bdd1ccda-a870-4721-849c-6c350a9eab53",
-      "category": "horse",
-      "venue": "Sunshine Coast",
+      "venue": "Sandown",
       "race_number": 1,
-      "start_time": "2026-11-13T07:38:00Z"
+      "start_time": "2026-11-14T01:20:00Z"
     },
     {
-      "race_id": "9a2038f8-1d25-48a1-b6f3-ab71bc9e1930",
+      "race_id": "0647a60c-108f-49f4-87e7-1fabde5ba41e",
       "category": "horse",
-      "venue": "Albany",
-      "race_number": 4,
-      "start_time": "2026-11-13T07:41:00Z"
+      "venue": "Newcastle",
+      "race_number": 1,
+      "start_time": "2026-11-14T01:35:00Z"
     },
     {
-      "race_id": "b118f7ed-0d21-45df-aef9-5739823e9731",
+      "race_id": "849999e0-2c39-451f-b451-c70c1e94b79d",
       "category": "horse",
-      "venue": "Pakenham",
+      "venue": "Doomben",
       "race_number": 2,
-      "start_time": "2026-11-13T07:45:00Z"
+      "start_time": "2026-11-14T01:43:00Z"
     },
     {
-      "race_id": "924414db-b8c7-45c1-8a35-25a2cb8ca000",
+      "race_id": "5c7b173b-a8f8-4751-814a-3d224d634b01",
       "category": "horse",
-      "venue": "Rockhampton",
-      "race_number": 7,
-      "start_time": "2026-11-13T07:49:00Z"
-    },
-    {
-      "race_id": "f4e24624-88b9-4f3d-a74b-a704e01a9da8",
-      "category": "horse",
-      "venue": "Canterbury",
-      "race_number": 3,
-      "start_time": "2026-11-13T08:00:00Z"
-    },
-    {
-      "race_id": "1091d865-f282-41a9-853e-3985992f66fb",
-      "category": "horse",
-      "venue": "Sunshine Coast",
+      "venue": "Sandown",
       "race_number": 2,
-      "start_time": "2026-11-13T08:08:00Z"
+      "start_time": "2026-11-14T01:50:00Z"
     },
     {
-      "race_id": "49442536-63fc-419c-bea0-5000696b8637",
+      "race_id": "72e48f08-b1b6-42ce-a249-0b87c959e52d",
       "category": "horse",
-      "venue": "Pakenham",
+      "venue": "Dunkeld",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:04:00Z"
+    },
+    {
+      "race_id": "b57e56f8-608b-4f66-a798-dd3148e1fe6f",
+      "category": "horse",
+      "venue": "Newcastle",
+      "race_number": 2,
+      "start_time": "2026-11-14T02:10:00Z"
+    },
+    {
+      "race_id": "f72c9ea8-0610-4386-a708-6bb2d0fcce74",
+      "category": "horse",
+      "venue": "Doomben",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:18:00Z"
+    },
+    {
+      "race_id": "545cd298-f2d1-4e81-a95e-b9463d26aef0",
+      "category": "horse",
+      "venue": "Doomben",
       "race_number": 3,
-      "start_time": "2026-11-13T08:15:00Z"
+      "start_time": "2026-11-14T02:18:00Z"
     },
     {
-      "race_id": "acd9088c-bd50-4832-991f-92133a58a29d",
+      "race_id": "03d6f59d-de9d-4adb-905a-85eac0767499",
       "category": "horse",
-      "venue": "Albany",
-      "race_number": 5,
-      "start_time": "2026-11-13T08:20:00Z"
-    },
-    {
-      "race_id": "97473895-8f6b-4afb-a844-69be919b0965",
-      "category": "horse",
-      "venue": "Canterbury",
-      "race_number": 4,
-      "start_time": "2026-11-13T08:30:00Z"
-    },
-    {
-      "race_id": "4e05dd94-ca65-43d4-9661-da5ed240f67b",
-      "category": "horse",
-      "venue": "Sunshine Coast",
+      "venue": "Sandown",
       "race_number": 3,
-      "start_time": "2026-11-13T08:38:00Z"
+      "start_time": "2026-11-14T02:25:00Z"
     },
     {
-      "race_id": "046a5f4e-06c4-4499-b8f5-23deb91af724",
+      "race_id": "7c5e3505-1851-441c-b83e-bfb5ab838f0d",
       "category": "horse",
-      "venue": "Pakenham",
+      "venue": "Illawarra Grange",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:30:00Z"
+    },
+    {
+      "race_id": "39059c70-a677-4e69-90de-86dc4ecd39a3",
+      "category": "horse",
+      "venue": "Ipswich",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:34:00Z"
+    },
+    {
+      "race_id": "96d5821b-e48f-46b1-8d25-36c547ef041a",
+      "category": "horse",
+      "venue": "Morphettville",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:36:00Z"
+    },
+    {
+      "race_id": "023055e9-9e4f-4c0e-98da-867779b2c8f7",
+      "category": "horse",
+      "venue": "Dunkeld",
+      "race_number": 2,
+      "start_time": "2026-11-14T02:41:00Z"
+    },
+    {
+      "race_id": "e0868ce3-8697-4fe0-9605-8750cfeece60",
+      "category": "horse",
+      "venue": "Newcastle",
+      "race_number": 3,
+      "start_time": "2026-11-14T02:45:00Z"
+    },
+    {
+      "race_id": "f21fe906-4c35-427b-8605-0b8dd6742dd9",
+      "category": "horse",
+      "venue": "Orange",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:50:00Z"
+    },
+    {
+      "race_id": "1d7adc5e-9de6-4a68-bb5c-46931e489d88",
+      "category": "horse",
+      "venue": "Doomben",
       "race_number": 4,
-      "start_time": "2026-11-13T08:45:00Z"
+      "start_time": "2026-11-14T02:53:00Z"
     },
     {
-      "race_id": "8e32b6e9-dcbe-4f99-94f7-80b4d2d3e362",
+      "race_id": "f5457dda-6daf-4978-980a-4f3906649558",
       "category": "horse",
-      "venue": "Albany",
-      "race_number": 6,
-      "start_time": "2026-11-13T08:50:00Z"
+      "venue": "Doomben",
+      "race_number": 2,
+      "start_time": "2026-11-14T02:53:00Z"
     },
     {
-      "race_id": "426bb93f-9993-4d63-99c9-9976515c1a47",
+      "race_id": "6f7fb4e6-4d89-465d-808e-49c2fd7893b5",
       "category": "horse",
-      "venue": "Canterbury",
-      "race_number": 5,
-      "start_time": "2026-11-13T09:00:00Z"
+      "venue": "Gundagai",
+      "race_number": 1,
+      "start_time": "2026-11-14T02:56:00Z"
     },
     {
-      "race_id": "78c39c61-0fe2-4f31-b5d3-a5f34b3d9bfa",
+      "race_id": "16ff6acb-9377-4966-97f7-dbe1fcf5e827",
       "category": "horse",
-      "venue": "Sunshine Coast",
+      "venue": "Sandown",
       "race_number": 4,
-      "start_time": "2026-11-13T09:08:00Z"
+      "start_time": "2026-11-14T03:00:00Z"
     },
     {
-      "race_id": "605f31b2-96bd-4247-a8af-00a950e68c5c",
-      "category": "horse",
-      "venue": "Pakenham",
-      "race_number": 5,
-      "start_time": "2026-11-13T09:15:00Z"
-    },
-    {
-      "race_id": "193ce1b5-17a9-4ed7-b2a8-cd98f0367e57",
-      "category": "horse",
-      "venue": "Albany",
-      "race_number": 7,
-      "start_time": "2026-11-13T09:20:00Z"
-    },
-    {
-      "race_id": "53b2f9f9-dbba-404b-be9d-ba84de48db61",
+      "race_id": "a5bdee4c-2644-44fd-ad9f-320f7b86180f",
       "category": "greyhound",
-      "venue": "Q Straight",
+      "venue": "Taree",
+      "race_number": 1,
+      "start_time": "2026-11-13T22:27:00Z"
+    },
+    {
+      "race_id": "5a51adec-9f68-4c8b-b653-0d79243f5075",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 2,
+      "start_time": "2026-11-13T22:46:00Z"
+    },
+    {
+      "race_id": "6192941b-9473-49b8-a83f-b4dd600c2b9c",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 3,
+      "start_time": "2026-11-13T23:02:00Z"
+    },
+    {
+      "race_id": "fcac49db-33ff-490d-8774-633f7b542e99",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 4,
+      "start_time": "2026-11-13T23:25:00Z"
+    },
+    {
+      "race_id": "14ddea42-eb59-4d32-81f8-8a1eaf0861c0",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 5,
+      "start_time": "2026-11-13T23:40:00Z"
+    },
+    {
+      "race_id": "bb6907e7-8f99-4bfe-9b2c-4e14e46d8b34",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 6,
+      "start_time": "2026-11-13T23:57:00Z"
+    },
+    {
+      "race_id": "fc2a11f3-84b6-4093-9dee-9cf1737b155b",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 7,
+      "start_time": "2026-11-14T00:17:00Z"
+    },
+    {
+      "race_id": "ba8c5afa-2b23-4652-83b7-fee38737f8c1",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 8,
+      "start_time": "2026-11-14T00:32:00Z"
+    },
+    {
+      "race_id": "85f82e4d-bf2c-4327-8b66-c2c8179b0ebf",
+      "category": "greyhound",
+      "venue": "Taree",
+      "race_number": 9,
+      "start_time": "2026-11-14T00:47:00Z"
+    },
+    {
+      "race_id": "46cc9345-9cdf-4d51-b6b9-21954cde7ec9",
+      "category": "greyhound",
+      "venue": "Taree",
       "race_number": 10,
-      "start_time": "2026-11-13T07:09:00Z"
+      "start_time": "2026-11-14T01:02:00Z"
     },
     {
-      "race_id": "22fd43f3-6645-4990-acaa-dbf0bf79103a",
+      "race_id": "ea568583-211c-4b5f-83fd-42d2e11d4152",
       "category": "greyhound",
-      "venue": "The Gardens",
-      "race_number": 12,
-      "start_time": "2026-11-13T07:12:00Z"
+      "venue": "Dubbo",
+      "race_number": 5,
+      "start_time": "2026-11-14T08:11:00Z"
     },
     {
-      "race_id": "d3a803ba-25d0-47a1-ac7d-f7c77cb034e5",
+      "race_id": "1dc1f8dc-3c42-42c2-ab2b-246dce0627b4",
       "category": "greyhound",
-      "venue": "Q Straight",
-      "race_number": 11,
-      "start_time": "2026-11-13T07:27:00Z"
+      "venue": "Dubbo",
+      "race_number": 6,
+      "start_time": "2026-11-14T08:36:00Z"
     },
     {
-      "race_id": "d719d528-d660-4919-b871-47c0bcd1f881",
+      "race_id": "8697101b-dbfe-4bb5-9c55-77d60e8711b8",
       "category": "greyhound",
-      "venue": "Q Straight",
-      "race_number": 12,
-      "start_time": "2026-11-13T07:42:00Z"
+      "venue": "Dubbo",
+      "race_number": 7,
+      "start_time": "2026-11-14T08:51:00Z"
     },
     {
-      "race_id": "67269684-b073-4c53-a65f-3e20e0e7c236",
+      "race_id": "fd06a59c-5cfe-4278-9cf2-ae78253b20f8",
       "category": "greyhound",
-      "venue": "Richmond",
+      "venue": "Dubbo",
+      "race_number": 8,
+      "start_time": "2026-11-14T09:12:00Z"
+    },
+    {
+      "race_id": "e30036b5-ba7d-4f0f-9f3b-9797f6704add",
+      "category": "greyhound",
+      "venue": "Cannington",
       "race_number": 1,
-      "start_time": "2026-11-13T07:51:00Z"
+      "start_time": "2026-11-14T11:08:00Z"
     },
     {
-      "race_id": "b25ad96b-9803-4430-b8cf-6afb6e1230f5",
+      "race_id": "b7380e8c-e0ef-4344-9c27-582028112dcd",
       "category": "greyhound",
-      "venue": "Sandown Park",
-      "race_number": 1,
-      "start_time": "2026-11-13T07:57:00Z"
-    },
-    {
-      "race_id": "1bea8001-00be-4855-86b5-fa655c87922c",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 1,
-      "start_time": "2026-11-13T08:09:00Z"
-    },
-    {
-      "race_id": "4b4f5cce-cdc9-4cca-a9f4-518b84d3c1c2",
-      "category": "greyhound",
-      "venue": "Casino",
-      "race_number": 1,
-      "start_time": "2026-11-13T08:12:00Z"
-    },
-    {
-      "race_id": "b2fb0a30-ed40-4758-883d-81904fca8640",
-      "category": "greyhound",
-      "venue": "Richmond",
+      "venue": "Cannington",
       "race_number": 2,
-      "start_time": "2026-11-13T08:16:00Z"
+      "start_time": "2026-11-14T11:28:00Z"
     },
     {
-      "race_id": "d65eee00-cd30-41ff-a139-94b8c03e14c5",
+      "race_id": "4cba9762-e97e-427d-ad04-0a8cc1cc2284",
       "category": "greyhound",
-      "venue": "Sandown Park",
-      "race_number": 2,
-      "start_time": "2026-11-13T08:20:00Z"
-    },
-    {
-      "race_id": "7f594f9b-114b-467e-973b-2569b4c25ab9",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 2,
-      "start_time": "2026-11-13T08:24:00Z"
-    },
-    {
-      "race_id": "f64acbe6-e1c4-4cfe-a24a-74adab2a1c37",
-      "category": "greyhound",
-      "venue": "Casino",
-      "race_number": 2,
-      "start_time": "2026-11-13T08:27:00Z"
-    },
-    {
-      "race_id": "55499ff5-a849-400f-83b7-914401583329",
-      "category": "greyhound",
-      "venue": "Richmond",
+      "venue": "Cannington",
       "race_number": 3,
-      "start_time": "2026-11-13T08:36:00Z"
+      "start_time": "2026-11-14T11:50:00Z"
     },
     {
-      "race_id": "a3f24cb5-d121-49f9-baa4-f3182792590b",
+      "race_id": "889e2c7b-68be-4c19-97cf-ad4e59641ad1",
       "category": "greyhound",
-      "venue": "Sandown Park",
-      "race_number": 3,
-      "start_time": "2026-11-13T08:42:00Z"
-    },
-    {
-      "race_id": "f7dfce34-1bc8-4e27-9062-58192e607b7d",
-      "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 3,
-      "start_time": "2026-11-13T08:47:00Z"
-    },
-    {
-      "race_id": "8fa9aebc-6464-4274-ab36-45fd041acc3b",
-      "category": "greyhound",
-      "venue": "Casino",
-      "race_number": 3,
-      "start_time": "2026-11-13T08:50:00Z"
-    },
-    {
-      "race_id": "5fd4a90f-604b-4ed2-9162-e33071fbab70",
-      "category": "greyhound",
-      "venue": "Richmond",
+      "venue": "Cannington",
       "race_number": 4,
-      "start_time": "2026-11-13T08:54:00Z"
+      "start_time": "2026-11-14T12:05:00Z"
     },
     {
-      "race_id": "271f7fcf-9c20-46bc-98c4-bc53421afcda",
+      "race_id": "0c597628-b446-4a6f-8f1c-c2b46fd2915d",
       "category": "greyhound",
-      "venue": "Sandown Park",
-      "race_number": 4,
-      "start_time": "2026-11-13T08:57:00Z"
+      "venue": "Cannington",
+      "race_number": 5,
+      "start_time": "2026-11-14T12:22:00Z"
     },
     {
-      "race_id": "748de092-da03-4782-9b43-ecfe72632c9c",
+      "race_id": "36079f16-290f-4055-a818-a71e78868110",
       "category": "greyhound",
-      "venue": "Geelong",
-      "race_number": 4,
-      "start_time": "2026-11-13T09:07:00Z"
-    },
-    {
-      "race_id": "0b7b4f78-551e-453c-b94e-5e6e4b6660f8",
-      "category": "greyhound",
-      "venue": "Casino",
-      "race_number": 4,
-      "start_time": "2026-11-13T09:12:00Z"
+      "venue": "Cannington",
+      "race_number": 6,
+      "start_time": "2026-11-14T12:37:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1408",
+  "credits_remaining": "1402",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
-  "new_settlements": 5,
+  "new_settlements": 7,
   "results_returned": 200,
   "settlement_diagnostics": [
     {
@@ -378,95 +378,60 @@
     {
       "key": "PLACE:056e7ae6-3cf2-432e-94bb-4c607d3d201c:4",
       "runner_name": "Tipsy Tess",
-      "reason": "赛果字段或参赛者身份无法安全匹配"
+      "reason": "赛果接口未返回该赛事"
     },
     {
       "key": "PLACE:490a817f-1abc-4f08-a263-fd5f13d9eb4b:4",
       "runner_name": "Back Up Plan",
-      "reason": "赛果字段或参赛者身份无法安全匹配"
-    },
-    {
-      "key": "PLACE:dc4c232b-fd85-4352-a377-d22f8ea8f724:4",
-      "runner_name": "Cartier Glow",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:e4bc4e2e-baeb-4ab9-9af9-123326efc6f2:8",
-      "runner_name": "Esteemed",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:bdd1ccda-a870-4721-849c-6c350a9eab53:5",
-      "runner_name": "Highland Kitty",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:f4e24624-88b9-4f3d-a74b-a704e01a9da8:8",
-      "runner_name": "Ligularia",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:49442536-63fc-419c-bea0-5000696b8637:9",
-      "runner_name": "Kokeshi",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:426bb93f-9993-4d63-99c9-9976515c1a47:3",
-      "runner_name": "Miss Hades",
-      "reason": "赛果接口未返回该赛事"
-    },
-    {
-      "key": "PLACE:f7dfce34-1bc8-4e27-9062-58192e607b7d:2",
-      "runner_name": "Spring Espresso",
       "reason": "赛果接口未返回该赛事"
     }
   ],
-  "settlement_checked_at": "2026-11-13T07:02:04.675614+00:00",
+  "settlement_checked_at": "2026-11-13T15:19:07.598142+00:00",
   "settlement_error": null,
   "place_odds_analysis": [
     {
       "category": "horse",
       "band": "1.50–1.79",
       "bets": 12,
-      "settled": 6,
-      "open": 6,
-      "wins": 6,
-      "hit_rate_pct": 100.0,
-      "profit_aud": "3.40",
-      "roi_pct": 56.67
+      "settled": 10,
+      "open": 2,
+      "wins": 8,
+      "hit_rate_pct": 80.0,
+      "profit_aud": "2.75",
+      "roi_pct": 27.5
     },
     {
       "category": "horse",
       "band": "1.80–1.99",
       "bets": 2,
-      "settled": 1,
-      "open": 1,
-      "wins": 1,
+      "settled": 2,
+      "open": 0,
+      "wins": 2,
       "hit_rate_pct": 100.0,
-      "profit_aud": "0.95",
+      "profit_aud": "1.90",
       "roi_pct": 95.0
     },
     {
       "category": "horse",
       "band": "2.00+",
       "bets": 1,
-      "settled": 0,
-      "open": 1,
+      "settled": 1,
+      "open": 0,
       "wins": 0,
-      "hit_rate_pct": null,
-      "profit_aud": "0",
-      "roi_pct": null
+      "hit_rate_pct": 0.0,
+      "profit_aud": "-1.00",
+      "roi_pct": -100.0
     },
     {
       "category": "greyhound",
       "band": "1.50–1.79",
       "bets": 16,
-      "settled": 10,
-      "open": 6,
-      "wins": 6,
-      "hit_rate_pct": 60.0,
-      "profit_aud": "-0.35",
-      "roi_pct": -3.5
+      "settled": 11,
+      "open": 5,
+      "wins": 7,
+      "hit_rate_pct": 63.64,
+      "profit_aud": "0.20",
+      "roi_pct": 1.82
     },
     {
       "category": "greyhound",
@@ -491,10 +456,10 @@
       "roi_pct": null
     }
   ],
-  "wins": 31,
-  "losses": 14,
-  "paper_bets_open": 24,
-  "new_paper_bets": 7,
+  "wins": 35,
+  "losses": 17,
+  "paper_bets_open": 17,
+  "new_paper_bets": 0,
   "recent_paper_bets": [
     {
       "key": "PLACE:e9309924-0620-4bd4-b078-50f8cbe309ee:2",
@@ -682,8 +647,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:03.473052+00:00",
       "start_time": "2026-11-13T07:05:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.60",
+        "profit_aud": "0.60",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579161+00:00"
+      }
     },
     {
       "key": "PLACE:e4bc4e2e-baeb-4ab9-9af9-123326efc6f2:8",
@@ -699,8 +670,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:03.473174+00:00",
       "start_time": "2026-11-13T07:30:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579196+00:00"
+      }
     },
     {
       "key": "PLACE:bdd1ccda-a870-4721-849c-6c350a9eab53:5",
@@ -716,8 +693,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:03.473202+00:00",
       "start_time": "2026-11-13T07:38:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579207+00:00"
+      }
     },
     {
       "key": "PLACE:f4e24624-88b9-4f3d-a74b-a704e01a9da8:8",
@@ -733,8 +716,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:03.473299+00:00",
       "start_time": "2026-11-13T08:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.95",
+        "profit_aud": "0.95",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579217+00:00"
+      }
     },
     {
       "key": "PLACE:49442536-63fc-419c-bea0-5000696b8637:9",
@@ -750,8 +739,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:03.473360+00:00",
       "start_time": "2026-11-13T08:15:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.75",
+        "profit_aud": "0.75",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579225+00:00"
+      }
     },
     {
       "key": "PLACE:426bb93f-9993-4d63-99c9-9976515c1a47:3",
@@ -767,8 +762,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:03.473492+00:00",
       "start_time": "2026-11-13T09:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579232+00:00"
+      }
     },
     {
       "key": "PLACE:f7dfce34-1bc8-4e27-9062-58192e607b7d:2",
@@ -784,8 +785,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T07:02:04.675361+00:00",
       "start_time": "2026-11-13T08:47:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.55",
+        "profit_aud": "0.55",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T15:19:05.579240+00:00"
+      }
     }
   ]
 }
