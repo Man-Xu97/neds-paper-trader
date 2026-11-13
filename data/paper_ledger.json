@@ -1,5 +1,5 @@
 {
-  "cash_aud": "982.46",
+  "cash_aud": "979.46",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -1485,6 +1485,57 @@
         "source": "PuntersEdge final results",
         "settled_at": "2026-11-13T15:19:05.579240+00:00"
       }
+    },
+    {
+      "key": "PLACE:6192941b-9473-49b8-a83f-b4dd600c2b9c:1",
+      "race_id": "6192941b-9473-49b8-a83f-b4dd600c2b9c",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Spitfire George",
+      "market": "PLACE",
+      "win_odds": "2.9",
+      "odds": "1.75",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T21:29:11.296293+00:00",
+      "start_time": "2026-11-13T23:02:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:fcac49db-33ff-490d-8774-633f7b542e99:1",
+      "race_id": "fcac49db-33ff-490d-8774-633f7b542e99",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Counterpart",
+      "market": "PLACE",
+      "win_odds": "3.3",
+      "odds": "1.9",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T21:29:11.296376+00:00",
+      "start_time": "2026-11-13T23:25:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:bb6907e7-8f99-4bfe-9b2c-4e14e46d8b34:1",
+      "race_id": "bb6907e7-8f99-4bfe-9b2c-4e14e46d8b34",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Mulwee Jaffa",
+      "market": "PLACE",
+      "win_odds": "3.1",
+      "odds": "1.8",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T21:29:11.296440+00:00",
+      "start_time": "2026-11-13T23:57:00Z",
+      "status": "OPEN",
+      "settlement": null
     }
   ]
 }
