@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-12T19:06:30.912161+00:00",
+  "updated_at": "2026-11-13T00:21:14.696435+00:00",
   "mode": "PAPER_BETTING_PENDING_SETTLEMENT",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "982.31",
+  "bankroll_aud": "976.31",
   "stake_aud": 1,
   "settled_bets": 40,
   "profit_aud": "-1.69",
-  "place_bets": 56,
+  "place_bets": 62,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 286,
-  "new_races": 28,
+  "races_seen_total": 295,
+  "new_races": 9,
   "observations": [
     {
       "race_id": "8f1de1d1-7d61-45a3-ac46-7a88a863cb3b",
@@ -154,34 +154,6 @@
       "start_time": "2026-11-13T04:30:00Z"
     },
     {
-      "race_id": "a73b67ba-9d79-4c19-8947-f4970272acf4",
-      "category": "greyhound",
-      "venue": "Healesville",
-      "race_number": 1,
-      "start_time": "2026-11-12T23:20:00Z"
-    },
-    {
-      "race_id": "10da4031-2efb-4daa-a2e0-18f1c4fcf950",
-      "category": "greyhound",
-      "venue": "Healesville",
-      "race_number": 2,
-      "start_time": "2026-11-12T23:36:00Z"
-    },
-    {
-      "race_id": "24530b05-ae83-4c21-a62a-b95fb2128d1e",
-      "category": "greyhound",
-      "venue": "Healesville",
-      "race_number": 3,
-      "start_time": "2026-11-12T23:52:00Z"
-    },
-    {
-      "race_id": "c76013f5-3821-4359-a00c-cc3ac949ff2d",
-      "category": "greyhound",
-      "venue": "Healesville",
-      "race_number": 4,
-      "start_time": "2026-11-13T00:08:00Z"
-    },
-    {
       "race_id": "2ceffbdf-69ed-4f34-a04e-a820973eba46",
       "category": "greyhound",
       "venue": "Healesville",
@@ -196,6 +168,13 @@
       "start_time": "2026-11-13T00:42:00Z"
     },
     {
+      "race_id": "e50d9be9-bc0d-4441-b52b-b895115ed2db",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 1,
+      "start_time": "2026-11-13T00:55:00Z"
+    },
+    {
       "race_id": "535fdde7-1ba9-4d32-8bd6-8bbc120e1e8f",
       "category": "greyhound",
       "venue": "Healesville",
@@ -208,6 +187,13 @@
       "venue": "Townsville",
       "race_number": 1,
       "start_time": "2026-11-13T01:06:00Z"
+    },
+    {
+      "race_id": "8ebeb37b-a075-4efa-9c02-3bbdb7b98d7b",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 2,
+      "start_time": "2026-11-13T01:15:00Z"
     },
     {
       "race_id": "a50ab663-b704-4ae9-a382-a0bdb1e2f3b3",
@@ -231,6 +217,13 @@
       "start_time": "2026-11-13T01:34:00Z"
     },
     {
+      "race_id": "6d186ad1-d4ba-48bf-881b-080e485f12d6",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 3,
+      "start_time": "2026-11-13T01:37:00Z"
+    },
+    {
       "race_id": "7669dee7-0b0f-4f8f-b4b4-8d0ba7d83648",
       "category": "greyhound",
       "venue": "Townsville",
@@ -245,11 +238,39 @@
       "start_time": "2026-11-13T01:57:00Z"
     },
     {
+      "race_id": "1c4931ff-8fce-4101-9c58-0ff3e73e8203",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 4,
+      "start_time": "2026-11-13T02:01:00Z"
+    },
+    {
+      "race_id": "82099829-fec0-4562-b781-d7a931f6a32c",
+      "category": "greyhound",
+      "venue": "Goulburn",
+      "race_number": 1,
+      "start_time": "2026-11-13T02:04:00Z"
+    },
+    {
       "race_id": "5117750f-c762-4529-bdb0-05616c2c09fd",
       "category": "greyhound",
       "venue": "Townsville",
       "race_number": 4,
       "start_time": "2026-11-13T02:07:00Z"
+    },
+    {
+      "race_id": "df23f858-3c8a-4194-aeb8-644d85bbbd7d",
+      "category": "greyhound",
+      "venue": "Murray Bridge",
+      "race_number": 5,
+      "start_time": "2026-11-13T02:19:00Z"
+    },
+    {
+      "race_id": "fc5219f3-9d57-4332-ba4f-98b454721087",
+      "category": "greyhound",
+      "venue": "Healesville",
+      "race_number": 11,
+      "start_time": "2026-11-13T02:24:00Z"
     },
     {
       "race_id": "2f782aef-4d4a-4dae-9fc9-8b426a7a8fd2",
@@ -259,43 +280,22 @@
       "start_time": "2026-11-13T02:25:00Z"
     },
     {
-      "race_id": "1b9c474a-5b20-4bf1-b963-3c76fad1875a",
+      "race_id": "9098a04d-fab0-41ec-8c8a-f03565f9021a",
       "category": "greyhound",
-      "venue": "Healesville",
-      "race_number": 12,
-      "start_time": "2026-11-13T02:42:00Z"
+      "venue": "Goulburn",
+      "race_number": 2,
+      "start_time": "2026-11-13T02:32:00Z"
     },
     {
-      "race_id": "453d44c5-0dfa-4e91-a90e-e82276f65284",
+      "race_id": "dc5a1ecc-fadc-4384-9ef0-f881946bcb28",
       "category": "greyhound",
-      "venue": "Townsville",
+      "venue": "Murray Bridge",
       "race_number": 6,
-      "start_time": "2026-11-13T02:47:00Z"
-    },
-    {
-      "race_id": "e5872cfb-f1fb-4b2d-9429-767b7774cf1d",
-      "category": "greyhound",
-      "venue": "Murray Bridge",
-      "race_number": 7,
-      "start_time": "2026-11-13T02:54:00Z"
-    },
-    {
-      "race_id": "bb27b212-4c08-4e5d-ad0f-9bb54e204d1b",
-      "category": "greyhound",
-      "venue": "Townsville",
-      "race_number": 7,
-      "start_time": "2026-11-13T03:02:00Z"
-    },
-    {
-      "race_id": "36bc06ae-8944-4154-9e7d-a36f066d6c26",
-      "category": "greyhound",
-      "venue": "Murray Bridge",
-      "race_number": 8,
-      "start_time": "2026-11-13T03:11:00Z"
+      "start_time": "2026-11-13T02:39:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1420",
+  "credits_remaining": "1414",
   "notice": "只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。",
   "new_settlements": 0,
   "results_returned": 200,
@@ -379,17 +379,47 @@
       "key": "PLACE:056e7ae6-3cf2-432e-94bb-4c607d3d201c:4",
       "runner_name": "Tipsy Tess",
       "reason": "赛果字段或参赛者身份无法安全匹配"
+    },
+    {
+      "key": "PLACE:fec76c8e-d359-4da7-8475-104042e2d2c0:5",
+      "runner_name": "Resonant",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:0c9e9891-aba7-4f5a-8721-20add676d9e4:2",
+      "runner_name": "Hills Of Minto",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:490a817f-1abc-4f08-a263-fd5f13d9eb4b:4",
+      "runner_name": "Back Up Plan",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:b6de05e7-d9b8-4ff9-bb9b-fb83ca355c51:4",
+      "runner_name": "Central Otago",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:a50ab663-b704-4ae9-a382-a0bdb1e2f3b3:4",
+      "runner_name": "Aston Ostuni",
+      "reason": "赛果接口未返回该赛事"
+    },
+    {
+      "key": "PLACE:bc0711ac-e7fa-4376-924c-a3a65798400e:8",
+      "runner_name": "Dirty Lulu",
+      "reason": "赛果接口未返回该赛事"
     }
   ],
-  "settlement_checked_at": "2026-11-12T19:06:32.794648+00:00",
+  "settlement_checked_at": "2026-11-13T00:21:17.005662+00:00",
   "settlement_error": null,
   "place_odds_analysis": [
     {
       "category": "horse",
       "band": "1.50–1.79",
-      "bets": 4,
+      "bets": 8,
       "settled": 3,
-      "open": 1,
+      "open": 5,
       "wins": 3,
       "hit_rate_pct": 100.0,
       "profit_aud": "1.75",
@@ -420,9 +450,9 @@
     {
       "category": "greyhound",
       "band": "1.50–1.79",
-      "bets": 13,
+      "bets": 15,
       "settled": 8,
-      "open": 5,
+      "open": 7,
       "wins": 5,
       "hit_rate_pct": 62.5,
       "profit_aud": "0.00",
@@ -453,129 +483,9 @@
   ],
   "wins": 27,
   "losses": 13,
-  "paper_bets_open": 16,
-  "new_paper_bets": 0,
+  "paper_bets_open": 22,
+  "new_paper_bets": 6,
   "recent_paper_bets": [
-    {
-      "key": "PLACE:dd612e39-a9df-46bd-8298-cc0a7ddac5eb:3",
-      "race_id": "dd612e39-a9df-46bd-8298-cc0a7ddac5eb",
-      "category": "horse",
-      "runner_id": "3",
-      "runner_name": "Barron Bill",
-      "market": "PLACE",
-      "win_odds": "3.8",
-      "odds": "1.7",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:40.860484+00:00",
-      "start_time": "2026-11-11T09:37:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:8e46ed88-98bd-487f-bcfa-7be6f43cb66c:9",
-      "race_id": "8e46ed88-98bd-487f-bcfa-7be6f43cb66c",
-      "category": "horse",
-      "runner_id": "9",
-      "runner_name": "Garcon D'Espoir",
-      "market": "PLACE",
-      "win_odds": "3.1",
-      "odds": "1.4",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:40.860525+00:00",
-      "start_time": "2026-11-11T09:57:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 3,
-        "payout_aud": "1.40",
-        "profit_aud": "0.40",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-11T15:39:13.084806+00:00"
-      }
-    },
-    {
-      "key": "PLACE:61b0b26c-dbb9-410d-9c87-3ff0656040bc:2",
-      "race_id": "61b0b26c-dbb9-410d-9c87-3ff0656040bc",
-      "category": "horse",
-      "runner_id": "2",
-      "runner_name": "Summit",
-      "market": "PLACE",
-      "win_odds": "2.0",
-      "odds": "1.16",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:40.860557+00:00",
-      "start_time": "2026-11-11T10:30:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 1,
-        "payout_aud": "1.16",
-        "profit_aud": "0.16",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-11T15:39:13.084814+00:00"
-      }
-    },
-    {
-      "key": "PLACE:b1242d22-8bc2-4749-8a05-65251a320ef3:6",
-      "race_id": "b1242d22-8bc2-4749-8a05-65251a320ef3",
-      "category": "greyhound",
-      "runner_id": "6",
-      "runner_name": "Lamar",
-      "market": "PLACE",
-      "win_odds": "2.35",
-      "odds": "1.18",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:41.785476+00:00",
-      "start_time": "2026-11-11T08:01:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:29e028d0-db03-4d2f-8a48-0f1db5aaeda3:8",
-      "race_id": "29e028d0-db03-4d2f-8a48-0f1db5aaeda3",
-      "category": "greyhound",
-      "runner_id": "8",
-      "runner_name": "Silver Sequins",
-      "market": "PLACE",
-      "win_odds": "2.6",
-      "odds": "1.3",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:41.785529+00:00",
-      "start_time": "2026-11-11T08:04:00Z",
-      "status": "OPEN",
-      "settlement": null
-    },
-    {
-      "key": "PLACE:efed06ab-d25e-4884-be5c-add9a338d434:8",
-      "race_id": "efed06ab-d25e-4884-be5c-add9a338d434",
-      "category": "greyhound",
-      "runner_id": "8",
-      "runner_name": "Vicky's Fury",
-      "market": "PLACE",
-      "win_odds": "2.6",
-      "odds": "1.3",
-      "places_paid": 3,
-      "stake_aud": "1.00",
-      "source": "PuntersEdge / Neds",
-      "observed_at": "2026-11-11T07:43:41.785632+00:00",
-      "start_time": "2026-11-11T08:23:00Z",
-      "status": "WON",
-      "settlement": {
-        "position": 2,
-        "payout_aud": "1.30",
-        "profit_aud": "0.30",
-        "source": "PuntersEdge final results",
-        "settled_at": "2026-11-11T15:39:13.084830+00:00"
-      }
-    },
     {
       "key": "PLACE:80be5ec2-383f-4c0e-8893-a072323b5d73:7",
       "race_id": "80be5ec2-383f-4c0e-8893-a072323b5d73",
@@ -750,6 +660,108 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-12T11:32:07.149532+00:00",
       "start_time": "2026-11-12T11:45:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:fec76c8e-d359-4da7-8475-104042e2d2c0:5",
+      "race_id": "fec76c8e-d359-4da7-8475-104042e2d2c0",
+      "category": "horse",
+      "runner_id": "5",
+      "runner_name": "Resonant",
+      "market": "PLACE",
+      "win_odds": "2.4",
+      "odds": "1.5",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T00:21:15.731060+00:00",
+      "start_time": "2026-11-13T02:10:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:0c9e9891-aba7-4f5a-8721-20add676d9e4:2",
+      "race_id": "0c9e9891-aba7-4f5a-8721-20add676d9e4",
+      "category": "horse",
+      "runner_id": "2",
+      "runner_name": "Hills Of Minto",
+      "market": "PLACE",
+      "win_odds": "3.9",
+      "odds": "1.55",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T00:21:15.731178+00:00",
+      "start_time": "2026-11-13T02:49:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:490a817f-1abc-4f08-a263-fd5f13d9eb4b:4",
+      "race_id": "490a817f-1abc-4f08-a263-fd5f13d9eb4b",
+      "category": "horse",
+      "runner_id": "4",
+      "runner_name": "Back Up Plan",
+      "market": "PLACE",
+      "win_odds": "3.5",
+      "odds": "1.6",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T00:21:15.731235+00:00",
+      "start_time": "2026-11-13T03:10:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:b6de05e7-d9b8-4ff9-bb9b-fb83ca355c51:4",
+      "race_id": "b6de05e7-d9b8-4ff9-bb9b-fb83ca355c51",
+      "category": "horse",
+      "runner_id": "4",
+      "runner_name": "Central Otago",
+      "market": "PLACE",
+      "win_odds": "3.7",
+      "odds": "1.6",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T00:21:15.731291+00:00",
+      "start_time": "2026-11-13T03:45:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:a50ab663-b704-4ae9-a382-a0bdb1e2f3b3:4",
+      "race_id": "a50ab663-b704-4ae9-a382-a0bdb1e2f3b3",
+      "category": "greyhound",
+      "runner_id": "4",
+      "runner_name": "Aston Ostuni",
+      "market": "PLACE",
+      "win_odds": "2.6",
+      "odds": "1.65",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T00:21:17.005323+00:00",
+      "start_time": "2026-11-13T01:19:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:bc0711ac-e7fa-4376-924c-a3a65798400e:8",
+      "race_id": "bc0711ac-e7fa-4376-924c-a3a65798400e",
+      "category": "greyhound",
+      "runner_id": "8",
+      "runner_name": "Dirty Lulu",
+      "market": "PLACE",
+      "win_odds": "2.6",
+      "odds": "1.65",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T00:21:17.005418+00:00",
+      "start_time": "2026-11-13T01:57:00Z",
       "status": "OPEN",
       "settlement": null
     }
