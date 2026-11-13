@@ -1,5 +1,5 @@
 {
-  "cash_aud": "976.31",
+  "cash_aud": "975.61",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -1207,8 +1207,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T00:21:15.731060+00:00",
       "start_time": "2026-11-13T02:10:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.50",
+        "profit_aud": "0.50",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T07:02:02.127980+00:00"
+      }
     },
     {
       "key": "PLACE:0c9e9891-aba7-4f5a-8721-20add676d9e4:2",
@@ -1224,8 +1230,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T00:21:15.731178+00:00",
       "start_time": "2026-11-13T02:49:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.55",
+        "profit_aud": "0.55",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T07:02:02.128012+00:00"
+      }
     },
     {
       "key": "PLACE:490a817f-1abc-4f08-a263-fd5f13d9eb4b:4",
@@ -1258,8 +1270,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T00:21:15.731291+00:00",
       "start_time": "2026-11-13T03:45:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.60",
+        "profit_aud": "0.60",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T07:02:02.128028+00:00"
+      }
     },
     {
       "key": "PLACE:a50ab663-b704-4ae9-a382-a0bdb1e2f3b3:4",
@@ -1275,8 +1293,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T00:21:17.005323+00:00",
       "start_time": "2026-11-13T01:19:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 4,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T07:02:02.128037+00:00"
+      }
     },
     {
       "key": "PLACE:bc0711ac-e7fa-4376-924c-a3a65798400e:8",
@@ -1292,6 +1316,131 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T00:21:17.005418+00:00",
       "start_time": "2026-11-13T01:57:00Z",
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.65",
+        "profit_aud": "0.65",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-13T07:02:02.128045+00:00"
+      }
+    },
+    {
+      "key": "PLACE:dc4c232b-fd85-4352-a377-d22f8ea8f724:4",
+      "race_id": "dc4c232b-fd85-4352-a377-d22f8ea8f724",
+      "category": "horse",
+      "runner_id": "4",
+      "runner_name": "Cartier Glow",
+      "market": "PLACE",
+      "win_odds": "3.6",
+      "odds": "1.6",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:03.473052+00:00",
+      "start_time": "2026-11-13T07:05:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:e4bc4e2e-baeb-4ab9-9af9-123326efc6f2:8",
+      "race_id": "e4bc4e2e-baeb-4ab9-9af9-123326efc6f2",
+      "category": "horse",
+      "runner_id": "8",
+      "runner_name": "Esteemed",
+      "market": "PLACE",
+      "win_odds": "3.8",
+      "odds": "1.55",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:03.473174+00:00",
+      "start_time": "2026-11-13T07:30:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:bdd1ccda-a870-4721-849c-6c350a9eab53:5",
+      "race_id": "bdd1ccda-a870-4721-849c-6c350a9eab53",
+      "category": "horse",
+      "runner_id": "5",
+      "runner_name": "Highland Kitty",
+      "market": "PLACE",
+      "win_odds": "2.6",
+      "odds": "1.55",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:03.473202+00:00",
+      "start_time": "2026-11-13T07:38:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:f4e24624-88b9-4f3d-a74b-a704e01a9da8:8",
+      "race_id": "f4e24624-88b9-4f3d-a74b-a704e01a9da8",
+      "category": "horse",
+      "runner_id": "8",
+      "runner_name": "Ligularia",
+      "market": "PLACE",
+      "win_odds": "3.5",
+      "odds": "1.95",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:03.473299+00:00",
+      "start_time": "2026-11-13T08:00:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:49442536-63fc-419c-bea0-5000696b8637:9",
+      "race_id": "49442536-63fc-419c-bea0-5000696b8637",
+      "category": "horse",
+      "runner_id": "9",
+      "runner_name": "Kokeshi",
+      "market": "PLACE",
+      "win_odds": "3.9",
+      "odds": "1.75",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:03.473360+00:00",
+      "start_time": "2026-11-13T08:15:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:426bb93f-9993-4d63-99c9-9976515c1a47:3",
+      "race_id": "426bb93f-9993-4d63-99c9-9976515c1a47",
+      "category": "horse",
+      "runner_id": "3",
+      "runner_name": "Miss Hades",
+      "market": "PLACE",
+      "win_odds": "3.9",
+      "odds": "2.05",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:03.473492+00:00",
+      "start_time": "2026-11-13T09:00:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:f7dfce34-1bc8-4e27-9062-58192e607b7d:2",
+      "race_id": "f7dfce34-1bc8-4e27-9062-58192e607b7d",
+      "category": "greyhound",
+      "runner_id": "2",
+      "runner_name": "Spring Espresso",
+      "market": "PLACE",
+      "win_odds": "3.8",
+      "odds": "1.55",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-13T07:02:04.675361+00:00",
+      "start_time": "2026-11-13T08:47:00Z",
       "status": "OPEN",
       "settlement": null
     }
