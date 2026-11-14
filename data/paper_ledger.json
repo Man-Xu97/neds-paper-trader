@@ -1,5 +1,5 @@
 {
-  "cash_aud": "979.46",
+  "cash_aud": "975.46",
   "bets": [
     {
       "key": "PLACE:b9c1b129-88ab-4dac-901b-0f1a93f4bb18:5",
@@ -1500,8 +1500,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T21:29:11.296293+00:00",
       "start_time": "2026-11-13T23:02:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "LOST",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "0.00",
+        "profit_aud": "-1.00",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-14T01:43:49.463859+00:00"
+      }
     },
     {
       "key": "PLACE:fcac49db-33ff-490d-8774-633f7b542e99:1",
@@ -1534,6 +1540,74 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-13T21:29:11.296440+00:00",
       "start_time": "2026-11-13T23:57:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:5c7b173b-a8f8-4751-814a-3d224d634b01:12",
+      "race_id": "5c7b173b-a8f8-4751-814a-3d224d634b01",
+      "category": "horse",
+      "runner_id": "12",
+      "runner_name": "Karren",
+      "market": "PLACE",
+      "win_odds": "2.9",
+      "odds": "1.75",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-14T01:43:50.874825+00:00",
+      "start_time": "2026-11-14T01:50:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:7c5e3505-1851-441c-b83e-bfb5ab838f0d:8",
+      "race_id": "7c5e3505-1851-441c-b83e-bfb5ab838f0d",
+      "category": "horse",
+      "runner_id": "8",
+      "runner_name": "Machrihanish",
+      "market": "PLACE",
+      "win_odds": "3.9",
+      "odds": "1.55",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-14T01:43:50.874928+00:00",
+      "start_time": "2026-11-14T02:30:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:f21fe906-4c35-427b-8605-0b8dd6742dd9:5",
+      "race_id": "f21fe906-4c35-427b-8605-0b8dd6742dd9",
+      "category": "horse",
+      "runner_id": "5",
+      "runner_name": "Rubyregis",
+      "market": "PLACE",
+      "win_odds": "3.4",
+      "odds": "1.9",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-14T01:43:50.875033+00:00",
+      "start_time": "2026-11-14T02:50:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:16ff6acb-9377-4966-97f7-dbe1fcf5e827:6",
+      "race_id": "16ff6acb-9377-4966-97f7-dbe1fcf5e827",
+      "category": "horse",
+      "runner_id": "6",
+      "runner_name": "Geneva",
+      "market": "PLACE",
+      "win_odds": "4.0",
+      "odds": "1.7",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-14T01:43:50.875075+00:00",
+      "start_time": "2026-11-14T03:00:00Z",
       "status": "OPEN",
       "settlement": null
     }
