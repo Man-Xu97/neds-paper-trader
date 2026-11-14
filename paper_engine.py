@@ -42,7 +42,7 @@ def favourite_field_quote(quote,now=None):
         observed=utc(quote["odds_timestamp"]);start=utc(quote["start_time"])
         if not (observed<=now<start and (now-observed).total_seconds()<=120):return None
         price=Decimal(str(quote["odds"]))
-        if not Decimal("1.50")<=price<=Decimal("1000"):return None
+        if not Decimal("1.01")<=price<=Decimal("1000"):return None
         return {"key":"FAVOURITE_VS_FIELD:"+str(quote["market_id"])+":"+quote["side"],
                 "race_id":str(quote["race_id"]),"market":"FAVOURITE_VS_FIELD",
                 "side":quote["side"],"favourite_runner_id":str(quote["favourite_runner_id"]),
@@ -57,3 +57,22 @@ def add_paper_bet(ledger,candidate):
     ledger["bets"].append(candidate)
     return True
 def new_ledger():return {"cash_aud":"1000.00","bets":[]}
+
+
+def select_lower_odds_favourite_vs_field(quotes, now=None):
+    """Select the cheaper side only when BOTH real quotes identify one market.
+    Tied, stale, incomplete or mismatched quotes produce no selection.
+    """
+    if not isinstance(quotes,(list,tuple)) or len(quotes)!=2:return None
+    by_side={}
+    for q in quotes:
+        if not isinstance(q,dict) or q.get("side") in by_side:return None
+        normalized=favourite_field_quote(q,now)
+        if normalized is None:return None
+        by_side[q["side"]]=normalized
+    if set(by_side)!={"FAVOURITE","FIELD"}:return None
+    a,b=by_side["FAVOURITE"],by_side["FIELD"]
+    if not all(a[k]==b[k] for k in ("race_id","favourite_runner_id","odds_timestamp")):return None
+    if quotes[0].get("market_id")!=quotes[1].get("market_id"):return None
+    if Decimal(a["odds"])==Decimal(b["odds"]):return None
+    return min((a,b),key=lambda x:Decimal(x["odds"]))
