@@ -3,7 +3,7 @@
   "research_market": "FAVOURITE_VS_FIELD",
   "paper_betting_enabled": false,
   "bankroll_aud": "1000.00",
-  "stake_aud": 1,
+  "stake_aud": 10,
   "settled_bets": 0,
   "profit_aud": "0.00",
   "place_bets": 0,
