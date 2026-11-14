@@ -1,7 +1,7 @@
 """Read-only Neds race observation; no real or simulated orders."""
 import datetime,json,os,pathlib,sys,urllib.parse,urllib.request
 from decimal import Decimal
-from paper_engine import new_ledger, add_paper_bet
+from paper_engine import new_ledger
 from settlement import settle_ledger
 ROOT=pathlib.Path(__file__).resolve().parent
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -113,8 +113,7 @@ def main():
             if not isinstance(races,list):raise ValueError('Unknown API response schema; inspect docs and adjust parser')
             for race in races:
                 if not isinstance(race,dict):continue
-                candidate=make_bet(race,category)
-                if candidate and add_paper_bet(ledger,candidate):created+=1
+                candidate=None  # Favourite vs Field only; never create Place paper bets
                 rid=str(race.get('race_id') or race.get('id') or '')
                 if not rid:continue
                 key=category+':'+rid
@@ -123,8 +122,10 @@ def main():
                 report['observations'].append({'race_id':rid,'category':category,'venue':str(race.get('venue') or '')[:80],'race_number':race.get('race_number'),'start_time':race.get('start_time') or race.get('jump_time')})
         except Exception as exc:report['errors'].append(category+': '+str(exc)[:180])
     report['races_seen_total']=len(state['seen'])
-    report['mode']='PAPER_BETTING_PENDING_SETTLEMENT'
-    report['paper_betting_enabled']=True
+    report['research_market']='FAVOURITE_VS_FIELD'
+    report['verified_favourite_vs_field_quotes']=0
+    report['mode']='FAVOURITE_VS_FIELD_RESEARCH'
+    report['paper_betting_enabled']=False
     report['bankroll_aud']=ledger['cash_aud']
     report['new_settlements']=settled
     report['results_returned']=len(results)
@@ -156,7 +157,7 @@ def main():
     report['paper_bets_open']=len([b for b in ledger['bets'] if b.get('status')=='OPEN'])
     report['new_paper_bets']=created
     report['recent_paper_bets']=ledger['bets'][-15:]
-    report['notice']='只生成可核实 Neds Place 赔率的 A$1 虚拟下注；已接入保守赛果核对，无法可靠匹配的赛事继续待结算。Favourite vs Field 暂停，避免虚构市场。'
+    report['notice']='仅研究真实 Favourite vs Field 市场；普通 Place 虚拟投注已停用。当前数据接口未核实提供 Favourite vs Field 独立市场，因此不生成虚拟投注、不虚构赔率。'
     ledgerfile.parent.mkdir(exist_ok=True)
     ledgerfile.write_text(json.dumps(ledger,ensure_ascii=False,indent=2))
     statefile.parent.mkdir(exist_ok=True);out.parent.mkdir(exist_ok=True)
