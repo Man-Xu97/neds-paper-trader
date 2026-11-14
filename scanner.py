@@ -61,14 +61,24 @@ def make_bet(race,category):
             'stake_aud':'10.00','source':'PuntersEdge / Neds','observed_at':now(),
             'start_time':start,'status':'OPEN','settlement':None}
 
-def favourite_field_candidate(race,category):
-    """Only inspect explicitly named two-sided markets with source quote metadata."""
+def favourite_field_candidate(race,category,diagnostics=None):
+    """Find explicit two-sided quotes; never manufacture a market from win odds."""
+    diagnostics=diagnostics if diagnostics is not None else {}
     markets=race.get('markets') or []
-    if not isinstance(markets,list):return None
+    if isinstance(markets,dict):
+        markets=list(markets.values())
+    if not isinstance(markets,list):markets=[]
+    diagnostics['races_checked']=diagnostics.get('races_checked',0)+1
+    diagnostics['markets_seen']=diagnostics.get('markets_seen',0)+len(markets)
     for market in markets:
-        if not isinstance(market,dict) or market.get('market_type')!='FAVOURITE_VS_FIELD':continue
-        selections=market.get('selections')
-        if not isinstance(selections,list) or len(selections)!=2:continue
+        if not isinstance(market,dict):continue
+        name=str(market.get('market_type') or market.get('type') or market.get('name') or market.get('market_name') or '').upper().replace(' ','_').replace('-','_')
+        if name not in ('FAVOURITE_VS_FIELD','FAVORITE_VS_FIELD','FAVOURITE_V_FIELD','FAVORITE_V_FIELD'):continue
+        diagnostics['matching_markets']=diagnostics.get('matching_markets',0)+1
+        selections=market.get('selections') or market.get('outcomes')
+        if not isinstance(selections,list) or len(selections)!=2:
+            diagnostics['invalid_selections']=diagnostics.get('invalid_selections',0)+1
+            continue
         quotes=[]
         for side in selections:
             if not isinstance(side,dict):break
@@ -76,14 +86,17 @@ def favourite_field_candidate(race,category):
             for field in ('race_id','market_id','favourite_runner_id','odds_timestamp','start_time','source_quote_id','market_status'):
                 q.setdefault(field,market.get(field,race.get(field)))
             q['market_type']='FAVOURITE_VS_FIELD'
-            q['source']=str(market.get('source') or '').lower()
+            q['source']=str(market.get('source') or side.get('source') or '').lower()
+            q['side']=str(q.get('side') or q.get('name') or '').upper()
             quotes.append(q)
         if len(quotes)!=2:continue
         chosen=select_lower_odds_favourite_vs_field(quotes)
         if chosen:
             chosen['category']=category
             chosen['source']='neds'
+            diagnostics['valid_quotes']=diagnostics.get('valid_quotes',0)+1
             return chosen
+        diagnostics['rejected_quotes']=diagnostics.get('rejected_quotes',0)+1
     return None
 
 def result_rows(payload):
@@ -134,6 +147,7 @@ def main():
     report['countries_requested']=list(COUNTRIES)
     report['country_coverage']=[]
     seen_in_scan=set()
+    report['market_diagnostics']={}
     for country in COUNTRIES:
         for category in ('horse','greyhound'):
             try:
@@ -151,7 +165,7 @@ def main():
                     if key in seen_in_scan:continue
                     seen_in_scan.add(key)
                     count+=1
-                    candidate=favourite_field_candidate(race,category)
+                    candidate=favourite_field_candidate(race,category,report['market_diagnostics'])
                     if candidate and add_paper_bet(ledger,candidate):created+=1
                     if key not in state['seen']:
                         state['seen'][key]=now();report['new_races']+=1
@@ -162,6 +176,7 @@ def main():
                 report['errors'].append(country+'/'+category+': '+message)
                 report['country_coverage'].append({'country':country,'category':category,'races':0,'status':'error','reason':message})
     report['races_seen_total']=len(state['seen'])
+    report['market_diagnostics']['explanation']='markets_seen=0 means the API returned no market objects; matching_markets=0 means no explicit Favourite vs Field market was identified. Rejected quotes need source field/schema verification.'
     report['research_market']='FAVOURITE_VS_FIELD'
     report['verified_favourite_vs_field_quotes']=created
     report['mode']='FAVOURITE_VS_FIELD_RESEARCH'
