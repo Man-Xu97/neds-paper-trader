@@ -1,9 +1,9 @@
-"""Strict A$1 paper-bet ledger. No bookmaker order functionality.
+"""Strict A$10 paper-bet ledger. No bookmaker order functionality.
 Only accepts explicitly normalized, timestamped, independently sourced market quotes.
 """
 from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
-STAKE=Decimal("1.00")
+STAKE=Decimal("10.00")
 def utc(value):
     if not isinstance(value,str): raise ValueError("timestamp required")
     dt=datetime.fromisoformat(value.replace("Z","+00:00"))
@@ -27,7 +27,7 @@ def place_quote(quote, now=None):
         return {"key":"PLACE:"+str(quote["market_id"])+":"+str(quote["runner_id"]),
                 "race_id":str(quote["race_id"]),"runner_id":str(quote["runner_id"]),
                 "runner_name":str(quote["runner_name"]),"market":"PLACE",
-                "odds":str(price),"stake_aud":"1.00","source_quote_id":str(quote["source_quote_id"]),
+                "odds":str(price),"stake_aud":"10.00","source_quote_id":str(quote["source_quote_id"]),
                 "odds_timestamp":observed.isoformat(),"place_terms":quote["place_terms"],
                 "status":"OPEN","settlement":None}
     except (ValueError,TypeError,InvalidOperation,KeyError):return None
@@ -46,7 +46,7 @@ def favourite_field_quote(quote,now=None):
         return {"key":"FAVOURITE_VS_FIELD:"+str(quote["market_id"])+":"+quote["side"],
                 "race_id":str(quote["race_id"]),"market":"FAVOURITE_VS_FIELD",
                 "side":quote["side"],"favourite_runner_id":str(quote["favourite_runner_id"]),
-                "odds":str(price),"stake_aud":"1.00","source_quote_id":str(quote["source_quote_id"]),
+                "odds":str(price),"stake_aud":"10.00","source_quote_id":str(quote["source_quote_id"]),
                 "odds_timestamp":observed.isoformat(),"status":"OPEN","settlement":None}
     except (ValueError,TypeError,InvalidOperation,KeyError):return None
 def add_paper_bet(ledger,candidate):
