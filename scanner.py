@@ -5,8 +5,9 @@ from paper_engine import new_ledger, add_paper_bet, select_lower_odds_favourite_
 from settlement import settle_ledger
 ROOT=pathlib.Path(__file__).resolve().parent
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
-def fetch(category):
-    q=urllib.parse.urlencode({'country':'AU','categories':category,'num_races':20,'bookmakers':'neds'})
+COUNTRIES=('AU','NZ','GB','IE','US','JP','HK','FR','ZA','SG')
+def fetch(category,country):
+    q=urllib.parse.urlencode({'country':country,'categories':category,'num_races':20,'bookmakers':'neds'})
     url='https://api.puntersedge.online/v1/racing/next-to-go?'+q
     req=urllib.request.Request(url,headers={'X-API-Key':os.environ['PUNTERSEDGE_API_KEY'],'Accept':'application/json'})
     with urllib.request.urlopen(req,timeout=25) as res:return json.load(res),res.headers.get('x-credits-remaining')
@@ -120,7 +121,7 @@ def main():
     settlement_error=None
     results=[]
     try:
-        query=urllib.parse.urlencode({'hours_back':72,'country':'AU','status':'final','limit':500})
+        query=urllib.parse.urlencode({'hours_back':72,'status':'final','limit':500})
         req=urllib.request.Request('https://api.puntersedge.online/v1/racing/results?'+query,headers={'X-API-Key':os.environ['PUNTERSEDGE_API_KEY'],'Accept':'application/json'})
         with urllib.request.urlopen(req,timeout=25) as response: results=json.load(response)
         results=result_rows(results)
@@ -130,24 +131,36 @@ def main():
     try:state=json.loads(statefile.read_text())
     except (OSError,ValueError):state={'seen':{}}
     report={'updated_at':now(),'mode':'OBSERVATION_ONLY','source':'PuntersEdge / Neds','live_betting':False,'paper_betting_enabled':False,'bankroll_aud':1000,'stake_aud':10,'settled_bets':0,'profit_aud':0,'place_bets':0,'favourite_vs_field_bets':0,'races_seen_total':0,'new_races':0,'observations':[],'errors':[],'credits_remaining':None,'notice':'只读观察，不生成投注。'}
-    for category in ['horse','greyhound']:
-        try:
-            races,credits=fetch(category)
-            report['credits_remaining']=credits or report['credits_remaining']
-            if isinstance(races,dict):
-                races=races.get('races',races.get('data',races.get('results')))
-            if not isinstance(races,list):raise ValueError('Unknown API response schema; inspect docs and adjust parser')
-            for race in races:
-                if not isinstance(race,dict):continue
-                candidate=favourite_field_candidate(race,category)
-                if candidate and add_paper_bet(ledger,candidate):created+=1
-                rid=str(race.get('race_id') or race.get('id') or '')
-                if not rid:continue
-                key=category+':'+rid
-                if key not in state['seen']:
-                    state['seen'][key]=now();report['new_races']+=1
-                report['observations'].append({'race_id':rid,'category':category,'venue':str(race.get('venue') or '')[:80],'race_number':race.get('race_number'),'start_time':race.get('start_time') or race.get('jump_time')})
-        except Exception as exc:report['errors'].append(category+': '+str(exc)[:180])
+    report['countries_requested']=list(COUNTRIES)
+    report['country_coverage']=[]
+    seen_in_scan=set()
+    for country in COUNTRIES:
+        for category in ('horse','greyhound'):
+            try:
+                races,credits=fetch(category,country)
+                report['credits_remaining']=credits or report['credits_remaining']
+                if isinstance(races,dict):
+                    races=races.get('races',races.get('data',races.get('results')))
+                if not isinstance(races,list):raise ValueError('Unknown API response schema')
+                count=0
+                for race in races:
+                    if not isinstance(race,dict):continue
+                    rid=str(race.get('race_id') or race.get('id') or '')
+                    if not rid:continue
+                    key=category+':'+rid
+                    if key in seen_in_scan:continue
+                    seen_in_scan.add(key)
+                    count+=1
+                    candidate=favourite_field_candidate(race,category)
+                    if candidate and add_paper_bet(ledger,candidate):created+=1
+                    if key not in state['seen']:
+                        state['seen'][key]=now();report['new_races']+=1
+                    report['observations'].append({'race_id':rid,'category':category,'country':country,'venue':str(race.get('venue') or '')[:80],'race_number':race.get('race_number'),'start_time':race.get('start_time') or race.get('jump_time')})
+                report['country_coverage'].append({'country':country,'category':category,'races':count,'status':'queried'})
+            except Exception as exc:
+                message=str(exc)[:180]
+                report['errors'].append(country+'/'+category+': '+message)
+                report['country_coverage'].append({'country':country,'category':category,'races':0,'status':'error','reason':message})
     report['races_seen_total']=len(state['seen'])
     report['research_market']='FAVOURITE_VS_FIELD'
     report['verified_favourite_vs_field_quotes']=created
@@ -184,7 +197,7 @@ def main():
     report['paper_bets_open']=len([b for b in ledger['bets'] if b.get('status')=='OPEN'])
     report['new_paper_bets']=created
     report['recent_paper_bets']=ledger['bets'][-15:]
-    report['notice']='仅对接口明确提供且验证通过的 Favourite vs Field 双边市场生成 A$10 虚拟投注，永远选择较低赔率；缺少独立市场报价则跳过。自动结算功能尚不支持该市场，未结算记录不得计入收益。'
+    report['notice']='按国家逐一查询全球赛事；仅对接口明确提供且验证通过的 Favourite vs Field 双边市场生成 A$10 虚拟投注，选择较低赔率。国家覆盖以 country_coverage 为准；自动结算尚不支持该市场。'
     ledgerfile.parent.mkdir(exist_ok=True)
     ledgerfile.write_text(json.dumps(ledger,ensure_ascii=False,indent=2))
     statefile.parent.mkdir(exist_ok=True);out.parent.mkdir(exist_ok=True)
