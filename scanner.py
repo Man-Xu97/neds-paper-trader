@@ -57,7 +57,7 @@ def make_bet(race,category):
     return {'key':'PLACE:'+rid+':'+runnerid,'race_id':rid,'category':category,
             'runner_id':runnerid,'runner_name':str(runner.get('name') or runner.get('runner_name') or ''),
             'market':'PLACE','win_odds':str(win),'odds':str(place),'places_paid':terms,
-            'stake_aud':'1.00','source':'PuntersEdge / Neds','observed_at':now(),
+            'stake_aud':'10.00','source':'PuntersEdge / Neds','observed_at':now(),
             'start_time':start,'status':'OPEN','settlement':None}
 def result_rows(payload):
     """Normalize common API response envelopes without treating unknown shapes as empty."""
@@ -103,7 +103,7 @@ def main():
         settlement_error=str(exc)[:180]
     try:state=json.loads(statefile.read_text())
     except (OSError,ValueError):state={'seen':{}}
-    report={'updated_at':now(),'mode':'OBSERVATION_ONLY','source':'PuntersEdge / Neds','live_betting':False,'paper_betting_enabled':False,'bankroll_aud':1000,'stake_aud':1,'settled_bets':0,'profit_aud':0,'place_bets':0,'favourite_vs_field_bets':0,'races_seen_total':0,'new_races':0,'observations':[],'errors':[],'credits_remaining':None,'notice':'只读观察，不生成投注。'}
+    report={'updated_at':now(),'mode':'OBSERVATION_ONLY','source':'PuntersEdge / Neds','live_betting':False,'paper_betting_enabled':False,'bankroll_aud':1000,'stake_aud':10,'settled_bets':0,'profit_aud':0,'place_bets':0,'favourite_vs_field_bets':0,'races_seen_total':0,'new_races':0,'observations':[],'errors':[],'credits_remaining':None,'notice':'只读观察，不生成投注。'}
     for category in ['horse','greyhound']:
         try:
             races,credits=fetch(category)
