@@ -1,7 +1,7 @@
 """Read-only Neds race observation; no real or simulated orders."""
 import datetime,json,os,pathlib,sys,urllib.parse,urllib.request
 from decimal import Decimal
-from paper_engine import new_ledger
+from paper_engine import new_ledger, add_paper_bet, select_lower_odds_favourite_vs_field
 from settlement import settle_ledger
 ROOT=pathlib.Path(__file__).resolve().parent
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -59,6 +59,32 @@ def make_bet(race,category):
             'market':'PLACE','win_odds':str(win),'odds':str(place),'places_paid':terms,
             'stake_aud':'10.00','source':'PuntersEdge / Neds','observed_at':now(),
             'start_time':start,'status':'OPEN','settlement':None}
+
+def favourite_field_candidate(race,category):
+    """Only inspect explicitly named two-sided markets with source quote metadata."""
+    markets=race.get('markets') or []
+    if not isinstance(markets,list):return None
+    for market in markets:
+        if not isinstance(market,dict) or market.get('market_type')!='FAVOURITE_VS_FIELD':continue
+        selections=market.get('selections')
+        if not isinstance(selections,list) or len(selections)!=2:continue
+        quotes=[]
+        for side in selections:
+            if not isinstance(side,dict):break
+            q=dict(side)
+            for field in ('race_id','market_id','favourite_runner_id','odds_timestamp','start_time','source_quote_id','market_status'):
+                q.setdefault(field,market.get(field,race.get(field)))
+            q['market_type']='FAVOURITE_VS_FIELD'
+            q['source']=str(market.get('source') or '').lower()
+            quotes.append(q)
+        if len(quotes)!=2:continue
+        chosen=select_lower_odds_favourite_vs_field(quotes)
+        if chosen:
+            chosen['category']=category
+            chosen['source']='neds'
+            return chosen
+    return None
+
 def result_rows(payload):
     """Normalize common API response envelopes without treating unknown shapes as empty."""
     if isinstance(payload,list): return payload
@@ -113,7 +139,8 @@ def main():
             if not isinstance(races,list):raise ValueError('Unknown API response schema; inspect docs and adjust parser')
             for race in races:
                 if not isinstance(race,dict):continue
-                candidate=None  # Favourite vs Field only; never create Place paper bets
+                candidate=favourite_field_candidate(race,category)
+                if candidate and add_paper_bet(ledger,candidate):created+=1
                 rid=str(race.get('race_id') or race.get('id') or '')
                 if not rid:continue
                 key=category+':'+rid
@@ -123,9 +150,9 @@ def main():
         except Exception as exc:report['errors'].append(category+': '+str(exc)[:180])
     report['races_seen_total']=len(state['seen'])
     report['research_market']='FAVOURITE_VS_FIELD'
-    report['verified_favourite_vs_field_quotes']=0
+    report['verified_favourite_vs_field_quotes']=created
     report['mode']='FAVOURITE_VS_FIELD_RESEARCH'
-    report['paper_betting_enabled']=False
+    report['paper_betting_enabled']=True
     report['bankroll_aud']=ledger['cash_aud']
     report['new_settlements']=settled
     report['results_returned']=len(results)
@@ -157,7 +184,7 @@ def main():
     report['paper_bets_open']=len([b for b in ledger['bets'] if b.get('status')=='OPEN'])
     report['new_paper_bets']=created
     report['recent_paper_bets']=ledger['bets'][-15:]
-    report['notice']='仅研究真实 Favourite vs Field 市场；普通 Place 虚拟投注已停用。当前数据接口未核实提供 Favourite vs Field 独立市场，因此不生成虚拟投注、不虚构赔率。'
+    report['notice']='仅对接口明确提供且验证通过的 Favourite vs Field 双边市场生成 A$10 虚拟投注，永远选择较低赔率；缺少独立市场报价则跳过。自动结算功能尚不支持该市场，未结算记录不得计入收益。'
     ledgerfile.parent.mkdir(exist_ok=True)
     ledgerfile.write_text(json.dumps(ledger,ensure_ascii=False,indent=2))
     statefile.parent.mkdir(exist_ok=True);out.parent.mkdir(exist_ok=True)
