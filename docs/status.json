@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T18:29:38.977475+00:00",
+  "updated_at": "2026-11-17T02:02:24.356199+00:00",
   "mode": "FAVOURITE_VS_FIELD_RESEARCH",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
@@ -10,280 +10,16 @@
   "profit_aud": "0",
   "place_bets": 0,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 775,
-  "new_races": 53,
+  "races_seen_total": 916,
+  "new_races": 141,
   "observations": [
     {
-      "race_id": "9d09b848-05ae-4a1f-9cff-bbc565d3cf44",
-      "category": "horse",
-      "country": "CL",
-      "venue": "Santiago",
-      "race_number": 7,
-      "start_time": "2026-11-16T18:30:00Z"
-    },
-    {
-      "race_id": "779f29dc-277b-4ae8-b6d6-07865ba9342a",
-      "category": "horse",
-      "country": "GB",
-      "venue": "Wolverhampton",
-      "race_number": 5,
-      "start_time": "2026-11-16T18:30:00Z"
-    },
-    {
-      "race_id": "96cbc25e-a176-4db8-a593-507d7c91893b",
+      "race_id": "a061b88c-8c57-4248-911f-8fa7fc0f88cb",
       "category": "horse",
       "country": "US",
-      "venue": "Finger Lakes",
-      "race_number": 4,
-      "start_time": "2026-11-16T18:34:00Z"
-    },
-    {
-      "race_id": "f6fcd02d-ec0f-41b4-95ca-58e4bfceac28",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mahoning Valley",
-      "race_number": 4,
-      "start_time": "2026-11-16T18:39:00Z"
-    },
-    {
-      "race_id": "629d008e-64c8-4c4c-8a51-905a84909ec9",
-      "category": "horse",
-      "country": "FR",
-      "venue": "Le Croise Laroche",
-      "race_number": 3,
-      "start_time": "2026-11-16T18:43:00Z"
-    },
-    {
-      "race_id": "6804efb8-b822-46cd-a46c-c9105697e2a3",
-      "category": "horse",
-      "country": "US",
-      "venue": "Parx Racing",
-      "race_number": 5,
-      "start_time": "2026-11-16T18:53:00Z"
-    },
-    {
-      "race_id": "a3d79c05-f5c2-4d6a-8f53-60e0eb3addff",
-      "category": "horse",
-      "country": "FR",
-      "venue": "Marseille Vivaux",
-      "race_number": 7,
-      "start_time": "2026-11-16T18:59:00Z"
-    },
-    {
-      "race_id": "e1a1f4fe-a2ea-4c06-af01-cb9ca52c1dc0",
-      "category": "horse",
-      "country": "GB",
-      "venue": "Wolverhampton",
+      "venue": "Mountaineer Park",
       "race_number": 6,
-      "start_time": "2026-11-16T19:00:00Z"
-    },
-    {
-      "race_id": "fe82553b-0b1e-40cc-847a-9c2d3ec955eb",
-      "category": "horse",
-      "country": "US",
-      "venue": "Finger Lakes",
-      "race_number": 5,
-      "start_time": "2026-11-16T19:03:00Z"
-    },
-    {
-      "race_id": "3ed282e1-11c7-4c2b-a29f-3f8df6bc7671",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 1,
-      "start_time": "2026-11-16T19:05:00Z"
-    },
-    {
-      "race_id": "777e99b8-86dd-4c05-becb-ccf583a87b13",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mahoning Valley",
-      "race_number": 5,
-      "start_time": "2026-11-16T19:07:00Z"
-    },
-    {
-      "race_id": "06e4b55a-4c44-4047-a568-2c6932089879",
-      "category": "horse",
-      "country": "US",
-      "venue": "Parx Racing",
-      "race_number": 6,
-      "start_time": "2026-11-16T19:20:00Z"
-    },
-    {
-      "race_id": "7358c302-f4b4-413d-bf89-d490a8539a41",
-      "category": "horse",
-      "country": "GB",
-      "venue": "Wolverhampton",
-      "race_number": 7,
-      "start_time": "2026-11-16T19:30:00Z"
-    },
-    {
-      "race_id": "69e65094-0cf8-4870-a7e0-8d0844c36586",
-      "category": "horse",
-      "country": "FR",
-      "venue": "Marseille Vivaux",
-      "race_number": 8,
-      "start_time": "2026-11-16T19:31:00Z"
-    },
-    {
-      "race_id": "739271ae-d380-474f-af54-4253eeb378b1",
-      "category": "horse",
-      "country": "US",
-      "venue": "Finger Lakes",
-      "race_number": 6,
-      "start_time": "2026-11-16T19:32:00Z"
-    },
-    {
-      "race_id": "e9671509-c369-47c0-9c9d-6c05338ab648",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 2,
-      "start_time": "2026-11-16T19:32:00Z"
-    },
-    {
-      "race_id": "62f2d484-33ee-4a5c-a48c-9b71a34518bc",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mahoning Valley",
-      "race_number": 6,
-      "start_time": "2026-11-16T19:35:00Z"
-    },
-    {
-      "race_id": "d599dfea-b263-4651-9c0b-19796a254503",
-      "category": "horse",
-      "country": "US",
-      "venue": "Parx Racing",
-      "race_number": 7,
-      "start_time": "2026-11-16T19:47:00Z"
-    },
-    {
-      "race_id": "4d73ad1b-8a7c-497b-9d05-8d89caf9d2a4",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 3,
-      "start_time": "2026-11-16T19:59:00Z"
-    },
-    {
-      "race_id": "12b3b642-e472-471d-b6b1-cef09a96ee71",
-      "category": "horse",
-      "country": "GB",
-      "venue": "Wolverhampton",
-      "race_number": 8,
-      "start_time": "2026-11-16T20:00:00Z"
-    },
-    {
-      "race_id": "1ff7be83-b317-4571-8d4c-23088a2951ef",
-      "category": "horse",
-      "country": "US",
-      "venue": "Finger Lakes",
-      "race_number": 7,
-      "start_time": "2026-11-16T20:01:00Z"
-    },
-    {
-      "race_id": "24e81f8e-d742-4330-81b3-05b59a8a4489",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mahoning Valley",
-      "race_number": 7,
-      "start_time": "2026-11-16T20:03:00Z"
-    },
-    {
-      "race_id": "049fa1e4-c6f8-4009-b43c-9dc23eba2e21",
-      "category": "horse",
-      "country": "US",
-      "venue": "Parx Racing",
-      "race_number": 8,
-      "start_time": "2026-11-16T20:14:00Z"
-    },
-    {
-      "race_id": "b464b659-648c-4175-80e6-16d7deda3a9d",
-      "category": "horse",
-      "country": "GB",
-      "venue": "Wolverhampton",
-      "race_number": 9,
-      "start_time": "2026-11-16T20:30:00Z"
-    },
-    {
-      "race_id": "ba453c66-6078-421d-9855-27fc45c1632f",
-      "category": "horse",
-      "country": "US",
-      "venue": "Finger Lakes",
-      "race_number": 8,
-      "start_time": "2026-11-16T20:30:00Z"
-    },
-    {
-      "race_id": "72d57734-384e-45f3-a8f9-bdaf6113df17",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mahoning Valley",
-      "race_number": 8,
-      "start_time": "2026-11-16T20:31:00Z"
-    },
-    {
-      "race_id": "9f2d89ab-a6c3-4ba0-9d33-119e44db8028",
-      "category": "horse",
-      "country": "US",
-      "venue": "Parx Racing",
-      "race_number": 9,
-      "start_time": "2026-11-16T20:41:00Z"
-    },
-    {
-      "race_id": "35af8e12-0c9a-4581-8d42-0445621d3007",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 5,
-      "start_time": "2026-11-16T20:53:00Z"
-    },
-    {
-      "race_id": "adc48f1e-cd85-4b7a-b8f5-792a5639e6d9",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 6,
-      "start_time": "2026-11-16T21:20:00Z"
-    },
-    {
-      "race_id": "5183bf76-df59-4e18-8336-43c66574c58b",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 7,
-      "start_time": "2026-11-16T21:47:00Z"
-    },
-    {
-      "race_id": "6546b20e-d312-49e1-9a32-cf2b8849cd79",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 8,
-      "start_time": "2026-11-16T22:14:00Z"
-    },
-    {
-      "race_id": "de56866f-0a0c-4062-980c-9875c1100e52",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 9,
-      "start_time": "2026-11-16T22:41:00Z"
-    },
-    {
-      "race_id": "a6e0965e-1246-4bda-895c-23473df92fd4",
-      "category": "horse",
-      "country": "US",
-      "venue": "Zia Park",
-      "race_number": 10,
-      "start_time": "2026-11-16T23:08:00Z"
-    },
-    {
-      "race_id": "7d3589ef-f02b-4736-afe5-33ad616ec89a",
-      "category": "horse",
-      "country": "AU",
-      "venue": "Scone",
-      "race_number": 1,
-      "start_time": "2026-11-17T01:40:00Z"
+      "start_time": "2026-11-17T02:05:00Z"
     },
     {
       "race_id": "c40224bd-bb06-4a8a-91c3-5213cbe69edf",
@@ -292,6 +28,14 @@
       "venue": "Scone",
       "race_number": 2,
       "start_time": "2026-11-17T02:15:00Z"
+    },
+    {
+      "race_id": "4074e6aa-1ec6-46dd-bc64-44c01a082124",
+      "category": "horse",
+      "country": "US",
+      "venue": "Mountaineer Park",
+      "race_number": 7,
+      "start_time": "2026-11-17T02:30:00Z"
     },
     {
       "race_id": "c06db0da-0c65-45ba-baad-627a98cc6495",
@@ -414,12 +158,28 @@
       "start_time": "2026-11-17T11:50:00Z"
     },
     {
+      "race_id": "837311db-a81e-45b3-8899-db3284b39856",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 1,
+      "start_time": "2026-11-17T12:10:00Z"
+    },
+    {
       "race_id": "88e40da6-0783-43d8-a476-6f8ae2a8188f",
       "category": "horse",
       "country": "GB",
       "venue": "Carlisle",
       "race_number": 2,
       "start_time": "2026-11-17T12:20:00Z"
+    },
+    {
+      "race_id": "0d1e6c94-6910-4c5d-9149-a3743be12642",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 2,
+      "start_time": "2026-11-17T12:40:00Z"
     },
     {
       "race_id": "09baa7fe-eef3-4bc4-82a9-7bbb4a1f3aa3",
@@ -430,12 +190,28 @@
       "start_time": "2026-11-17T12:50:00Z"
     },
     {
+      "race_id": "00e2f240-1078-44a6-9817-287c8de373bb",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 3,
+      "start_time": "2026-11-17T13:10:00Z"
+    },
+    {
       "race_id": "71408966-6aab-4e34-a5f4-2ed4351929f4",
       "category": "horse",
       "country": "GB",
       "venue": "Carlisle",
       "race_number": 4,
       "start_time": "2026-11-17T13:25:00Z"
+    },
+    {
+      "race_id": "ca1e78ab-ac2f-4d85-835b-26af55188792",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 4,
+      "start_time": "2026-11-17T13:40:00Z"
     },
     {
       "race_id": "8add7b21-0a2e-489c-8546-3731153c29a9",
@@ -446,12 +222,28 @@
       "start_time": "2026-11-17T13:55:00Z"
     },
     {
+      "race_id": "78c514a0-2c97-4d04-a622-de2dfe6b54e6",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 5,
+      "start_time": "2026-11-17T14:10:00Z"
+    },
+    {
       "race_id": "e9f71b77-72aa-48fa-bc2d-b16f104b8edb",
       "category": "horse",
       "country": "GB",
       "venue": "Carlisle",
       "race_number": 6,
       "start_time": "2026-11-17T14:25:00Z"
+    },
+    {
+      "race_id": "e01885e2-6f77-4b7f-9e03-ebdd28570918",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 6,
+      "start_time": "2026-11-17T14:40:00Z"
     },
     {
       "race_id": "c84d9107-b591-4020-bd35-a0030f17dc91",
@@ -462,6 +254,14 @@
       "start_time": "2026-11-17T15:00:00Z"
     },
     {
+      "race_id": "054d61c1-0e9b-4701-9949-f91fc8274fc5",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 7,
+      "start_time": "2026-11-17T15:15:00Z"
+    },
+    {
       "race_id": "7c655768-3074-4380-bdfb-301aae8d93b6",
       "category": "horse",
       "country": "GB",
@@ -470,186 +270,1106 @@
       "start_time": "2026-11-17T15:30:00Z"
     },
     {
-      "race_id": "fe227602-9b0a-478b-a81e-152f40235a6e",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Yarmouth",
-      "race_number": 2,
-      "start_time": "2026-11-16T18:31:00Z"
+      "race_id": "5cb48f7a-4ee8-41c4-bb56-833d61a36926",
+      "category": "horse",
+      "country": "IE",
+      "venue": "Limerick",
+      "race_number": 8,
+      "start_time": "2026-11-17T15:50:00Z"
     },
     {
-      "race_id": "f0a81461-4a36-4a36-89a7-e225204e515e",
-      "category": "greyhound",
+      "race_id": "b8225832-721b-43cb-9ff9-f2f762ac8b5d",
+      "category": "horse",
       "country": "GB",
-      "venue": "Nottingham",
+      "venue": "Southwell",
       "race_number": 1,
-      "start_time": "2026-11-16T18:37:00Z"
+      "start_time": "2026-11-17T16:30:00Z"
     },
     {
-      "race_id": "ae8147de-bf1d-4ffe-9fba-1142c6c2c7b1",
-      "category": "greyhound",
+      "race_id": "ee38395e-bf9d-428f-8b30-8fdef9deb8c6",
+      "category": "horse",
       "country": "GB",
-      "venue": "Towcester",
-      "race_number": 3,
-      "start_time": "2026-11-16T18:42:00Z"
-    },
-    {
-      "race_id": "8d273799-bd88-49a4-9b8a-1f7cf60d1c24",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Harlow",
-      "race_number": 5,
-      "start_time": "2026-11-16T18:46:00Z"
-    },
-    {
-      "race_id": "720a173a-5fc5-45da-8bc5-623e9611fe87",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Yarmouth",
-      "race_number": 3,
-      "start_time": "2026-11-16T18:48:00Z"
-    },
-    {
-      "race_id": "45ac63e6-0c86-4475-a125-102c3460332b",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Nottingham",
+      "venue": "Southwell",
       "race_number": 2,
-      "start_time": "2026-11-16T18:53:00Z"
+      "start_time": "2026-11-17T17:00:00Z"
     },
     {
-      "race_id": "f10f518a-51b5-46a5-a391-e6ee36b66bc9",
-      "category": "greyhound",
+      "race_id": "2dc3b44d-3ab9-4e44-8cfe-5d7ec64c7726",
+      "category": "horse",
       "country": "GB",
-      "venue": "Towcester",
-      "race_number": 4,
-      "start_time": "2026-11-16T18:59:00Z"
-    },
-    {
-      "race_id": "64b1c27b-4eb5-483b-87d7-6d940d2102b9",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Yarmouth",
-      "race_number": 4,
-      "start_time": "2026-11-16T19:06:00Z"
-    },
-    {
-      "race_id": "7411fa28-da1e-4dfd-97a5-28cd93b51fd0",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Nottingham",
+      "venue": "Southwell",
       "race_number": 3,
-      "start_time": "2026-11-16T19:11:00Z"
+      "start_time": "2026-11-17T17:30:00Z"
     },
     {
-      "race_id": "9484c8ed-3118-46c7-a709-a031f7b468b0",
-      "category": "greyhound",
+      "race_id": "a255fba0-a1a5-4525-ba39-40b855752f42",
+      "category": "horse",
       "country": "GB",
-      "venue": "Towcester",
-      "race_number": 5,
-      "start_time": "2026-11-16T19:16:00Z"
-    },
-    {
-      "race_id": "9ec8f0e5-0f7a-4eff-b06e-d92e6f55a7ca",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Yarmouth",
-      "race_number": 5,
-      "start_time": "2026-11-16T19:22:00Z"
-    },
-    {
-      "race_id": "d58cb0ac-47cd-4eb0-95f2-d1554c4cc080",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Nottingham",
+      "venue": "Southwell",
       "race_number": 4,
-      "start_time": "2026-11-16T19:27:00Z"
+      "start_time": "2026-11-17T18:00:00Z"
     },
     {
-      "race_id": "2668750c-f7ac-431e-81e9-980d78710d9d",
-      "category": "greyhound",
+      "race_id": "f37929b8-f550-436d-9655-bf65af7e59fc",
+      "category": "horse",
       "country": "GB",
-      "venue": "Towcester",
-      "race_number": 6,
-      "start_time": "2026-11-16T19:33:00Z"
-    },
-    {
-      "race_id": "88afd029-af43-4d60-901f-43c68196212f",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Yarmouth",
-      "race_number": 6,
-      "start_time": "2026-11-16T19:39:00Z"
-    },
-    {
-      "race_id": "7984dd74-d9e5-4683-b888-8c3c717eaf47",
-      "category": "greyhound",
-      "country": "GB",
-      "venue": "Nottingham",
+      "venue": "Southwell",
       "race_number": 5,
-      "start_time": "2026-11-16T19:44:00Z"
+      "start_time": "2026-11-17T18:30:00Z"
     },
     {
-      "race_id": "36e499e4-ca97-481a-a54d-3af45bbc9354",
-      "category": "greyhound",
+      "race_id": "8e633268-06f9-4453-9b21-17d49516034a",
+      "category": "horse",
       "country": "GB",
-      "venue": "Towcester",
-      "race_number": 7,
-      "start_time": "2026-11-16T19:49:00Z"
+      "venue": "Southwell",
+      "race_number": 6,
+      "start_time": "2026-11-17T19:00:00Z"
     },
     {
-      "race_id": "74a3998f-0048-4ab6-9536-b1fac23dee38",
-      "category": "greyhound",
+      "race_id": "e8b9b1aa-4b92-4623-9c9b-4b123d1a9274",
+      "category": "horse",
       "country": "GB",
-      "venue": "Yarmouth",
+      "venue": "Southwell",
       "race_number": 7,
-      "start_time": "2026-11-16T19:56:00Z"
+      "start_time": "2026-11-17T19:30:00Z"
+    },
+    {
+      "race_id": "1393ba4c-bf49-438f-8d7a-24f7647ba336",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Southwell",
+      "race_number": 8,
+      "start_time": "2026-11-17T20:00:00Z"
+    },
+    {
+      "race_id": "ef0ae6ce-1769-466a-8873-e52632ae3b2b",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Southwell",
+      "race_number": 9,
+      "start_time": "2026-11-17T20:30:00Z"
+    },
+    {
+      "race_id": "e63a92fb-1e40-4a24-bc26-eb2acb447987",
+      "category": "horse",
+      "country": "NZ",
+      "venue": "Phar Lap",
+      "race_number": 2,
+      "start_time": "2026-11-18T00:54:00Z"
+    },
+    {
+      "race_id": "3b36cf0d-cbbe-4a81-b481-b5ebf46107bd",
+      "category": "horse",
+      "country": "NZ",
+      "venue": "Phar Lap",
+      "race_number": 3,
+      "start_time": "2026-11-18T01:29:00Z"
+    },
+    {
+      "race_id": "13ccbbf2-91f6-4f37-9acf-2226e0f822b7",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 5,
+      "start_time": "2026-11-17T02:04:00Z"
+    },
+    {
+      "race_id": "90f4cfc4-4537-4930-a408-645297ea88c1",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 3,
+      "start_time": "2026-11-17T02:10:00Z"
+    },
+    {
+      "race_id": "ea3e3d7f-d415-4526-b50a-111ef7844585",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 6,
+      "start_time": "2026-11-17T02:19:00Z"
+    },
+    {
+      "race_id": "f01a0754-b58f-4c27-a2ce-c1c7ef82eb47",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 4,
+      "start_time": "2026-11-17T02:27:00Z"
+    },
+    {
+      "race_id": "ccd54d11-8119-44a9-929b-4c9666eca5d8",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 1,
+      "start_time": "2026-11-17T02:35:00Z"
+    },
+    {
+      "race_id": "bca1a679-055a-4259-9357-72bcf014a548",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 7,
+      "start_time": "2026-11-17T02:39:00Z"
+    },
+    {
+      "race_id": "f97432f9-f89a-477d-857f-27b7e9656a86",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 5,
+      "start_time": "2026-11-17T02:47:00Z"
+    },
+    {
+      "race_id": "ab2e7650-fa5d-4d61-bde0-fadd95142fe4",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 2,
+      "start_time": "2026-11-17T02:54:00Z"
+    },
+    {
+      "race_id": "c6412725-759e-4494-bf26-36d044467125",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 8,
+      "start_time": "2026-11-17T02:57:00Z"
+    },
+    {
+      "race_id": "6dd30dd0-4474-4f28-ac17-9246a0c085f0",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Menangle",
+      "race_number": 2,
+      "start_time": "2026-11-17T03:04:00Z"
+    },
+    {
+      "race_id": "3fb90e84-2f3a-46bb-b1a4-9f468e76d36f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 6,
+      "start_time": "2026-11-17T03:10:00Z"
+    },
+    {
+      "race_id": "7a2a2c3a-e998-4396-a2cc-577bced7c3e7",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 3,
+      "start_time": "2026-11-17T03:13:00Z"
+    },
+    {
+      "race_id": "962c8bd7-e6df-45b5-ac85-3d2bdb0abcf4",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 9,
+      "start_time": "2026-11-17T03:22:00Z"
+    },
+    {
+      "race_id": "7346e00a-5db0-4aff-8ea7-6c6a961f6604",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 7,
+      "start_time": "2026-11-17T03:26:00Z"
+    },
+    {
+      "race_id": "a262784b-d757-4c3f-a8da-9a5afb9f4726",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 4,
+      "start_time": "2026-11-17T03:34:00Z"
+    },
+    {
+      "race_id": "32900eae-d156-4471-938c-6ca2948d25a7",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 1,
+      "start_time": "2026-11-17T03:37:00Z"
+    },
+    {
+      "race_id": "8607758f-ba1d-44ea-90b7-f3c83b82d9e3",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 10,
+      "start_time": "2026-11-17T03:46:00Z"
+    },
+    {
+      "race_id": "5e397953-d5b8-4daf-beea-a6247494b1a2",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 8,
+      "start_time": "2026-11-17T03:49:00Z"
+    },
+    {
+      "race_id": "a4a43f32-0889-43fa-82b6-376c63d69f3f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 5,
+      "start_time": "2026-11-17T03:57:00Z"
+    },
+    {
+      "race_id": "d0daf0e5-c710-4451-bb98-4520a0e990d4",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 2,
+      "start_time": "2026-11-17T04:02:00Z"
+    },
+    {
+      "race_id": "d6138765-6ffe-41a8-bf3d-76809dada9d2",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 11,
+      "start_time": "2026-11-17T04:10:00Z"
+    },
+    {
+      "race_id": "c1291f6b-0cc0-482e-af1f-4252253eb56a",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Hobart",
+      "race_number": 9,
+      "start_time": "2026-11-17T04:13:00Z"
+    },
+    {
+      "race_id": "cc34779a-5f3e-4682-ab72-7c1bd748f9a7",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 6,
+      "start_time": "2026-11-17T04:16:00Z"
+    },
+    {
+      "race_id": "b9f8d688-8949-4cd4-b9db-34de2dd810e7",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 3,
+      "start_time": "2026-11-17T04:24:00Z"
+    },
+    {
+      "race_id": "bc163ee6-2f62-4cd5-9b77-d36b1b8ab772",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Angle Park",
+      "race_number": 12,
+      "start_time": "2026-11-17T04:27:00Z"
+    },
+    {
+      "race_id": "a9b20d77-ecee-4921-828a-bc9d4b315748",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 1,
+      "start_time": "2026-11-17T04:37:00Z"
+    },
+    {
+      "race_id": "c59861a0-b2b2-4c3d-9289-92f40b61b933",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 7,
+      "start_time": "2026-11-17T04:44:00Z"
+    },
+    {
+      "race_id": "c1f89dcd-d303-4a77-8d5d-95f6ab98a392",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 4,
+      "start_time": "2026-11-17T04:48:00Z"
+    },
+    {
+      "race_id": "14ffd51e-a43c-42bd-b3ca-1abd0b899586",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 1,
+      "start_time": "2026-11-17T04:54:00Z"
+    },
+    {
+      "race_id": "d1c38215-32b3-4a10-8f59-2005aefb0365",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 2,
+      "start_time": "2026-11-17T04:57:00Z"
+    },
+    {
+      "race_id": "9d1bf7b6-7873-44e5-b886-5dba2199dda8",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 8,
+      "start_time": "2026-11-17T05:04:00Z"
+    },
+    {
+      "race_id": "e4f948e3-6ae9-4d72-a666-8cacd001667e",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 2,
+      "start_time": "2026-11-17T05:09:00Z"
+    },
+    {
+      "race_id": "a8485ab9-e87c-4cf7-a61a-dd8c4b248b06",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 5,
+      "start_time": "2026-11-17T05:12:00Z"
+    },
+    {
+      "race_id": "fd90c4d4-e225-4d27-bf23-581847a5b954",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 3,
+      "start_time": "2026-11-17T05:19:00Z"
+    },
+    {
+      "race_id": "e88fef05-6125-4475-b511-63daabde6fc2",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 9,
+      "start_time": "2026-11-17T05:22:00Z"
+    },
+    {
+      "race_id": "ab2ede5e-65be-4bfe-9006-d44cbb9a34e6",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 3,
+      "start_time": "2026-11-17T05:27:00Z"
+    },
+    {
+      "race_id": "58bf2591-4da9-4f07-95c6-a168f3171035",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 6,
+      "start_time": "2026-11-17T05:35:00Z"
+    },
+    {
+      "race_id": "d8bef46c-3465-4d5e-a5cf-b0975e84deac",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 4,
+      "start_time": "2026-11-17T05:38:00Z"
+    },
+    {
+      "race_id": "71c23e49-1819-4d40-bdf7-40e7e4fc5912",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 4,
+      "start_time": "2026-11-17T05:44:00Z"
+    },
+    {
+      "race_id": "e4d2dc59-f8b7-484b-8602-4e678c257bcb",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 10,
+      "start_time": "2026-11-17T05:47:00Z"
+    },
+    {
+      "race_id": "5ab20a86-0ba7-4838-a790-fe7580510ac5",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 7,
+      "start_time": "2026-11-17T05:54:00Z"
+    },
+    {
+      "race_id": "86bd7b22-0a10-4c34-9cd2-e93f7ab19aca",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 5,
+      "start_time": "2026-11-17T05:57:00Z"
+    },
+    {
+      "race_id": "723b0dcf-d894-4bc5-92b8-c8007b7bf83e",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 5,
+      "start_time": "2026-11-17T06:06:00Z"
+    },
+    {
+      "race_id": "43752a63-1959-44c2-b2ce-ee42f96afb63",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 11,
+      "start_time": "2026-11-17T06:09:00Z"
+    },
+    {
+      "race_id": "d80d8977-47f4-4701-8864-7f74392bd75a",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 8,
+      "start_time": "2026-11-17T06:16:00Z"
+    },
+    {
+      "race_id": "4f233a88-7d2a-4905-b327-40e6ff49e76f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 6,
+      "start_time": "2026-11-17T06:21:00Z"
+    },
+    {
+      "race_id": "84259b06-6158-41d2-9cdd-02638ad2fd0a",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 6,
+      "start_time": "2026-11-17T06:24:00Z"
+    },
+    {
+      "race_id": "6573a3ac-dfd2-4920-8fb3-43a7b3d75a3b",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Horsham",
+      "race_number": 12,
+      "start_time": "2026-11-17T06:27:00Z"
+    },
+    {
+      "race_id": "19abec7b-c5b8-42ff-9560-f1dde945a2f9",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 9,
+      "start_time": "2026-11-17T06:34:00Z"
+    },
+    {
+      "race_id": "4bf1bc76-d987-42eb-9ee4-c7b24e2d49f3",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 7,
+      "start_time": "2026-11-17T06:42:00Z"
+    },
+    {
+      "race_id": "8489c3d8-2ef1-41e0-a8f8-bb89227c7772",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 7,
+      "start_time": "2026-11-17T06:44:00Z"
+    },
+    {
+      "race_id": "9843a61a-95cb-4cd9-8c8e-15da85f53848",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 10,
+      "start_time": "2026-11-17T06:50:00Z"
+    },
+    {
+      "race_id": "a439e815-33e2-4591-872c-9a63ef4f147e",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 8,
+      "start_time": "2026-11-17T06:58:00Z"
+    },
+    {
+      "race_id": "0b044608-3642-4a8b-b516-28767aa60273",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 8,
+      "start_time": "2026-11-17T07:05:00Z"
+    },
+    {
+      "race_id": "a07e560b-dbc1-43dd-aa57-3187892adfb3",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 11,
+      "start_time": "2026-11-17T07:12:00Z"
+    },
+    {
+      "race_id": "7ea88e65-5257-43ca-b776-5df5a8bee350",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 9,
+      "start_time": "2026-11-17T07:15:00Z"
+    },
+    {
+      "race_id": "b04c0cc8-d8e7-4807-b8d2-d9b89bd0f0a4",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 9,
+      "start_time": "2026-11-17T07:23:00Z"
+    },
+    {
+      "race_id": "e14090f4-e04a-4e4f-8646-c91f736d859d",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 12,
+      "start_time": "2026-11-17T07:30:00Z"
+    },
+    {
+      "race_id": "e774b4e6-e14e-4ad6-9fc4-f5dd9b7fb7ff",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Q2 Parklands",
+      "race_number": 10,
+      "start_time": "2026-11-17T07:37:00Z"
+    },
+    {
+      "race_id": "b5788967-3bda-4529-b14b-8ba5b987a28d",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 1,
+      "start_time": "2026-11-17T07:45:00Z"
+    },
+    {
+      "race_id": "58e3d563-fc00-4e90-9dd5-4404d29a923e",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Gosford",
+      "race_number": 10,
+      "start_time": "2026-11-17T07:48:00Z"
+    },
+    {
+      "race_id": "dc0fa75d-217f-40c6-b6b9-5aa76a30f7e1",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 13,
+      "start_time": "2026-11-17T07:51:00Z"
+    },
+    {
+      "race_id": "f980930c-cbd4-4884-aae9-f00a71059069",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 1,
+      "start_time": "2026-11-17T07:59:00Z"
+    },
+    {
+      "race_id": "9a05ec6a-b32f-4b39-8a4e-ca4f8ecb4601",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 2,
+      "start_time": "2026-11-17T08:02:00Z"
+    },
+    {
+      "race_id": "1a14054d-c830-48c2-9c79-0531ac07d4c9",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Ballarat",
+      "race_number": 14,
+      "start_time": "2026-11-17T08:09:00Z"
+    },
+    {
+      "race_id": "c9652240-ce5a-4cba-95d9-ce15ee797ad8",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 1,
+      "start_time": "2026-11-17T08:12:00Z"
+    },
+    {
+      "race_id": "6a272799-171d-4833-902c-e3da1c54ef6b",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 1,
+      "start_time": "2026-11-17T08:15:00Z"
+    },
+    {
+      "race_id": "11893bdd-2b3a-4194-8597-75b1cc24e468",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 2,
+      "start_time": "2026-11-17T08:18:00Z"
+    },
+    {
+      "race_id": "fb7a5e12-92ed-47bb-93e1-695e81f98b7a",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 3,
+      "start_time": "2026-11-17T08:25:00Z"
+    },
+    {
+      "race_id": "c7a7ebdc-55a7-4703-933e-ce717cd8aa2a",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 2,
+      "start_time": "2026-11-17T08:28:00Z"
+    },
+    {
+      "race_id": "3b951572-de21-4461-beba-8b8157164cab",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 2,
+      "start_time": "2026-11-17T08:35:00Z"
+    },
+    {
+      "race_id": "922b27c6-f592-433e-803a-0cdf26e422f2",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 3,
+      "start_time": "2026-11-17T08:38:00Z"
+    },
+    {
+      "race_id": "81408a56-fb34-4f14-af75-d787e09d91fa",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 4,
+      "start_time": "2026-11-17T08:49:00Z"
+    },
+    {
+      "race_id": "cbc5d8b0-5574-4184-b578-1ef694016691",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 3,
+      "start_time": "2026-11-17T08:52:00Z"
+    },
+    {
+      "race_id": "44f757f8-98ab-4a71-bd0b-1f565859e5fd",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 3,
+      "start_time": "2026-11-17T08:59:00Z"
+    },
+    {
+      "race_id": "470b0c2c-9969-4896-b5d1-fb86fce3a76d",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 4,
+      "start_time": "2026-11-17T09:02:00Z"
+    },
+    {
+      "race_id": "f4eaedb9-4d56-446f-a2de-cac318151229",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 1,
+      "start_time": "2026-11-17T09:09:00Z"
+    },
+    {
+      "race_id": "6908f03e-3b2b-40e7-85f0-5893df823dce",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 5,
+      "start_time": "2026-11-17T09:12:00Z"
+    },
+    {
+      "race_id": "4a0b2a13-1a6a-4001-83a7-7fc88ca14450",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 4,
+      "start_time": "2026-11-17T09:15:00Z"
+    },
+    {
+      "race_id": "0fe5b4a2-e605-44e6-8d36-d06492a0d84f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 4,
+      "start_time": "2026-11-17T09:22:00Z"
+    },
+    {
+      "race_id": "6a4f4e40-c0d2-42ce-850b-f66b3fdace3d",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 5,
+      "start_time": "2026-11-17T09:25:00Z"
+    },
+    {
+      "race_id": "e6c2d2a0-e7a5-4036-9d97-5d19d17337cb",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 2,
+      "start_time": "2026-11-17T09:28:00Z"
+    },
+    {
+      "race_id": "aff16cd7-6b8f-4461-8f00-248588014a24",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 6,
+      "start_time": "2026-11-17T09:35:00Z"
+    },
+    {
+      "race_id": "265f54f5-5f62-4f9c-9aed-51164e0e84af",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 5,
+      "start_time": "2026-11-17T09:38:00Z"
+    },
+    {
+      "race_id": "838cf910-10c1-4303-b734-16b27dc07c8f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 5,
+      "start_time": "2026-11-17T09:45:00Z"
+    },
+    {
+      "race_id": "5baedbff-7b9d-43cd-be73-f4458114e187",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 6,
+      "start_time": "2026-11-17T09:48:00Z"
+    },
+    {
+      "race_id": "901d28fd-4343-453e-9a9b-3d4ade26f56f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 3,
+      "start_time": "2026-11-17T09:51:00Z"
+    },
+    {
+      "race_id": "1d99e25d-108e-4f30-976f-f6dca9f64e38",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 7,
+      "start_time": "2026-11-17T09:58:00Z"
+    },
+    {
+      "race_id": "b45f3965-28ba-4a38-9c77-b2ef42ab1a1f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 6,
+      "start_time": "2026-11-17T10:01:00Z"
+    },
+    {
+      "race_id": "562a49ae-46a2-4137-a2f5-a405059eec0d",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 6,
+      "start_time": "2026-11-17T10:08:00Z"
+    },
+    {
+      "race_id": "b75aca85-731c-429c-bc17-1640270752df",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 7,
+      "start_time": "2026-11-17T10:11:00Z"
+    },
+    {
+      "race_id": "36ab6ca1-d00d-4fb7-9336-239195a76d0c",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 4,
+      "start_time": "2026-11-17T10:16:00Z"
+    },
+    {
+      "race_id": "aae4fe92-7574-4f8b-85c9-bde49b4948ea",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 1,
+      "start_time": "2026-11-17T10:19:00Z"
+    },
+    {
+      "race_id": "caa83499-d543-4052-84bc-e8625211dbb3",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 8,
+      "start_time": "2026-11-17T10:22:00Z"
+    },
+    {
+      "race_id": "9473c3e0-f6a2-4838-b03e-cea38d3cb55d",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 7,
+      "start_time": "2026-11-17T10:25:00Z"
+    },
+    {
+      "race_id": "a64b652a-0a2e-4eea-96ed-169ce13ada0c",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 7,
+      "start_time": "2026-11-17T10:32:00Z"
+    },
+    {
+      "race_id": "b3e7e6eb-ce62-45ca-b9a4-3777b1757801",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Bulli",
+      "race_number": 8,
+      "start_time": "2026-11-17T10:35:00Z"
+    },
+    {
+      "race_id": "139ccea7-08ad-47d1-aa79-9cb9f6dfa310",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 5,
+      "start_time": "2026-11-17T10:37:00Z"
+    },
+    {
+      "race_id": "8661b3db-e771-4cf0-b359-f3de152fdc91",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 2,
+      "start_time": "2026-11-17T10:38:00Z"
+    },
+    {
+      "race_id": "9e11ddd6-41da-448e-be19-62da17c35185",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 9,
+      "start_time": "2026-11-17T10:45:00Z"
+    },
+    {
+      "race_id": "f7c80e7d-0911-4695-b302-79faec0773ee",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 8,
+      "start_time": "2026-11-17T10:48:00Z"
+    },
+    {
+      "race_id": "cb126398-70e1-41e8-9f0a-08e2ac49ee89",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 6,
+      "start_time": "2026-11-17T10:52:00Z"
+    },
+    {
+      "race_id": "d971d463-bf07-4552-bb2e-eee53da834b0",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 8,
+      "start_time": "2026-11-17T10:55:00Z"
+    },
+    {
+      "race_id": "9ee9117b-ae5f-4496-95fb-35d17292649c",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 3,
+      "start_time": "2026-11-17T10:58:00Z"
+    },
+    {
+      "race_id": "a960d4a7-594c-496f-ba63-679d66a3b73b",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 10,
+      "start_time": "2026-11-17T11:05:00Z"
+    },
+    {
+      "race_id": "dcfc638e-6b52-4edb-95ed-cc20440be841",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Wagga",
+      "race_number": 9,
+      "start_time": "2026-11-17T11:08:00Z"
+    },
+    {
+      "race_id": "d6d6469e-25e4-46cf-aeeb-88501cafaa16",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 7,
+      "start_time": "2026-11-17T11:12:00Z"
+    },
+    {
+      "race_id": "949f1403-7fd9-4dae-b27c-ed37c403b265",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 9,
+      "start_time": "2026-11-17T11:20:00Z"
+    },
+    {
+      "race_id": "6792bb66-9c12-4026-ad36-0b95a4ca898c",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 4,
+      "start_time": "2026-11-17T11:23:00Z"
+    },
+    {
+      "race_id": "ece197bc-f82c-4feb-85e9-77d65fc21f06",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Warragul",
+      "race_number": 11,
+      "start_time": "2026-11-17T11:30:00Z"
+    },
+    {
+      "race_id": "57321ae3-4c25-424a-9736-b03515bfd64a",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Darwin",
+      "race_number": 8,
+      "start_time": "2026-11-17T11:33:00Z"
+    },
+    {
+      "race_id": "05fed5da-5617-4302-9333-a2005be57f4e",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 10,
+      "start_time": "2026-11-17T11:40:00Z"
+    },
+    {
+      "race_id": "a61726db-fcc9-46d2-9f9a-074296f7fc9c",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 5,
+      "start_time": "2026-11-17T11:43:00Z"
+    },
+    {
+      "race_id": "fb591fb2-542d-4c80-8b4a-adb923149b98",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 11,
+      "start_time": "2026-11-17T11:57:00Z"
+    },
+    {
+      "race_id": "5cd23bc3-bc1f-47ef-bad0-ed1dfcca64a9",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 6,
+      "start_time": "2026-11-17T12:07:00Z"
+    },
+    {
+      "race_id": "1590b548-2767-4b12-a576-5f7018102ff8",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville",
+      "race_number": 12,
+      "start_time": "2026-11-17T12:15:00Z"
+    },
+    {
+      "race_id": "76289bd5-10fb-4765-a3a3-b8a0e0c7484f",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 7,
+      "start_time": "2026-11-17T12:25:00Z"
+    },
+    {
+      "race_id": "765521bd-4428-451d-b429-55a66db12bef",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Townsville Extra",
+      "race_number": 1,
+      "start_time": "2026-11-17T12:33:00Z"
+    },
+    {
+      "race_id": "6ddc1d01-488b-4a54-b1dc-a81002fe52ce",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 8,
+      "start_time": "2026-11-17T12:46:00Z"
+    },
+    {
+      "race_id": "f7470c6d-ae7f-4e0b-92f8-358f1367e488",
+      "category": "greyhound",
+      "country": "AU",
+      "venue": "Mandurah",
+      "race_number": 9,
+      "start_time": "2026-11-17T13:05:00Z"
     }
   ],
   "errors": [],
-  "credits_remaining": "1238",
+  "credits_remaining": "1228",
   "notice": "全球无国家限制批量扫描；当前供应商 next-to-go 可能不提供 Favourite vs Field 双边市场。只有验证真实双边报价才生成 A$10 虚拟投注；不从 Win 赔率推算。Favourite vs Field 自动结算仍未实现。",
   "countries_requested": "ALL_AVAILABLE",
   "country_coverage": [
     {
       "country": "AU",
       "category": "horse",
-      "races": 16,
-      "status": "queried"
-    },
-    {
-      "country": "CL",
-      "category": "horse",
-      "races": 1,
-      "status": "queried"
-    },
-    {
-      "country": "FR",
-      "category": "horse",
-      "races": 3,
+      "races": 15,
       "status": "queried"
     },
     {
       "country": "GB",
       "category": "horse",
-      "races": 13,
+      "races": 17,
+      "status": "queried"
+    },
+    {
+      "country": "IE",
+      "category": "horse",
+      "races": 8,
+      "status": "queried"
+    },
+    {
+      "country": "NZ",
+      "category": "horse",
+      "races": 2,
       "status": "queried"
     },
     {
       "country": "US",
       "category": "horse",
-      "races": 24,
+      "races": 2,
       "status": "queried"
     },
     {
-      "country": "GB",
+      "country": "AU",
       "category": "greyhound",
-      "races": 17,
+      "races": 120,
       "status": "queried"
     }
   ],
   "market_diagnostics": {
-    "races_checked": 74,
+    "races_checked": 164,
     "markets_seen": 0,
     "explanation": "markets_seen=0 means the API returned no market objects; matching_markets=0 means no explicit Favourite vs Field market was identified. Rejected quotes need source field/schema verification."
   },
@@ -658,7 +1378,7 @@
   "new_settlements": 0,
   "results_returned": 200,
   "settlement_diagnostics": [],
-  "settlement_checked_at": "2026-11-16T18:29:42.795182+00:00",
+  "settlement_checked_at": "2026-11-17T02:02:31.608660+00:00",
   "settlement_error": null,
   "place_odds_analysis": [
     {
