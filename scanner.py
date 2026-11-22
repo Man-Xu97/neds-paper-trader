@@ -36,28 +36,27 @@ def priced_runners(race):
         out.append((runner,book,win,place))
     return out
 def make_bet(race,category):
-    """Conservative: require real Neds win/place prices, confirmed place terms and fresh quote."""
+    """Paper PLACE on the lowest WIN-priced active runner, using actual Neds PLACE odds."""
     if race.get('stale') is True:return None
-    try:
-        if float(race.get('data_age_seconds',99999))>120:return None
-    except Exception:return None
+    if race.get('data_age_seconds') is not None:
+        try:
+            if float(race['data_age_seconds'])>120:return None
+        except (TypeError,ValueError):return None
     start=race.get('start_time') or race.get('jump_time')
     try:
         jump=datetime.datetime.fromisoformat(start.replace('Z','+00:00'))
-        if not (datetime.datetime.now(datetime.timezone.utc)<jump):return None
-    except Exception:return None
+        if jump.tzinfo is None or datetime.datetime.now(datetime.timezone.utc)>=jump:return None
+    except (AttributeError,TypeError,ValueError):return None
     terms=race.get('places_paid') or race.get('place_terms')
-    if not isinstance(terms,int) or terms<2:return None
+    if not isinstance(terms,int) or isinstance(terms,bool) or terms<1:return None
     choices=priced_runners(race)
-    # Only favourite, and only within the pre-agreed Win 2.00-4.00 candidate band.
     if not choices:return None
     choices.sort(key=lambda x:x[2])
     runner,book,win,place=choices[0]
-    if not Decimal('2')<=win<=Decimal('4') or place<Decimal('1.50'):return None
     rid=str(race.get('race_id') or race.get('id') or '')
     runnerid=str(runner.get('runner_id') or runner.get('id') or runner.get('number') or '')
     if not rid or not runnerid:return None
-    return {'key':'PLACE:'+rid+':'+runnerid,'race_id':rid,'category':category,
+    return {'key':'PLACE:'+category+':'+rid+':'+runnerid,'race_id':rid,'category':category,
             'runner_id':runnerid,'runner_name':str(runner.get('name') or runner.get('runner_name') or ''),
             'market':'PLACE','win_odds':str(win),'odds':str(place),'places_paid':terms,
             'stake_aud':'10.00','source':'PuntersEdge / Neds','observed_at':now(),
@@ -167,7 +166,9 @@ def main():
                 seen_in_scan.add(key)
                 country=str(race.get('country') or 'UNKNOWN').upper()
                 per_country[country]=per_country.get(country,0)+1
-                candidate=favourite_field_candidate(race,category,report['market_diagnostics'])
+                candidate=make_bet(race,category)
+                report['market_diagnostics']['races_checked']=report['market_diagnostics'].get('races_checked',0)+1
+                if candidate:report['market_diagnostics']['valid_place_candidates']=report['market_diagnostics'].get('valid_place_candidates',0)+1
                 if candidate and add_paper_bet(ledger,candidate):created+=1
                 if key not in state['seen']:
                     state['seen'][key]=now();report['new_races']+=1
@@ -179,10 +180,10 @@ def main():
             report['errors'].append(category+': '+message)
             report['country_coverage'].append({'country':'ALL','category':category,'races':0,'status':'error','reason':message})
     report['races_seen_total']=len(state['seen'])
-    report['market_diagnostics']['explanation']='markets_seen=0 means the API returned no market objects; matching_markets=0 means no explicit Favourite vs Field market was identified. Rejected quotes need source field/schema verification.'
-    report['research_market']='FAVOURITE_VS_FIELD'
-    report['verified_favourite_vs_field_quotes']=created
-    report['mode']='FAVOURITE_VS_FIELD_RESEARCH'
+    report['market_diagnostics']['explanation']='valid_place_candidates counts races with a lowest-WIN-odds runner and valid Neds PLACE price, terms and start time; duplicates and bankroll limits may reduce new bets.'
+    report['research_market']='PLACE_LOWEST_WIN_ODDS'
+    report['verified_place_candidates']=report['market_diagnostics'].get('valid_place_candidates',0)
+    report['mode']='LOWEST_WIN_ODDS_PLACE_PAPER'
     report['paper_betting_enabled']=True
     report['bankroll_aud']=ledger['cash_aud']
     report['new_settlements']=settled
@@ -215,7 +216,7 @@ def main():
     report['paper_bets_open']=len([b for b in ledger['bets'] if b.get('status')=='OPEN'])
     report['new_paper_bets']=created
     report['recent_paper_bets']=ledger['bets'][-15:]
-    report['notice']='全球无国家限制批量扫描；当前供应商 next-to-go 可能不提供 Favourite vs Field 双边市场。只有验证真实双边报价才生成 A$10 虚拟投注；不从 Win 赔率推算。Favourite vs Field 自动结算仍未实现。'
+    report['notice']='每场只选择有效 Neds 独赢赔率最低的参赛者，以实际 Place 赔率进行 A$10 虚拟投注；没有有效 Place 赔率、名次条款或赛前信息则跳过。只做模拟，不提交真实订单。'
     ledgerfile.parent.mkdir(exist_ok=True)
     ledgerfile.write_text(json.dumps(ledger,ensure_ascii=False,indent=2))
     statefile.parent.mkdir(exist_ok=True);out.parent.mkdir(exist_ok=True)
