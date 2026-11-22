@@ -1,4 +1,22 @@
 {
-  "cash_aud": "1000.00",
-  "bets": []
+  "cash_aud": "999.00",
+  "bets": [
+    {
+      "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
+      "race_id": "58f48586-a61d-4bff-b55b-7f6a329ab4b4",
+      "category": "greyhound",
+      "runner_id": "2",
+      "runner_name": "Mr. Bojangles",
+      "market": "PLACE",
+      "win_odds": "2.6",
+      "odds": "1.28",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-22T23:33:52.941987+00:00",
+      "start_time": "2026-11-23T00:00:00Z",
+      "status": "OPEN",
+      "settlement": null
+    }
+  ]
 }
