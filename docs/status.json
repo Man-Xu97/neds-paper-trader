@@ -1,170 +1,18 @@
 {
-  "updated_at": "2026-11-22T23:33:47.471120+00:00",
+  "updated_at": "2026-11-23T03:57:44.968933+00:00",
   "mode": "LOWEST_WIN_ODDS_PLACE_PAPER",
   "source": "PuntersEdge / Neds",
   "live_betting": false,
   "paper_betting_enabled": true,
-  "bankroll_aud": "999.00",
+  "bankroll_aud": "1000.28",
   "stake_aud": 1,
-  "settled_bets": 0,
-  "profit_aud": "0",
+  "settled_bets": 1,
+  "profit_aud": "0.28",
   "place_bets": 1,
   "favourite_vs_field_bets": 0,
-  "races_seen_total": 2735,
-  "new_races": 138,
+  "races_seen_total": 2760,
+  "new_races": 25,
   "observations": [
-    {
-      "race_id": "f385cc4a-1555-4cae-8fae-6508cd262ebf",
-      "category": "horse",
-      "country": "CL",
-      "venue": "Valparaiso",
-      "race_number": 12,
-      "start_time": "2026-11-22T23:35:00Z"
-    },
-    {
-      "race_id": "71ac6aff-e1b2-46d8-9624-f3fe44ac30a6",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 1,
-      "start_time": "2026-11-23T00:00:00Z"
-    },
-    {
-      "race_id": "862cc8ac-790c-4a0b-9e68-5a12a3164850",
-      "category": "horse",
-      "country": "US",
-      "venue": "Del Mar",
-      "race_number": 8,
-      "start_time": "2026-11-23T00:03:00Z"
-    },
-    {
-      "race_id": "05b3ffeb-a67b-4b42-aec3-cd57f808f981",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 2,
-      "start_time": "2026-11-23T00:25:00Z"
-    },
-    {
-      "race_id": "1c446812-f428-407d-89d3-d2cbb8be78bf",
-      "category": "horse",
-      "country": "US",
-      "venue": "Del Mar",
-      "race_number": 9,
-      "start_time": "2026-11-23T00:33:00Z"
-    },
-    {
-      "race_id": "29007032-7b38-4be6-8326-8b96540e42ea",
-      "category": "horse",
-      "country": "JP",
-      "venue": "Fukushima",
-      "race_number": 1,
-      "start_time": "2026-11-23T00:45:00Z"
-    },
-    {
-      "race_id": "5f59b6a5-e038-4649-b1e6-f0a27c114ea8",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 3,
-      "start_time": "2026-11-23T00:50:00Z"
-    },
-    {
-      "race_id": "96fd671e-7643-46fd-9232-fe04bcba0f89",
-      "category": "horse",
-      "country": "JP",
-      "venue": "Tokyo",
-      "race_number": 1,
-      "start_time": "2026-11-23T01:00:00Z"
-    },
-    {
-      "race_id": "f2801e14-345d-4bae-9532-9671433ba4b6",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 4,
-      "start_time": "2026-11-23T01:15:00Z"
-    },
-    {
-      "race_id": "32690012-c048-40f3-88ec-da8a4f96e83e",
-      "category": "horse",
-      "country": "JP",
-      "venue": "Fukushima",
-      "race_number": 2,
-      "start_time": "2026-11-23T01:15:00Z"
-    },
-    {
-      "race_id": "769fdcd7-b507-43f8-a0cb-6f5c882c48f2",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 5,
-      "start_time": "2026-11-23T01:40:00Z"
-    },
-    {
-      "race_id": "ceb7c322-4c72-47ee-8d75-00ff92cb0450",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 6,
-      "start_time": "2026-11-23T02:05:00Z"
-    },
-    {
-      "race_id": "1be00f8d-3ffa-4f2e-9456-8950e13d610f",
-      "category": "horse",
-      "country": "AU",
-      "venue": "Ballina",
-      "race_number": 1,
-      "start_time": "2026-11-23T02:15:00Z"
-    },
-    {
-      "race_id": "a924d5ec-34dd-4fde-bd24-74bbd219f962",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 7,
-      "start_time": "2026-11-23T02:30:00Z"
-    },
-    {
-      "race_id": "c2f3d736-5f88-4df2-8b06-ef8c46e96c46",
-      "category": "horse",
-      "country": "AU",
-      "venue": "Ballina",
-      "race_number": 2,
-      "start_time": "2026-11-23T02:50:00Z"
-    },
-    {
-      "race_id": "f828173d-305e-4de7-beeb-ab14d4114518",
-      "category": "horse",
-      "country": "US",
-      "venue": "Mountaineer Park",
-      "race_number": 8,
-      "start_time": "2026-11-23T02:55:00Z"
-    },
-    {
-      "race_id": "d6de11a0-0101-4cf3-aa70-16eb1bd3dcc3",
-      "category": "horse",
-      "country": "AU",
-      "venue": "Barcaldine",
-      "race_number": 1,
-      "start_time": "2026-11-23T03:10:00Z"
-    },
-    {
-      "race_id": "be88b7c8-cb72-46ac-8cb1-ebb208830a16",
-      "category": "horse",
-      "country": "AU",
-      "venue": "Ballina",
-      "race_number": 3,
-      "start_time": "2026-11-23T03:25:00Z"
-    },
-    {
-      "race_id": "b638ba41-bff8-49ab-9554-c2434eee451e",
-      "category": "horse",
-      "country": "AU",
-      "venue": "Barcaldine",
-      "race_number": 2,
-      "start_time": "2026-11-23T03:45:00Z"
-    },
     {
       "race_id": "37d9d3b9-11df-4f7f-abb4-98d87adcbc4f",
       "category": "horse",
@@ -172,6 +20,30 @@
       "venue": "Ballina",
       "race_number": 4,
       "start_time": "2026-11-23T04:00:00Z"
+    },
+    {
+      "race_id": "aa563cbe-024e-4db5-a9fa-a5a618d1f94c",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Fukushima",
+      "race_number": 7,
+      "start_time": "2026-11-23T04:05:00Z"
+    },
+    {
+      "race_id": "206dd9ad-71be-4bfc-8173-e8de5fb9b5e0",
+      "category": "horse",
+      "country": "US",
+      "venue": "Los Alamitos Qh",
+      "race_number": 8,
+      "start_time": "2026-11-23T04:05:40Z"
+    },
+    {
+      "race_id": "bcce7ff2-b86d-4a84-9d0d-f240bbffe265",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Tokyo",
+      "race_number": 7,
+      "start_time": "2026-11-23T04:20:00Z"
     },
     {
       "race_id": "c3543688-1cce-4ead-bd8a-ec2cbc014a2b",
@@ -182,12 +54,28 @@
       "start_time": "2026-11-23T04:20:00Z"
     },
     {
+      "race_id": "7591f332-3e83-4c74-b8ef-d66b9a84ae9b",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Fukushima",
+      "race_number": 8,
+      "start_time": "2026-11-23T04:35:00Z"
+    },
+    {
       "race_id": "b5f646df-b7ac-4131-b416-2dd4c56a2b91",
       "category": "horse",
       "country": "AU",
       "venue": "Ballina",
       "race_number": 5,
       "start_time": "2026-11-23T04:35:00Z"
+    },
+    {
+      "race_id": "45a153a9-63c4-4138-ae39-f0e79dfdae89",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Tokyo",
+      "race_number": 8,
+      "start_time": "2026-11-23T04:50:00Z"
     },
     {
       "race_id": "71dc78b5-5b4a-4a71-af69-d4961cccce81",
@@ -198,6 +86,14 @@
       "start_time": "2026-11-23T04:55:00Z"
     },
     {
+      "race_id": "e900aa8a-f64f-4e48-90d1-de6cc1c750ef",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Fukushima",
+      "race_number": 9,
+      "start_time": "2026-11-23T05:05:00Z"
+    },
+    {
       "race_id": "c000171b-0a85-4274-adca-10c003d71ac5",
       "category": "horse",
       "country": "AU",
@@ -206,12 +102,28 @@
       "start_time": "2026-11-23T05:10:00Z"
     },
     {
+      "race_id": "063960a4-1b6c-423e-91b3-997e7bc356eb",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Tokyo",
+      "race_number": 9,
+      "start_time": "2026-11-23T05:20:00Z"
+    },
+    {
       "race_id": "6dc70060-f425-4573-9ac3-fc20311120f4",
       "category": "horse",
       "country": "AU",
       "venue": "Barcaldine",
       "race_number": 5,
       "start_time": "2026-11-23T05:30:00Z"
+    },
+    {
+      "race_id": "74d37089-33f1-4480-b227-42f61efdcf0b",
+      "category": "horse",
+      "country": "JP",
+      "venue": "Fukushima",
+      "race_number": 10,
+      "start_time": "2026-11-23T05:40:00Z"
     },
     {
       "race_id": "e49dbb09-1f8c-47a9-ac86-089db08c9700",
@@ -438,156 +350,140 @@
       "start_time": "2026-11-23T17:00:00Z"
     },
     {
-      "race_id": "9f0469ba-9cfd-44e1-b5fa-14d6f9b2d24e",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 1,
-      "start_time": "2026-11-22T23:41:00Z"
-    },
-    {
-      "race_id": "58f48586-a61d-4bff-b55b-7f6a329ab4b4",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 2,
-      "start_time": "2026-11-23T00:00:00Z"
-    },
-    {
-      "race_id": "a59e0d59-c672-4669-b267-aa4b95635ceb",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 3,
-      "start_time": "2026-11-23T00:22:00Z"
-    },
-    {
-      "race_id": "229df33f-f312-4110-8d20-69d3c4e780d0",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
+      "race_id": "474686bd-04ab-4987-aaaf-0c0dc66d92e3",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Newcastle",
       "race_number": 4,
-      "start_time": "2026-11-23T00:39:00Z"
+      "start_time": "2026-11-23T17:15:00Z"
     },
     {
-      "race_id": "bf2f8dd0-7d5d-462b-9970-aad8d1a0815e",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
+      "race_id": "641763dd-ca39-4a5d-8722-4fddd9d9431a",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Wolverhampton",
+      "race_number": 3,
+      "start_time": "2026-11-23T17:30:00Z"
+    },
+    {
+      "race_id": "b531f9ef-95de-46b4-9412-90a6bbf60d7d",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Newcastle",
       "race_number": 5,
-      "start_time": "2026-11-23T00:54:00Z"
+      "start_time": "2026-11-23T17:45:00Z"
     },
     {
-      "race_id": "a8d74023-6b14-4433-8bce-0ef0e44535d2",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 6,
-      "start_time": "2026-11-23T01:11:00Z"
-    },
-    {
-      "race_id": "4f082048-dc34-4a4f-bf03-895b8803e023",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 7,
-      "start_time": "2026-11-23T01:28:00Z"
-    },
-    {
-      "race_id": "9b66634c-ba78-4f77-950f-94c0ca6175bb",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 8,
-      "start_time": "2026-11-23T01:45:00Z"
-    },
-    {
-      "race_id": "9c0ef17a-c400-46a1-9df9-15513179f0ac",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 9,
-      "start_time": "2026-11-23T02:06:00Z"
-    },
-    {
-      "race_id": "8d560f79-0503-4f3b-96a6-6a4c093c0e02",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 10,
-      "start_time": "2026-11-23T02:24:00Z"
-    },
-    {
-      "race_id": "7eff890d-1388-4cfe-9754-409661405f47",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 11,
-      "start_time": "2026-11-23T02:39:00Z"
-    },
-    {
-      "race_id": "a09b6c54-88d7-498d-b3f9-d50e6b199b74",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 12,
-      "start_time": "2026-11-23T02:54:00Z"
-    },
-    {
-      "race_id": "378778c5-c11d-4048-8b0b-afeeb36f3470",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Ballarat",
-      "race_number": 1,
-      "start_time": "2026-11-23T03:02:00Z"
-    },
-    {
-      "race_id": "1d305a60-2c50-45b7-a0a3-04df09a2d79e",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 13,
-      "start_time": "2026-11-23T03:14:00Z"
-    },
-    {
-      "race_id": "5e7d6de9-90e2-477a-9a1f-f20daea12965",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Ballarat",
-      "race_number": 2,
-      "start_time": "2026-11-23T03:22:00Z"
-    },
-    {
-      "race_id": "1ebce9c8-7c19-4f03-accc-0f6285f9e63e",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Shepparton",
-      "race_number": 14,
-      "start_time": "2026-11-23T03:29:00Z"
-    },
-    {
-      "race_id": "394c8d39-0a0f-43b5-b86c-0d1b84f68206",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Ballarat",
-      "race_number": 3,
-      "start_time": "2026-11-23T03:37:00Z"
-    },
-    {
-      "race_id": "f2e68ea9-8a9f-4278-b340-1ef62effa987",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Warrnambool",
-      "race_number": 1,
-      "start_time": "2026-11-23T03:49:00Z"
-    },
-    {
-      "race_id": "8924421e-7d59-4138-8a93-47302cb534ab",
-      "category": "greyhound",
-      "country": "AU",
-      "venue": "Ballarat",
+      "race_id": "460323b7-fc71-4a10-b2d6-74e381eda228",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Wolverhampton",
       "race_number": 4,
-      "start_time": "2026-11-23T03:57:00Z"
+      "start_time": "2026-11-23T18:00:00Z"
+    },
+    {
+      "race_id": "68c2a0b3-73e2-43df-ab8c-17064e1cbd9d",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Newcastle",
+      "race_number": 6,
+      "start_time": "2026-11-23T18:15:00Z"
+    },
+    {
+      "race_id": "9b34bb2a-7108-4aec-8d92-edc6fa51ae8f",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Wolverhampton",
+      "race_number": 5,
+      "start_time": "2026-11-23T18:30:00Z"
+    },
+    {
+      "race_id": "1f1be922-7b21-4dba-82e5-00926e2bee16",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Newcastle",
+      "race_number": 7,
+      "start_time": "2026-11-23T18:45:00Z"
+    },
+    {
+      "race_id": "c6b231e6-0fb7-438c-87ce-5da879cac587",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Wolverhampton",
+      "race_number": 6,
+      "start_time": "2026-11-23T19:00:00Z"
+    },
+    {
+      "race_id": "f37240f5-bc8c-4730-a9ae-19207567b7a7",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Newcastle",
+      "race_number": 8,
+      "start_time": "2026-11-23T19:15:00Z"
+    },
+    {
+      "race_id": "7fa47ed5-ab3a-4fb1-b475-028972b8667e",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Wolverhampton",
+      "race_number": 7,
+      "start_time": "2026-11-23T19:30:00Z"
+    },
+    {
+      "race_id": "4e5c7b30-3edb-4ba8-9cdf-5b6473158ac1",
+      "category": "horse",
+      "country": "GB",
+      "venue": "Newcastle",
+      "race_number": 9,
+      "start_time": "2026-11-23T19:45:00Z"
+    },
+    {
+      "race_id": "c664c39d-395b-42ec-b303-ec26e767baca",
+      "category": "horse",
+      "country": "AU",
+      "venue": "Tamworth",
+      "race_number": 1,
+      "start_time": "2026-11-24T02:15:00Z"
+    },
+    {
+      "race_id": "888184c2-475e-4d3a-9b1a-f3104a1f5897",
+      "category": "horse",
+      "country": "AU",
+      "venue": "Ararat",
+      "race_number": 1,
+      "start_time": "2026-11-24T02:30:00Z"
+    },
+    {
+      "race_id": "660552c0-bc0d-49c4-a08f-a0e546edcc2a",
+      "category": "horse",
+      "country": "AU",
+      "venue": "Tamworth",
+      "race_number": 2,
+      "start_time": "2026-11-24T02:50:00Z"
+    },
+    {
+      "race_id": "a3fcdaaa-6042-4835-a157-72c62fb89d70",
+      "category": "horse",
+      "country": "AU",
+      "venue": "Ararat",
+      "race_number": 2,
+      "start_time": "2026-11-24T03:00:00Z"
+    },
+    {
+      "race_id": "e39d3cc1-d5e1-4893-af4e-dc2b3b19366c",
+      "category": "horse",
+      "country": "AU",
+      "venue": "Tamworth",
+      "race_number": 3,
+      "start_time": "2026-11-24T03:25:00Z"
+    },
+    {
+      "race_id": "011c7c2f-fb29-492a-a00e-f9062c595c26",
+      "category": "horse",
+      "country": "AU",
+      "venue": "Ararat",
+      "race_number": 3,
+      "start_time": "2026-11-24T03:30:00Z"
     },
     {
       "race_id": "a2607c7a-09f3-437d-a1a0-1d58b5f25a9e",
@@ -1511,64 +1407,51 @@
     }
   ],
   "errors": [],
-  "credits_remaining": "1028",
+  "credits_remaining": "1018",
   "notice": "每场只选择有效 Neds 独赢赔率最低的参赛者，以实际 Place 赔率进行 A$10 虚拟投注；没有有效 Place 赔率、名次条款或赛前信息则跳过。只做模拟，不提交真实订单。",
   "countries_requested": "ALL_AVAILABLE",
   "country_coverage": [
     {
       "country": "AU",
       "category": "horse",
-      "races": 14,
-      "status": "queried"
-    },
-    {
-      "country": "CL",
-      "category": "horse",
-      "races": 1,
+      "races": 15,
       "status": "queried"
     },
     {
       "country": "GB",
       "category": "horse",
-      "races": 25,
+      "races": 36,
       "status": "queried"
     },
     {
       "country": "JP",
       "category": "horse",
-      "races": 3,
+      "races": 7,
       "status": "queried"
     },
     {
       "country": "US",
       "category": "horse",
-      "races": 10,
+      "races": 1,
       "status": "queried"
     },
     {
       "country": "AU",
       "category": "greyhound",
-      "races": 134,
+      "races": 115,
       "status": "queried"
     }
   ],
   "market_diagnostics": {
-    "races_checked": 187,
-    "valid_place_candidates": 1,
+    "races_checked": 174,
     "explanation": "valid_place_candidates counts races with a lowest-WIN-odds runner and valid Neds PLACE price, terms and start time; duplicates and bankroll limits may reduce new bets."
   },
   "research_market": "PLACE_LOWEST_WIN_ODDS",
-  "verified_place_candidates": 1,
-  "new_settlements": 0,
+  "verified_place_candidates": 0,
+  "new_settlements": 1,
   "results_returned": 200,
-  "settlement_diagnostics": [
-    {
-      "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
-      "runner_name": "Mr. Bojangles",
-      "reason": "赛果接口未返回该赛事"
-    }
-  ],
-  "settlement_checked_at": "2026-11-22T23:33:52.942595+00:00",
+  "settlement_diagnostics": [],
+  "settlement_checked_at": "2026-11-23T03:57:50.714779+00:00",
   "settlement_error": null,
   "place_odds_analysis": [
     {
@@ -1638,10 +1521,10 @@
       "roi_pct": null
     }
   ],
-  "wins": 0,
+  "wins": 1,
   "losses": 0,
-  "paper_bets_open": 1,
-  "new_paper_bets": 1,
+  "paper_bets_open": 0,
+  "new_paper_bets": 0,
   "recent_paper_bets": [
     {
       "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
@@ -1657,8 +1540,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-22T23:33:52.941987+00:00",
       "start_time": "2026-11-23T00:00:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "1.28",
+        "profit_aud": "0.28",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-23T03:57:44.967986+00:00"
+      }
     }
   ]
 }
