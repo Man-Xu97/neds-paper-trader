@@ -1,5 +1,5 @@
 {
-  "cash_aud": "994.28",
+  "cash_aud": "995.50",
   "bets": [
     {
       "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
@@ -123,8 +123,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-24T11:36:18.302378+00:00",
       "start_time": "2026-11-24T11:58:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.22",
+        "profit_aud": "0.22",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-24T21:29:31.259497+00:00"
+      }
     }
   ]
 }
