@@ -1,5 +1,5 @@
 {
-  "cash_aud": "995.50",
+  "cash_aud": "990.50",
   "bets": [
     {
       "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
@@ -131,6 +131,91 @@
         "source": "PuntersEdge final results",
         "settled_at": "2026-11-24T21:29:31.259497+00:00"
       }
+    },
+    {
+      "key": "PLACE:horse:f536ba6c-ee3c-4473-9180-13b796b2ceda:1",
+      "race_id": "f536ba6c-ee3c-4473-9180-13b796b2ceda",
+      "category": "horse",
+      "runner_id": "1",
+      "runner_name": "Castello Grande",
+      "market": "PLACE",
+      "win_odds": "2.2",
+      "odds": "1.2",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-25T04:30:54.808378+00:00",
+      "start_time": "2026-11-25T04:48:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:horse:cb38397e-2783-49cb-b645-7c856ffcc31b:5",
+      "race_id": "cb38397e-2783-49cb-b645-7c856ffcc31b",
+      "category": "horse",
+      "runner_id": "5",
+      "runner_name": "Wild Is The Wind",
+      "market": "PLACE",
+      "win_odds": "2.7",
+      "odds": "1.35",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-25T04:30:54.808505+00:00",
+      "start_time": "2026-11-25T04:55:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:7803e97b-a800-4b3a-9ef1-8e4dd40e204b:1",
+      "race_id": "7803e97b-a800-4b3a-9ef1-8e4dd40e204b",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Sustainable",
+      "market": "PLACE",
+      "win_odds": "2.6",
+      "odds": "1.6",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-25T04:30:58.028686+00:00",
+      "start_time": "2026-11-25T04:32:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:aa1a93cf-f1f0-414c-bd70-250b063ca3e7:1",
+      "race_id": "aa1a93cf-f1f0-414c-bd70-250b063ca3e7",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Overriding",
+      "market": "PLACE",
+      "win_odds": "3.0",
+      "odds": "1.4",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-25T04:30:58.028772+00:00",
+      "start_time": "2026-11-25T04:52:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:895f7e9f-e306-45ff-81c1-9bfaeb2adccb:3",
+      "race_id": "895f7e9f-e306-45ff-81c1-9bfaeb2adccb",
+      "category": "greyhound",
+      "runner_id": "3",
+      "runner_name": "Not Sorry",
+      "market": "PLACE",
+      "win_odds": "2.35",
+      "odds": "1.5",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-25T04:30:58.028807+00:00",
+      "start_time": "2026-11-25T04:57:00Z",
+      "status": "OPEN",
+      "settlement": null
     }
   ]
 }
