@@ -1,5 +1,5 @@
 {
-  "cash_aud": "985.50",
+  "cash_aud": "988.22",
   "bets": [
     {
       "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
@@ -231,8 +231,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-25T23:23:50.888605+00:00",
       "start_time": "2026-11-25T23:30:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 3,
+        "payout_aud": "1.09",
+        "profit_aud": "0.09",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-26T05:15:53.604168+00:00"
+      }
     },
     {
       "key": "PLACE:greyhound:36860352-ff25-4d29-8225-e31c77fe1849:2",
@@ -248,8 +254,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-25T23:23:50.888664+00:00",
       "start_time": "2026-11-25T23:47:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.16",
+        "profit_aud": "0.16",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-26T05:15:53.604201+00:00"
+      }
     },
     {
       "key": "PLACE:greyhound:4d17bfe5-d239-497f-93fa-1f8ca11aeb23:1",
@@ -265,8 +277,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-25T23:23:50.888695+00:00",
       "start_time": "2026-11-26T01:05:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.16",
+        "profit_aud": "0.16",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-26T05:15:53.604211+00:00"
+      }
     },
     {
       "key": "PLACE:greyhound:40048143-c8e5-40a9-a444-582b6bdcfd94:2",
@@ -282,8 +300,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-25T23:23:50.888728+00:00",
       "start_time": "2026-11-26T01:34:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.07",
+        "profit_aud": "0.07",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-26T05:15:53.604218+00:00"
+      }
     },
     {
       "key": "PLACE:greyhound:d54e128a-850d-4bd0-9ca1-fd343f670b94:8",
@@ -299,6 +323,63 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-25T23:23:50.888756+00:00",
       "start_time": "2026-11-26T02:06:00Z",
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.24",
+        "profit_aud": "0.24",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-26T05:15:53.604224+00:00"
+      }
+    },
+    {
+      "key": "PLACE:horse:ca1e0e76-5441-45d3-8178-75e8580a3f72:1",
+      "race_id": "ca1e0e76-5441-45d3-8178-75e8580a3f72",
+      "category": "horse",
+      "runner_id": "1",
+      "runner_name": "Talk Too Much",
+      "market": "PLACE",
+      "win_odds": "1.65",
+      "odds": "1.08",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-26T05:15:55.687481+00:00",
+      "start_time": "2026-11-26T05:17:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:horse:4de05f3f-30b2-4ebd-a1e2-a4b878cd144d:2",
+      "race_id": "4de05f3f-30b2-4ebd-a1e2-a4b878cd144d",
+      "category": "horse",
+      "runner_id": "2",
+      "runner_name": "Metalcraft",
+      "market": "PLACE",
+      "win_odds": "1.55",
+      "odds": "1.14",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-26T05:15:55.687545+00:00",
+      "start_time": "2026-11-26T05:35:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:24aea77a-9d15-44c0-ad98-ac356a291d33:1",
+      "race_id": "24aea77a-9d15-44c0-ad98-ac356a291d33",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Sand Dunes",
+      "market": "PLACE",
+      "win_odds": "2.8",
+      "odds": "1.65",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-26T05:15:59.370670+00:00",
+      "start_time": "2026-11-26T05:39:00Z",
       "status": "OPEN",
       "settlement": null
     }
