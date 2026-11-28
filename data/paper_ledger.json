@@ -1,5 +1,5 @@
 {
-  "cash_aud": "984.30",
+  "cash_aud": "981.27",
   "bets": [
     {
       "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
@@ -523,8 +523,14 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-28T00:18:35.183756+00:00",
       "start_time": "2026-11-28T00:20:00Z",
-      "status": "OPEN",
-      "settlement": null
+      "status": "WON",
+      "settlement": {
+        "position": 2,
+        "payout_aud": "1.95",
+        "profit_aud": "0.95",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-28T08:03:51.957641+00:00"
+      }
     },
     {
       "key": "PLACE:greyhound:e20d81fc-dec9-428c-8372-d12e804d5b3c:1",
@@ -540,6 +546,114 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-28T00:18:37.505039+00:00",
       "start_time": "2026-11-28T00:27:00Z",
+      "status": "WON",
+      "settlement": {
+        "position": 1,
+        "payout_aud": "1.02",
+        "profit_aud": "0.02",
+        "source": "PuntersEdge final results",
+        "settled_at": "2026-11-28T08:03:51.957676+00:00"
+      }
+    },
+    {
+      "key": "PLACE:horse:c14455f7-d302-4e37-82bf-ed2cadcdd17c:1",
+      "race_id": "c14455f7-d302-4e37-82bf-ed2cadcdd17c",
+      "category": "horse",
+      "runner_id": "1",
+      "runner_name": "Kirksville",
+      "market": "PLACE",
+      "win_odds": "1.9",
+      "odds": "1.14",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T08:03:53.505181+00:00",
+      "start_time": "2026-11-28T08:05:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:horse:5601a6d6-26ec-473f-98cd-dfeb5fa56fef:1",
+      "race_id": "5601a6d6-26ec-473f-98cd-dfeb5fa56fef",
+      "category": "horse",
+      "runner_id": "1",
+      "runner_name": "Ladies Pro",
+      "market": "PLACE",
+      "win_odds": "2.7",
+      "odds": "1.35",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T08:03:53.505291+00:00",
+      "start_time": "2026-11-28T08:18:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:43fd5e00-8e54-48b8-9d30-19c1b9d78055:1",
+      "race_id": "43fd5e00-8e54-48b8-9d30-19c1b9d78055",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Bourbon And Coke",
+      "market": "PLACE",
+      "win_odds": "2.15",
+      "odds": "1.1",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T08:03:55.239636+00:00",
+      "start_time": "2026-11-28T08:05:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:898fb080-4ff6-42fa-bad8-3f446841237f:2",
+      "race_id": "898fb080-4ff6-42fa-bad8-3f446841237f",
+      "category": "greyhound",
+      "runner_id": "2",
+      "runner_name": "Erase And Rewind",
+      "market": "PLACE",
+      "win_odds": "1.16",
+      "odds": "1.02",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T08:03:55.239696+00:00",
+      "start_time": "2026-11-28T08:08:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:a1176df4-0058-409d-a2f2-e65eb16a60a2:7",
+      "race_id": "a1176df4-0058-409d-a2f2-e65eb16a60a2",
+      "category": "greyhound",
+      "runner_id": "7",
+      "runner_name": "Extreme Machine",
+      "market": "PLACE",
+      "win_odds": "2.25",
+      "odds": "1.4",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T08:03:55.239753+00:00",
+      "start_time": "2026-11-28T08:26:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:632d2ec8-5ee7-4c72-839d-51f0c50fc589:8",
+      "race_id": "632d2ec8-5ee7-4c72-839d-51f0c50fc589",
+      "category": "greyhound",
+      "runner_id": "8",
+      "runner_name": "Bail Money",
+      "market": "PLACE",
+      "win_odds": "1.35",
+      "odds": "1.06",
+      "places_paid": 2,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T08:03:55.239787+00:00",
+      "start_time": "2026-11-28T08:29:00Z",
       "status": "OPEN",
       "settlement": null
     }
