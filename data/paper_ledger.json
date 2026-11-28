@@ -1,5 +1,5 @@
 {
-  "cash_aud": "986.30",
+  "cash_aud": "984.30",
   "bets": [
     {
       "key": "PLACE:greyhound:58f48586-a61d-4bff-b55b-7f6a329ab4b4:2",
@@ -506,6 +506,40 @@
       "source": "PuntersEdge / Neds",
       "observed_at": "2026-11-27T06:26:15.143575+00:00",
       "start_time": "2026-11-27T06:40:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:horse:8a723fb9-df87-4334-ac43-304b1eb7c9a5:6",
+      "race_id": "8a723fb9-df87-4334-ac43-304b1eb7c9a5",
+      "category": "horse",
+      "runner_id": "6",
+      "runner_name": "The Loose Moose",
+      "market": "PLACE",
+      "win_odds": "4.5",
+      "odds": "1.95",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T00:18:35.183756+00:00",
+      "start_time": "2026-11-28T00:20:00Z",
+      "status": "OPEN",
+      "settlement": null
+    },
+    {
+      "key": "PLACE:greyhound:e20d81fc-dec9-428c-8372-d12e804d5b3c:1",
+      "race_id": "e20d81fc-dec9-428c-8372-d12e804d5b3c",
+      "category": "greyhound",
+      "runner_id": "1",
+      "runner_name": "Jimmy And Me",
+      "market": "PLACE",
+      "win_odds": "1.26",
+      "odds": "1.02",
+      "places_paid": 3,
+      "stake_aud": "1.00",
+      "source": "PuntersEdge / Neds",
+      "observed_at": "2026-11-28T00:18:37.505039+00:00",
+      "start_time": "2026-11-28T00:27:00Z",
       "status": "OPEN",
       "settlement": null
     }
